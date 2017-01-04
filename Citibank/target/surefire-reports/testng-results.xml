@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Page.TestCitibankHomepage" duration-ms="19839" started-at="2017-01-03T18:03:30Z" finished-at="2017-01-03T18:03:50Z">
+  <suite name="Page.TestCitibankHomepage" duration-ms="24151" started-at="2017-01-03T23:35:49Z" finished-at="2017-01-03T23:36:13Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="19839" started-at="2017-01-03T18:03:30Z" finished-at="2017-01-03T18:03:50Z">
+    <test name="Command line test" duration-ms="24151" started-at="2017-01-03T23:35:49Z" finished-at="2017-01-03T23:36:13Z">
       <class name="Page.TestCitibankHomepage">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Page.TestCitibankHomepage@3567135c]" name="setUp" is-config="true" duration-ms="3895" started-at="2017-01-03T13:03:31Z" finished-at="2017-01-03T13:03:34Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Page.TestCitibankHomepage@3567135c]" name="setUp" is-config="true" duration-ms="3796" started-at="2017-01-03T18:35:49Z" finished-at="2017-01-03T18:35:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testCitibankHomepage()[pri:0, instance:Page.TestCitibankHomepage@3567135c]" name="testCitibankHomepage" duration-ms="13237" started-at="2017-01-03T13:03:34Z" finished-at="2017-01-03T13:03:48Z">
+        <test-method status="PASS" signature="testCitibankHomepage()[pri:0, instance:Page.TestCitibankHomepage@3567135c]" name="testCitibankHomepage" duration-ms="17861" started-at="2017-01-03T18:35:53Z" finished-at="2017-01-03T18:36:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCitibankHomepage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Page.TestCitibankHomepage@3567135c]" name="tearDown" is-config="true" duration-ms="2613" started-at="2017-01-03T13:03:48Z" finished-at="2017-01-03T13:03:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Page.TestCitibankHomepage@3567135c]" name="tearDown" is-config="true" duration-ms="2456" started-at="2017-01-03T18:36:11Z" finished-at="2017-01-03T18:36:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

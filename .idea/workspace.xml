@@ -2,7 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515fdf2c-394d-42af-9ec7-fd692a4d8ffc" name="Default" comment="First Commit">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/Page.TestAlibabaHomepage.txt" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/Page.TestAlibabaHomepage.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/Page.TestAlibabaHomepage/Command line test.html" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/Page.TestAlibabaHomepage/Command line test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/Page.TestAlibabaHomepage/Command line test.xml" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/Page.TestAlibabaHomepage/Command line test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/TEST-Page.TestAlibabaHomepage.xml" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/TEST-Page.TestAlibabaHomepage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/emailable-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/junitreports/TEST-Page.TestAlibabaHomepage.xml" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/junitreports/TEST-Page.TestAlibabaHomepage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Page.TestAlibabaHomepage/methods-alphabetical.html" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Page.TestAlibabaHomepage/methods-alphabetical.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Page.TestAlibabaHomepage/methods.html" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Page.TestAlibabaHomepage/methods.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng-results.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Page.TestBestbuyHomepage.txt" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Page.TestBestbuyHomepage.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Page.TestBestbuyHomepage/Command line test.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Page.TestBestbuyHomepage/Command line test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Page.TestBestbuyHomepage/Command line test.xml" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Page.TestBestbuyHomepage/Command line test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TEST-Page.TestBestbuyHomepage.xml" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TEST-Page.TestBestbuyHomepage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/emailable-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/junitreports/TEST-Page.TestBestbuyHomepage.xml" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/junitreports/TEST-Page.TestBestbuyHomepage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/methods-alphabetical.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/methods-alphabetical.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/methods.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/methods.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/testng-results.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/Page.TestCitibankHomepage.txt" afterPath="$PROJECT_DIR$/Citibank/target/surefire-reports/Page.TestCitibankHomepage.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/Page.TestCitibankHomepage/Command line test.html" afterPath="$PROJECT_DIR$/Citibank/target/surefire-reports/Page.TestCitibankHomepage/Command line test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/Page.TestCitibankHomepage/Command line test.xml" afterPath="$PROJECT_DIR$/Citibank/target/surefire-reports/Page.TestCitibankHomepage/Command line test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/TEST-Page.TestCitibankHomepage.xml" afterPath="$PROJECT_DIR$/Citibank/target/surefire-reports/TEST-Page.TestCitibankHomepage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/Citibank/target/surefire-reports/emailable-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/Citibank/target/surefire-reports/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/junitreports/TEST-Page.TestCitibankHomepage.xml" afterPath="$PROJECT_DIR$/Citibank/target/surefire-reports/junitreports/TEST-Page.TestCitibankHomepage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/methods-alphabetical.html" afterPath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/methods-alphabetical.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/methods.html" afterPath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/methods.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/Citibank/target/surefire-reports/testng-results.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/Page.TestCnnHomepage.txt" afterPath="$PROJECT_DIR$/Cnn/target/surefire-reports/Page.TestCnnHomepage.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/Page.TestCnnHomepage/Command line test.html" afterPath="$PROJECT_DIR$/Cnn/target/surefire-reports/Page.TestCnnHomepage/Command line test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/Page.TestCnnHomepage/Command line test.xml" afterPath="$PROJECT_DIR$/Cnn/target/surefire-reports/Page.TestCnnHomepage/Command line test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/TEST-Page.TestCnnHomepage.xml" afterPath="$PROJECT_DIR$/Cnn/target/surefire-reports/TEST-Page.TestCnnHomepage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/Cnn/target/surefire-reports/emailable-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/Cnn/target/surefire-reports/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/junitreports/TEST-Page.TestCnnHomepage.xml" afterPath="$PROJECT_DIR$/Cnn/target/surefire-reports/junitreports/TEST-Page.TestCnnHomepage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/methods-alphabetical.html" afterPath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/methods-alphabetical.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/methods.html" afterPath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/methods.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/Cnn/target/surefire-reports/testng-results.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/Page.TestFacebookHomepage.txt" afterPath="$PROJECT_DIR$/Facebook/target/surefire-reports/Page.TestFacebookHomepage.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/Page.TestFacebookHomepage/Command line test.html" afterPath="$PROJECT_DIR$/Facebook/target/surefire-reports/Page.TestFacebookHomepage/Command line test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/Page.TestFacebookHomepage/Command line test.xml" afterPath="$PROJECT_DIR$/Facebook/target/surefire-reports/Page.TestFacebookHomepage/Command line test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/TEST-Page.TestFacebookHomepage.xml" afterPath="$PROJECT_DIR$/Facebook/target/surefire-reports/TEST-Page.TestFacebookHomepage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/Facebook/target/surefire-reports/emailable-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/Facebook/target/surefire-reports/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/junitreports/TEST-Page.TestFacebookHomepage.xml" afterPath="$PROJECT_DIR$/Facebook/target/surefire-reports/junitreports/TEST-Page.TestFacebookHomepage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/methods-alphabetical.html" afterPath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/methods-alphabetical.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/methods.html" afterPath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/methods.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/Facebook/target/surefire-reports/testng-results.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage.txt" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage/Command line test.html" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage/Command line test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage/Command line test.xml" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage/Command line test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/TEST-Page.TestLIJHomepage.xml" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/TEST-Page.TestLIJHomepage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/emailable-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/junitreports/TEST-Page.TestLIJHomepage.xml" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/junitreports/TEST-Page.TestLIJHomepage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/methods-alphabetical.html" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/methods-alphabetical.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/methods.html" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/methods.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng-results.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,10 +88,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="289">
               <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
@@ -52,7 +113,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,17 +125,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bestbuy/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="15" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="18" selection-end-column="19" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,12 +142,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TestAlibabaHomepage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Alibaba/src/test/java/Page/TestAlibabaHomepage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,7 +169,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,7 +181,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,7 +193,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -229,8 +302,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,9 +315,146 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Generic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Generic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Generic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Generic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Alibaba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Alibaba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -723,7 +932,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -733,14 +942,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20574887" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49092284" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -784,7 +993,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -792,7 +1003,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -816,7 +1029,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -824,7 +1039,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -832,7 +1049,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -840,7 +1059,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -864,7 +1085,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -872,7 +1095,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -896,7 +1121,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -904,7 +1131,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -912,7 +1141,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -920,7 +1151,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -944,7 +1177,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -952,7 +1187,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -976,7 +1213,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -984,7 +1223,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -992,7 +1233,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1000,7 +1243,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1054,13 +1299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/TestBestbuyHomepage.java" />
     <entry file="file://$PROJECT_DIR$/Hbo/pom.xml" />
     <entry file="file://$PROJECT_DIR$/Hbo/src/test/java/Page/TestCitibankHomepage.java" />
@@ -1084,7 +1322,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1092,7 +1332,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1100,7 +1342,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1108,7 +1352,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1116,7 +1362,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1124,6 +1372,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1136,10 +1394,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1196,7 +1454,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Generic</last-edited>
+          <last-edited>Alibaba</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
