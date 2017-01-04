@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="Page.TestBestbuyHomepage" time="10.157" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="Page.TestBestbuyHomepage" time="8.126" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2016.3.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\bin"/>
     <property name="java.vm.version" value="25.71-b15"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Rajib\IdeaProjects\MyFramework"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Rajib\IdeaProjects\MyFramework\Bestbuy"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7535"/>
+    <property name="idea.launcher.port" value="7537"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Rajib\IdeaProjects\MyFramework"/>
+    <property name="user.dir" value="C:\Users\Rajib\IdeaProjects\MyFramework\Bestbuy"/>
     <property name="java.runtime.version" value="1.8.0_71-b15"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\endorsed"/>
@@ -64,5 +64,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Page.TestBestbuyHomepage" name="testBestbuyHomepage" time="10.157"/>
+  <testcase classname="Page.TestBestbuyHomepage" name="testBestbuyHomepage" time="8.126"/>
 </testsuite>

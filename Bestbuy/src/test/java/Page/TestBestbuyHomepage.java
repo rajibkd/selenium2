@@ -11,8 +11,6 @@ public class TestBestbuyHomepage extends CommonAPI {
 
     @Test
     public void testBestbuyHomepage(){
-        driver.get("https://bestbuy.com");
-        driver.manage().window().maximize();
         System.out.println("Our Test is successful for  :"+driver.getCurrentUrl());
         //clickByXpath("//*[@id='nav-xshop']/a[2]");
     }

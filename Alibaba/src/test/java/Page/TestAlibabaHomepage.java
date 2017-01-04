@@ -12,8 +12,7 @@ import org.testng.annotations.Test;
 public class TestAlibabaHomepage extends CommonAPI {
     @Test
     public void testAlibabaHomepage(){
-        driver.get("https://alibaba.com");
-        driver.manage().window().maximize();
+
         System.out.println("Our Test is successful for  :"+driver.getCurrentUrl());
         //clickByXpath("//*[@id='nav-xshop']/a[2]");
     }

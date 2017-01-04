@@ -10,8 +10,6 @@ import org.testng.annotations.Test;
 public class TestLIJHomepage extends CommonAPI{
     @Test
     public void testLIJHomepage(){
-        driver.get("https://www.northwell.edu/");
-        driver.manage().window().maximize();
         System.out.println("Our Test is successful for  :"+driver.getCurrentUrl());
         //clickByXpath("//*[@id='nav-xshop']/a[2]");
     }

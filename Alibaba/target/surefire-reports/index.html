@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Page.TestAlibabaHomepage">
-              <span class="suite-name border-passed">Page.TestAlibabaHomepage</span>
+              <span class="suite-name border-skipped">Page.TestAlibabaHomepage</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method,  1 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Page.TestAlibabaHomepage" class="hide-methods passed suite-Page.TestAlibabaHomepage"> (hide)</a> <!-- hide-methods passed suite-Page.TestAlibabaHomepage -->
-                      <a href="#" panel-name="suite-Page.TestAlibabaHomepage" class="show-methods passed suite-Page.TestAlibabaHomepage"> (show)</a> <!-- show-methods passed suite-Page.TestAlibabaHomepage -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Page.TestAlibabaHomepage" class="hide-methods skipped suite-Page.TestAlibabaHomepage"> (hide)</a> <!-- hide-methods skipped suite-Page.TestAlibabaHomepage -->
+                      <a href="#" panel-name="suite-Page.TestAlibabaHomepage" class="show-methods skipped suite-Page.TestAlibabaHomepage"> (show)</a> <!-- show-methods skipped suite-Page.TestAlibabaHomepage -->
                     </span>
-                    <div class="method-list-content passed suite-Page.TestAlibabaHomepage">
+                    <div class="method-list-content skipped suite-Page.TestAlibabaHomepage">
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Page.TestAlibabaHomepage" title="Page.TestAlibabaHomepage" hash-for-method="testAlibabaHomepage">testAlibabaHomepage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Page.TestAlibabaHomepage -->
+                    </div> <!-- method-list-content skipped suite-Page.TestAlibabaHomepage -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Page.TestAlibabaHomepage" class="panel Page.TestAlibabaHomepage">
-          <div class="suite-Page.TestAlibabaHomepage-class-passed">
+          <div class="suite-Page.TestAlibabaHomepage-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">Page.TestAlibabaHomepage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,10 +128,15 @@
                   <a name="testAlibabaHomepage">
                   </a> <!-- testAlibabaHomepage -->
                   <span class="method-name">testAlibabaHomepage</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Page.TestAlibabaHomepage-class-passed -->
+          </div> <!-- suite-Page.TestAlibabaHomepage-class-skipped -->
         </div> <!-- panel Page.TestAlibabaHomepage -->
         <div panel-name="test-xml-Page.TestAlibabaHomepage" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -187,12 +192,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testAlibabaHomepage')
 data.setCell(0, 2, 'Page.TestAlibabaHomepage')
-data.setCell(0, 3, 20846);
+data.setCell(0, 3, 0);
 window.suiteTableData['Page.TestAlibabaHomepage']= { tableData: data, tableDiv: 'times-div-Page.TestAlibabaHomepage'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-Page.TestAlibabaHomepage">
               </div> <!-- times-div-Page.TestAlibabaHomepage -->
             </div> <!-- times-div -->
@@ -219,18 +224,10 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">Page.TestAlibabaHomepage</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testAlibabaHomepage</span>
-                <span class="method-start">3386 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">24233 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

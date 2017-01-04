@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import java.io.File;
@@ -26,13 +27,15 @@ public class CommonAPI {
 
     public WebDriver driver = null;
 
-    //@Parameters({"url"})
+    @Parameters({"url"})
     @BeforeMethod
-    public void setUp() throws Exception {
+    public void setUp(String url)throws Exception {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Rajib\\Downloads\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Rajib\\IdeaProjects\\MyFramework\\Generic\\Driver\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.get(url);
+        driver.manage().window().maximize();
 
     }
 

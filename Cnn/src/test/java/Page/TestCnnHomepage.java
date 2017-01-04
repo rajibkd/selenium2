@@ -11,9 +11,7 @@ public class TestCnnHomepage extends CommonAPI{
 
     @Test
     public void testCnnHomepage(){
-        driver.get("https://cnn.com");
-        driver.manage().window().maximize();
-        System.out.println("Our Test is successful for  :"+driver.getCurrentUrl());
+       System.out.println("Our Test is successful for  :"+driver.getCurrentUrl());
         //clickByXpath("//*[@id='nav-xshop']/a[2]");
     }
 }

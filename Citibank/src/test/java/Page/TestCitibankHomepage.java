@@ -10,8 +10,6 @@ import org.testng.annotations.Test;
 public class TestCitibankHomepage extends CommonAPI{
     @Test
     public void testCitibankHomepage(){
-        driver.get("https://citi.com");
-        driver.manage().window().maximize();
         System.out.println("Our Test is successful for  :"+driver.getCurrentUrl());
         //clickByXpath("//*[@id='nav-xshop']/a[2]");
     }

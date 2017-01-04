@@ -10,8 +10,6 @@ import org.testng.annotations.Test;
 public class TestFacebookHomepage extends CommonAPI {
     @Test
     public void testFacebookHomepage(){
-        driver.get("https://facebook.com");
-        driver.manage().window().maximize();
         System.out.println("Our Test is successful for  :"+driver.getCurrentUrl());
         //clickByXpath("//*[@id='nav-xshop']/a[2]");
     }
