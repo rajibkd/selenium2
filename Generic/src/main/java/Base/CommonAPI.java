@@ -31,9 +31,9 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(String url)throws Exception {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Rajib\\IdeaProjects\\MyFramework\\Generic\\Driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Unaer\\IdeaProjects\\Selenium2\\Generic\\Driver\\chromedriver.exe");
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get(url);
         driver.manage().window().maximize();
 
