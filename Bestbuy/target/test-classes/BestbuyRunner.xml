@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Potbelly Client on Chrome Browser">
-    <parameter name="url" value="https://www.bestbuy.com/"/>
-    <parameter name="browserName" value="chrome"/>
-    <parameter name="browserVersion" value="50"/>
+
+    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="env" value="browserstack"/>
+    <parameter name="userName" value="rajibdas11"/>
+    <parameter name="accessKey" value="yDwsyMCrMHyXEHwXo415"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="url" value="http://www.bestbuy.com/"/>
+    <parameter name="browserName" value="Chrome"/>
+    <parameter name="browserVersion" value="55.0"/>
     <test name = "Bestbuy Home Page">
         <classes>
-            <class name="Page.TestBestbuyHomepage"/>
+            <class name="home.TestBestbuyHome"/>
         </classes>
     </test>
 </suite>

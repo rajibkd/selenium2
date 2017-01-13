@@ -17,8 +17,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Alibaba" target="1.5" />
-      <module name="Bestbuy" target="1.5" />
+      <module name="Alibaba" target="1.8" />
+      <module name="Bestbuy" target="1.8" />
       <module name="Citibank" target="1.5" />
       <module name="Cnn" target="1.5" />
       <module name="Facebook" target="1.5" />
