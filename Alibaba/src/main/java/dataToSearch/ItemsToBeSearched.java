@@ -11,7 +11,8 @@ public class ItemsToBeSearched {
 
     DataReader dr = new DataReader();
     public String [] getData()throws IOException{
-        String path = System.getProperty("user.dir")+"/data/file1.xls";
+        String path = System.getProperty("user.dir")+"/Data/AlibabaFile.xls";
+        System.out.println("i am here");
         String [] st = dr.fileReader(path);
         return st;
     }

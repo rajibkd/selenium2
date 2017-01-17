@@ -18,7 +18,7 @@ import java.util.List;
  * Created by Rajib on 1/11/2017.
  */
 public class Items extends CommonAPI{
-//@Test
+    @Test (priority = 1)
     public void searchUsingExcelFile()throws IOException,InterruptedException{
         //initialize Search page factory
         SearchItems search = PageFactory.initElements(driver, SearchItems.class);
@@ -43,7 +43,7 @@ public class Items extends CommonAPI{
             sleepFor(2);
             search.clearSearchInput();
         }
-    }*/
+    }
     //One Data Driven Option to supply search.data from Data Provider
     @DataProvider(name = "items")
     public Object[][] createData(){
@@ -60,5 +60,5 @@ public class Items extends CommonAPI{
         search.searchFor(data);
         sleepFor(2);
         search.clearSearchInput();
-    }
+    }*/
 }
