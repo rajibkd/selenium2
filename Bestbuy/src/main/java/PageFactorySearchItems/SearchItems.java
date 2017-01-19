@@ -10,7 +10,7 @@ import org.openqa.selenium.support.How;
  * Created by admin on 1/18/17.
  */
 
-public class SearchItems extends CommonApiBestBuy{
+public class SearchItems extends CommonMethods {
 
     @FindBy(xpath = ".//*[@id='gh-search-input']")
     public static WebElement searchField;
@@ -23,6 +23,5 @@ public class SearchItems extends CommonApiBestBuy{
     public static WebElement searchInput;
     public void searchFor(String item) {
         searchInput.sendKeys(item, Keys.ENTER);
-
     }
 }

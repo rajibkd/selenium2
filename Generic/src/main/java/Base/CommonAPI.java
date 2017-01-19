@@ -41,23 +41,16 @@ public class CommonAPI {
 
         if (useCloudEnv == true) {
             //run in cloud
-            getCloudDriver(cloudEnv,SAUCE_USERNAME, SAUCE_ACCESS_KEY,os, browserName, browserVersion, testName);
+            getCloudDriver(cloudEnv, SAUCE_USERNAME, SAUCE_ACCESS_KEY, os, browserName, browserVersion, testName);
         } else {
             //run in local
             getLocalDriver(os, browserName);
         }
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.get(url);
-
-        if(url=="http://www.bestbuy.com") {
-            refuseMailingListOption();
-        }
-        driver.manage().window();
-        }
-
-    public void refuseMailingListOption() {
-        clickByXpath(".//*[@id='abt-email-modal']/div/div/div[1]/button");
     }
+
+
 
     public WebDriver getLocalDriver(String OS, String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
