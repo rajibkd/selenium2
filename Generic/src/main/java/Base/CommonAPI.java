@@ -1,20 +1,17 @@
 package Base;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.*;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.Keys;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
@@ -32,23 +29,34 @@ import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
     public WebDriver driver = null;
+    public static final String SAUCE_USERNAME = System.getenv("SAUCE_USERNAME");
+    public static final String SAUCE_ACCESS_KEY = System.getenv("SAUCE_ACCESS_KEY");
 
-    @Parameters({"useCloudEnv", "env", "userName", "accessKey", "os", "browserName", "browserVersion", "url"})
+    @Parameters({"useCloudEnv","cloudEnv", "os","browserName","browserVersion","url", "testName"})
 
     @BeforeMethod
-    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("Saucelabs") String env, @Optional("rahmanww") String userName, @Optional("")
-            String accessKey, @Optional("Windows 8") String os, @Optional("firefox") String browserName, @Optional("34")
-                              String browserVersion, @Optional("http://www.cnn.com") String url) throws IOException {
+    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("") String cloudEnv, @Optional("Windows 8") String os,
+                      @Optional("firefox") String browserName, @Optional("46") String browserVersion, @Optional("") String url,
+                      @Optional("BestBuy") String testName)throws IOException {
+
         if (useCloudEnv == true) {
             //run in cloud
-            getCloudDriver(env, userName, accessKey, os, browserName, browserVersion);
+            getCloudDriver(cloudEnv,SAUCE_USERNAME, SAUCE_ACCESS_KEY,os, browserName, browserVersion, testName);
         } else {
             //run in local
             getLocalDriver(os, browserName);
         }
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.get(url);
-        driver.manage().window().maximize();
+
+        if(url=="http://www.bestbuy.com") {
+            refuseMailingListOption();
+        }
+        driver.manage().window();
+        }
+
+    public void refuseMailingListOption() {
+        clickByXpath(".//*[@id='abt-email-modal']/div/div/div[1]/button");
     }
 
     public WebDriver getLocalDriver(String OS, String browserName) {
@@ -66,6 +74,7 @@ public class CommonAPI {
                 System.setProperty("webdriver.gecko.driver", "../Generic/driver/geckodriver.exe");
             }
             driver = new FirefoxDriver();
+
         } else if (browserName.equalsIgnoreCase("ie")) {
             System.setProperty("webdriver.ie.driver", "../Generic/driver/IEDriverServer.exe");
             driver = new InternetExplorerDriver();
@@ -74,7 +83,7 @@ public class CommonAPI {
     }
 
     public WebDriver getCloudDriver(String env, String userName, String accessKey, String os, String browserName,
-                                    String browserVersion) throws IOException {
+                                    String browserVersion, String testName) throws IOException {
         {
             DesiredCapabilities cap = new DesiredCapabilities();
             cap.setCapability("platform", os);
@@ -84,7 +93,8 @@ public class CommonAPI {
             cap.setCapability("os_version", "Sierra");
             cap.setCapability("resolution", "1024x768");
             if (env.equalsIgnoreCase("Saucelabs")) {
-                driver = new RemoteWebDriver(new URL("http://" + userName + ":" + accessKey +
+                cap.setCapability("name", testName);
+                driver = new RemoteWebDriver(new URL("http://" +SAUCE_USERNAME+":"+SAUCE_ACCESS_KEY+
                         "@ondemand.saucelabs.com:80/wd/hub"), cap);
             } else if (env.equalsIgnoreCase("Browserstack")) {
                 driver = new RemoteWebDriver(new URL("http://" + userName + ":" + accessKey +
@@ -286,4 +296,6 @@ public class CommonAPI {
     public void keysInput(String locator) {
         driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
     }
+
+
 }
