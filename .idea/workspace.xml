@@ -2,132 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515fdf2c-394d-42af-9ec7-fd692a4d8ffc" name="Default" comment="First Commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/MySql.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/main/java/ItemsSearch/SearchUtilities.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/main/java/PageFactorySearch/DropDownMenuPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/main/java/PageFactorySearch/SearchItems.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/main/java/PageFactorySearch/SearchObjects.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/main/java/dataToSearch/ItemsToBeSearched.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/main/java/methods/CommonMethods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/main/java/pageFactoryLogin/LogInInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/main/java/pageFactoryLogin/SearchItems.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/main/java/pageFactoryLogin/SearchObjects.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/test/java/Page/TestAmazonHomepage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/test/java/SearchItems/DropDownMenuSearch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/test/java/SearchItems/Items.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/test/java/SearchItems/SearchItemsByDataProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/test/java/SearchItems/SearchItemsByDatabase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/test/java/SearchItems/SearchItemsByExcel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/Alibaba.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/Data/AlibabaFile.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/src/main/java/ItemsSearch/SearchUtilities.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/src/main/java/PageFactorySearch/DropDownMenuPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/src/main/java/PageFactorySearch/SearchItems.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/src/main/java/PageFactorySearch/SearchObjects.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/src/main/java/dataToSearch/ItemsToBeSearched.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/src/main/java/methods/CommonMethods.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/src/main/java/pageFactoryLogin/LogInInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/src/main/java/pageFactoryLogin/SearchItems.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/src/main/java/pageFactoryLogin/SearchObjects.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/src/test/java/Page/TestAlibabaHomepage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/src/test/java/SearchItems/DropDownMenuSearch.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/src/test/java/SearchItems/Items.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/src/test/java/SearchItems/SearchItemsByDataProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/src/test/java/SearchItems/SearchItemsByDatabase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/src/test/java/SearchItems/SearchItemsByExcel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/src/test/resources/AlibabaTestRunner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/classes/ItemsSearch/SearchUtilities.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/classes/PageFactorySearch/DropDownMenuPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/classes/PageFactorySearch/SearchItems.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/classes/PageFactorySearch/SearchObjects.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/classes/dataToSearch/ItemsToBeSearched.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/classes/methods/CommonMethods.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/classes/pageFactoryLogin/LogInInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/classes/pageFactoryLogin/SearchItems.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/classes/pageFactoryLogin/SearchObjects.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/Potbelly Client on Chrome Browser/Alibaba Home Page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/Potbelly Client on Chrome Browser/Alibaba Home Page.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/Potbelly Client on Chrome Browser/testng-failed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/TEST-TestSuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/TestSuite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/bullet_point.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/collapseall.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/emailable-report.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/failed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/junitreports/TEST-Page.TestAlibabaHomepage.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/navigator-bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/Alibaba Home Page.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/groups.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/methods-alphabetical.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/methods-not-run.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/methods.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/reporter-output.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/testng.xml.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/toc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/passed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/skipped.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng-failed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng-reports.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng-reports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng-results.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/AlibabaTestRunner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/SearchItems/Items.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/SearchItems/SearchItemsByDataProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/SearchItems/SearchItemsByDatabase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/SearchItems/SearchItemsByExcel.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/classes/Utility/ConnectDB.class" afterPath="$PROJECT_DIR$/Generic/target/classes/Utility/ConnectDB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/test-classes/Page/TestLIJHomepage.class" afterPath="$PROJECT_DIR$/LIJ/target/test-classes/Page/TestLIJHomepage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/Bestbuy.iml" afterPath="$PROJECT_DIR$/Bestbuy/Bestbuy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Citibank/Citibank.iml" afterPath="$PROJECT_DIR$/Citibank/Citibank.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/Cnn.iml" afterPath="$PROJECT_DIR$/Cnn/Cnn.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/Facebook.iml" afterPath="$PROJECT_DIR$/Facebook/Facebook.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/Generic.iml" afterPath="$PROJECT_DIR$/Generic/Generic.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/pom.xml" afterPath="$PROJECT_DIR$/Generic/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/Utility/ConnectDB.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/Utility/ConnectDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/LIJ.iml" afterPath="$PROJECT_DIR$/LIJ/LIJ.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/pom.xml" afterPath="$PROJECT_DIR$/LIJ/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/src/test/resources/LIJTestRunner.xml" afterPath="$PROJECT_DIR$/LIJ/src/test/resources/LIJTestRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/LIJ/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage.txt" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage/Command line test.html" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage/Command line test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage/Command line test.xml" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage/Command line test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage/testng-failed.xml" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage/testng-failed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/TEST-Page.TestLIJHomepage.xml" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/TEST-Page.TestLIJHomepage.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/emailable-report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/jquery-1.7.1.min.js" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/jquery-1.7.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/junitreports/TEST-Page.TestLIJHomepage.xml" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/junitreports/TEST-Page.TestLIJHomepage.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/classes.html" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/classes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/index.html" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/main.html" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/methods-alphabetical.html" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/methods-alphabetical.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/methods-not-run.html" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/methods-not-run.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/methods.html" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/methods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/toc.html" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/toc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng-failed.xml" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng-failed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng-reports.css" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng-reports.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng-reports.js" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng-reports.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng-results.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1057,7 +932,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1070,12 +945,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5364188" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2677761" sideWeight="0.4818402" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49092284" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48772505" sideWeight="0.46358117" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48772505" sideWeight="0.46358117" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5090016" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5090016" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24054463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24054463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1428,7 +1303,7 @@
         <state relative-caret-position="186">
           <caret line="854" column="0" lean-forward="false" selection-start-line="854" selection-start-column="0" selection-end-line="854" selection-end-column="0" />
           <folding>
-            <element signature="e#27140#27153#0" expanded="true" />
+            <element signature="e#27140#27153#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1668,7 +1543,7 @@
         <state relative-caret-position="612">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
