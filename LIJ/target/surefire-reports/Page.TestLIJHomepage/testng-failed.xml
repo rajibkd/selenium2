@@ -6,6 +6,7 @@
       <class name="Page.TestLIJHomepage">
         <methods>
           <include name="testLIJHomepage"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- Page.TestLIJHomepage -->
     </classes>

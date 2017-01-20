@@ -1,0 +1,6 @@
+SearchItems\SearchItemsByDatabase.class
+Page\TestAmazonHomepage.class
+SearchItems\DropDownMenuSearch.class
+SearchItems\Items.class
+SearchItems\SearchItemsByDataProvider.class
+SearchItems\SearchItemsByExcel.class

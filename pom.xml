@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Generic</module>
-        <module>Alibaba</module>
+        <module>Amazon</module>
         <module>Cnn</module>
         <module>Citibank</module>
         <module>Facebook</module>
@@ -40,6 +40,12 @@
                 <artifactId>mongo-java-driver</artifactId>
                 <version>3.4.1</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>5.1.40</version>
+            </dependency>
             <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
@@ -49,10 +55,10 @@
     </dependencyManagement>
     <profiles>
         <profile>
-            <id>alibaba-app</id>
+            <id>amazon-app</id>
             <modules>
                 <module>Generic</module>
-                <module>Alibaba</module>
+                <module>Amazon</module>
             </modules>
         </profile>
         <profile>
@@ -97,7 +103,7 @@
             </activation>
             <modules>
                 <module>Generic</module>
-                <module>Alibaba</module>
+                <module>Amazon</module>
                 <module>Bestbuy</module>
                 <module>Citibank</module>
                 <module>Cnn</module>

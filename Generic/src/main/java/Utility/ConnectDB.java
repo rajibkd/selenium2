@@ -33,21 +33,21 @@ public class ConnectDB {
     }
 
     public void connectToDatabase() throws IOException, SQLException, ClassNotFoundException {
-       Properties prop = loadProperties();
+        Properties prop = loadProperties();
         String driverClass = prop.getProperty("MYSQLJDBC.driver");
         String url = prop.getProperty("MYSQLJDBC.url");
         String userName = prop.getProperty("MYSQLJDBC.userName");
         String password = prop.getProperty("MYSQLJDBC.password");
         Class.forName(driverClass);
         connect = DriverManager.getConnection(url,userName,password);
-        //  System.out.println("Database is connected");
+        System.out.println("Database is connected");
     }
     public static MongoDatabase connectMongoDB() {
         String host = "localhost";
         MongoClientURI mongoClientURI = new MongoClientURI(host);
         MongoClient mongoClient = new MongoClient(mongoClientURI);
         System.out.println("MongoDB Connection Eastablished");
-        mongoDatabase = mongoClient.getDatabase("database_name");
+        mongoDatabase = mongoClient.getDatabase("Amazon");
         System.out.println("Database Connected");
         return mongoDatabase;
     }
@@ -56,8 +56,8 @@ public class ConnectDB {
         try {
             connectToDatabase();
             statement = connect.createStatement();
-            resultSet = statement.executeQuery("select * from " + tableName);
-            data = getResultSetData(resultSet, columnName);
+            resultSet = statement.executeQuery("select * from Searchitems");
+            data = getResultSetData(resultSet,"Items");
         } catch (ClassNotFoundException e) {
             throw e;
         }finally{

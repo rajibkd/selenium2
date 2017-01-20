@@ -128,10 +128,20 @@
                   <a name="testLIJHomepage">
                   </a> <!-- testLIJHomepage -->
                   <span class="method-name">testLIJHomepage</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-
-... Removed 33 stack frames
+                  <div class="stack-trace">java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$000(GeckoDriverService.java:37)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:95)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.firefox.FirefoxDriver.createCommandExecutor(FirefoxDriver.java:277)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:247)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:242)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:238)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at Base.CommonAPI.getLocalDriver(CommonAPI.java:68)
+	at Base.CommonAPI.setUp(CommonAPI.java:47)
+... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -192,12 +202,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testLIJHomepage')
 data.setCell(0, 2, 'Page.TestLIJHomepage')
-data.setCell(0, 3, 19);
+data.setCell(0, 3, 3);
 window.suiteTableData['Page.TestLIJHomepage']= { tableData: data, tableDiv: 'times-div-Page.TestLIJHomepage'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 ms</span>
+              <span class="suite-total-time">Total running time: 3 ms</span>
               <div id="times-div-Page.TestLIJHomepage">
               </div> <!-- times-div-Page.TestLIJHomepage -->
             </div> <!-- times-div -->
@@ -224,9 +234,15 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">Page.TestLIJHomepage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(false, Saucelabs, rahmanww, , Windows 8, firefox, 34, http://www.cnn.com)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLIJHomepage</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">254 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
