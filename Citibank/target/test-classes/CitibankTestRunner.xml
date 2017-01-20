@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Potbelly Client on Chrome Browser">
-    <parameter name="url" value="https://www.citi.com/"/>
+
+
+<suite name="CitiBank" parallel="tests">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="userName" value="Ahoura21"/>
+    <parameter name="accessKey" value="b15d6ab5-5c52-4b92-beb2-51b18a2baac9"/>
+    <parameter name="os" value="Mac"/>
     <parameter name="browserName" value="chrome"/>
-    <parameter name="browserVersion" value="50"/>
-    <test name = "Citibank Home Page">
+    <parameter name="browserVersion" value="50.0"/>
+    <parameter name="url" value="https://www.citibank.com"/>
+
+    <test name = "CitiBank Search">
         <classes>
-            <class name="Page.TestCitibankHomepage"/>
+            <class name="Page.TestLoginUser"/>
+            <class name="Page.TestSearchLocation"/>
+            <class name="Page.TestCareerSearch"/>
         </classes>
     </test>
+
 </suite>
+
