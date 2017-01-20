@@ -1,8 +1,8 @@
-methods\CommonMethods.class
-pageFactoryLogin\LogInInfo.class
-PageFactorySearch\SearchObjects.class
-pageFactoryLogin\SearchItems.class
-PageFactorySearch\SearchItems.class
-dataToSearch\ItemsToBeSearched.class
-pageFactoryLogin\SearchObjects.class
-PageFactorySearch\DropDownMenuPage.class
+PageFactorySearch/DropDownMenuPage.class
+PageFactorySearch/SearchObjects.class
+pageFactoryLogin/SearchObjects.class
+methods/CommonMethods.class
+dataToSearch/ItemsToBeSearched.class
+pageFactoryLogin/SearchItems.class
+pageFactoryLogin/LogInInfo.class
+PageFactorySearch/SearchItems.class

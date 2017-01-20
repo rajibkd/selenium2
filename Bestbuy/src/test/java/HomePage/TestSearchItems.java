@@ -11,7 +11,8 @@ import PageFactorySearchItems.CommonMethods;
 public class TestSearchItems extends CommonMethods {
 
     @Test
-    public void searchFor() throws InterruptedException{
+    public void testSearchFor() throws InterruptedException{
+        testSearchFor();
     }
 
 

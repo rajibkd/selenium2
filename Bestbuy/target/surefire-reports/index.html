@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Potbelly_Client_on_Chrome_Browser">
-              <span class="suite-name border-skipped">Potbelly Client on Chrome Browser</span>
+              <span class="suite-name border-passed">Potbelly Client on Chrome Browser</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Potbelly_Client_on_Chrome_Browser">
-                    <span>C:\Users\Rajib\IdeaProjects\MyFramework\selenium2\Bestbuy\target\test-classes\BestbuyRunner.xml</span>
+                    <span>BestbuyRunner.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Potbelly_Client_on_Chrome_Browser" class="hide-methods skipped suite-Potbelly_Client_on_Chrome_Browser"> (hide)</a> <!-- hide-methods skipped suite-Potbelly_Client_on_Chrome_Browser -->
-                      <a href="#" panel-name="suite-Potbelly_Client_on_Chrome_Browser" class="show-methods skipped suite-Potbelly_Client_on_Chrome_Browser"> (show)</a> <!-- show-methods skipped suite-Potbelly_Client_on_Chrome_Browser -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Potbelly_Client_on_Chrome_Browser" class="hide-methods passed suite-Potbelly_Client_on_Chrome_Browser"> (hide)</a> <!-- hide-methods passed suite-Potbelly_Client_on_Chrome_Browser -->
+                      <a href="#" panel-name="suite-Potbelly_Client_on_Chrome_Browser" class="show-methods passed suite-Potbelly_Client_on_Chrome_Browser"> (show)</a> <!-- show-methods passed suite-Potbelly_Client_on_Chrome_Browser -->
                     </span>
-                    <div class="method-list-content skipped suite-Potbelly_Client_on_Chrome_Browser">
+                    <div class="method-list-content passed suite-Potbelly_Client_on_Chrome_Browser">
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Potbelly_Client_on_Chrome_Browser" title="home.TestBestbuyHome" hash-for-method="testHome">testHome</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Potbelly_Client_on_Chrome_Browser" title="HomePage.TestSearchItems" hash-for-method="searchFor">searchFor</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Potbelly_Client_on_Chrome_Browser -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Potbelly_Client_on_Chrome_Browser" title="HomePage.UserLogin" hash-for-method="userLogin">userLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Potbelly_Client_on_Chrome_Browser -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,58 +122,61 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Potbelly_Client_on_Chrome_Browser" class="panel Potbelly_Client_on_Chrome_Browser">
-          <div class="suite-Potbelly_Client_on_Chrome_Browser-class-skipped">
+          <div class="suite-Potbelly_Client_on_Chrome_Browser-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">home.TestBestbuyHome</span>
+              <img src="passed.png"/>
+              <span class="class-name">HomePage.TestSearchItems</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testHome">
-                  </a> <!-- testHome -->
-                  <span class="method-name">testHome</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Unable to create new remote session. desired capabilities = Capabilities [{browserName=Chrome, version=55.0, platform=MAC}], required capabilities = Capabilities [{}]
-Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
-System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:91)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:155)
-	at Base.CommonAPI.getCloudDriver(CommonAPI.java:82)
-	at Base.CommonAPI.setUp(CommonAPI.java:43)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
+                  <a name="searchFor">
+                  </a> <!-- searchFor -->
+                  <span class="method-name">searchFor</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Potbelly_Client_on_Chrome_Browser-class-skipped -->
+          </div> <!-- suite-Potbelly_Client_on_Chrome_Browser-class-passed -->
+          <div class="suite-Potbelly_Client_on_Chrome_Browser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePage.UserLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userLogin">
+                  </a> <!-- userLogin -->
+                  <span class="method-name">userLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Potbelly_Client_on_Chrome_Browser-class-passed -->
         </div> <!-- panel Potbelly_Client_on_Chrome_Browser -->
         <div panel-name="test-xml-Potbelly_Client_on_Chrome_Browser" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Rajib\IdeaProjects\MyFramework\selenium2\Bestbuy\target\test-classes\BestbuyRunner.xml</span>
+            <span class="header-content">/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/target/test-classes/BestbuyRunner.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Potbelly Client on Chrome Browser&quot;&gt;
-  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;true&quot;/&gt;
-  &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
+  &lt;parameter name=&quot;item&quot; value=&quot;SSD&quot;/&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;Mac&quot;/&gt;
   &lt;parameter name=&quot;accessKey&quot; value=&quot;yDwsyMCrMHyXEHwXo415&quot;/&gt;
-  &lt;parameter name=&quot;browserVersion&quot; value=&quot;55.0&quot;/&gt;
-  &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
-  &lt;parameter name=&quot;env&quot; value=&quot;browserstack&quot;/&gt;
-  &lt;parameter name=&quot;userName&quot; value=&quot;rajibdas11&quot;/&gt;
-  &lt;parameter name=&quot;url&quot; value=&quot;http://www.bestbuy.com/&quot;/&gt;
-  &lt;test name=&quot;Bestbuy Home Page&quot;&gt;
+  &lt;parameter name=&quot;cloudEnv&quot; value=&quot;Soucelabs&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;46&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;firefox&quot;/&gt;
+  &lt;parameter name=&quot;userName&quot; value=&quot;&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;http://www.bestbuy.com&quot;/&gt;
+  &lt;test name=&quot;HomePage&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;home.TestBestbuyHome&quot;/&gt;
+      &lt;class name=&quot;HomePage.UserLogin&quot;/&gt;
+      &lt;class name=&quot;HomePage.TestSearchItems&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Bestbuy Home Page --&gt;
+  &lt;/test&gt; &lt;!-- HomePage --&gt;
 &lt;/suite&gt; &lt;!-- Potbelly Client on Chrome Browser --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -180,7 +188,7 @@ Driver info: driver.version: RemoteWebDriver
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Bestbuy Home Page (1 class)</span>
+                <span class="test-name">HomePage (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -206,16 +214,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testHome')
-data.setCell(0, 2, 'home.TestBestbuyHome')
-data.setCell(0, 3, 2);
+data.setCell(0, 1, 'userLogin')
+data.setCell(0, 2, 'HomePage.UserLogin')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchFor')
+data.setCell(1, 2, 'HomePage.TestSearchItems')
+data.setCell(1, 3, 0);
 window.suiteTableData['Potbelly_Client_on_Chrome_Browser']= { tableData: data, tableDiv: 'times-div-Potbelly_Client_on_Chrome_Browser'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 ms</span>
+              <span class="suite-total-time">Total running time: 1 ms</span>
               <div id="times-div-Potbelly_Client_on_Chrome_Browser">
               </div> <!-- times-div-Potbelly_Client_on_Chrome_Browser -->
             </div> <!-- times-div -->
@@ -241,17 +253,34 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">home.TestBestbuyHome</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">HomePage.UserLogin</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">setUp(true, rajibdas11, yDwsyMCrMHyXEHwXo415, OS X, Chrome, 55.0, http://www.bestbuy.com/)</span>
+                <span class="method-name">setUp(false, Soucelabs, Mac, firefox, 46, http://www.bestbuy.com, BestBuy)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testHome</span>
-                <span class="method-start">3519 ms</span>
+                <span class="method-name">userLogin</span>
+                <span class="method-start">5003 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5004 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePage.TestSearchItems</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, Soucelabs, Mac, firefox, 46, http://www.bestbuy.com, BestBuy)</span>
+                <span class="method-start">5145 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchFor</span>
+                <span class="method-start">9163 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9164 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

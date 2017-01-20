@@ -2,19 +2,243 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515fdf2c-394d-42af-9ec7-fd692a4d8ffc" name="Default" comment="First Commit">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/classes/PageFactorySearchItems/CommonApiBestBuy.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearchItems/CommonApiBestBuy.java" afterPath="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearchItems/CommonMethods.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/classes/PageFactorySearchItems/SearchItems.class" afterPath="$PROJECT_DIR$/Bestbuy/target/classes/PageFactorySearchItems/SearchItems.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/Potbelly Client on Chrome Browser/Alibaba Home Page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/Potbelly Client on Chrome Browser/Alibaba Home Page.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/Potbelly Client on Chrome Browser/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/TEST-TestSuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/TestSuite.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/junitreports/TEST-Page.TestAlibabaHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/Alibaba Home Page.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Potbelly Client on Chrome Browser/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Page.TestBestbuyHomepage.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Page.TestBestbuyHomepage/Command line test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Page.TestBestbuyHomepage/Command line test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Potbelly Client on Chrome Browser/Bestbuy Home Page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Potbelly Client on Chrome Browser/Bestbuy Home Page.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Potbelly Client on Chrome Browser/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TEST-Page.TestBestbuyHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/junitreports/TEST-Page.TestBestbuyHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/junitreports/TEST-home.TestBestbuyHome.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/Command line test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Potbelly Client on Chrome Browser/Bestbuy Home Page.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/Page.TestCitibankHomepage.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/Page.TestCitibankHomepage/Command line test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/Page.TestCitibankHomepage/Command line test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/Page.TestCitibankHomepage/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/TEST-Page.TestCitibankHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/junitreports/TEST-Page.TestCitibankHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/Command line test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/Page.TestCnnHomepage.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/Page.TestCnnHomepage/Command line test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/Page.TestCnnHomepage/Command line test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/TEST-Page.TestCnnHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/junitreports/TEST-Page.TestCnnHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/Command line test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/Page.TestFacebookHomepage.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/Page.TestFacebookHomepage/Command line test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/Page.TestFacebookHomepage/Command line test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/TEST-Page.TestFacebookHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/junitreports/TEST-Page.TestFacebookHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/Command line test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage/Command line test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage/Command line test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/TEST-Page.TestLIJHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/junitreports/TEST-Page.TestLIJHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/Command line test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/Bestbuy-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Bestbuy/target/Bestbuy-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/classes/PageFactorySearchItems/CommonMethods.class" afterPath="$PROJECT_DIR$/Bestbuy/target/classes/PageFactorySearchItems/CommonMethods.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/test-classes/HomePage/TestSearchItems.class" afterPath="$PROJECT_DIR$/Bestbuy/target/test-classes/HomePage/TestSearchItems.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/test-classes/HomePage/UserLogin.class" afterPath="$PROJECT_DIR$/Bestbuy/target/test-classes/HomePage/UserLogin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Citibank/target/Citibank-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Citibank/target/Citibank-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/Cnn-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Cnn/target/Cnn-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/Facebook-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Facebook/target/Facebook-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" afterPath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/LIJ-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/LIJ/target/LIJ-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearchItems/SearchItems.java" afterPath="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearchItems/SearchItems.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alibaba/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/Alibaba/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alibaba/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/Alibaba/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alibaba/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/Alibaba/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alibaba/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/Alibaba/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/pom.xml" afterPath="$PROJECT_DIR$/Bestbuy/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearchItems/CommonMethods.java" afterPath="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearchItems/CommonMethods.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/test/java/HomePage/TestSearchItems.java" afterPath="$PROJECT_DIR$/Bestbuy/src/test/java/HomePage/TestSearchItems.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/test/java/HomePage/UserLogin.java" afterPath="$PROJECT_DIR$/Bestbuy/src/test/java/HomePage/UserLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" afterPath="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/test-classes/BestbuyRunner.xml" afterPath="$PROJECT_DIR$/Bestbuy/target/test-classes/BestbuyRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/Bestbuy/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TEST-TestSuite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TestSuite-output.txt" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TestSuite-output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TestSuite.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/emailable-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Potbelly Client on Chrome Browser/classes.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Potbelly Client on Chrome Browser/classes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Potbelly Client on Chrome Browser/methods-alphabetical.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Potbelly Client on Chrome Browser/methods-alphabetical.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Potbelly Client on Chrome Browser/methods.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Potbelly Client on Chrome Browser/methods.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Potbelly Client on Chrome Browser/testng.xml.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Potbelly Client on Chrome Browser/testng.xml.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Potbelly Client on Chrome Browser/toc.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Potbelly Client on Chrome Browser/toc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/testng-results.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/testng.css" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/testng.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Citibank/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/Citibank/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Citibank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/Citibank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Citibank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/Citibank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/Cnn/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/Cnn/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/Cnn/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/Facebook/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/Generic.iml" afterPath="$PROJECT_DIR$/Generic/Generic.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/LIJ/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/LIJ/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/LIJ/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyFramework.iml" afterPath="$PROJECT_DIR$/MyFramework.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,13 +266,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserLogin.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserLogin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/HomePage/UserLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="135">
+              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding>
-                <element signature="docComment;class#UserLogin#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,14 +281,22 @@
       <file leaf-file-name="SearchItems.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearchItems/SearchItems.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#SearchItems#0" expanded="false" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BestbuyRunner.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,18 +304,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bestbuy/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BestbuyRunner.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="90">
+              <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -93,11 +315,30 @@
         <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/HomePage/TestSearchItems.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="docComment;class#TestSearchItems#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="10" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,10 +346,23 @@
       <file leaf-file-name="CommonMethods.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearchItems/CommonMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            <state relative-caret-position="330">
+              <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="docComment;class#CommonMethods#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="docComment;class#CommonAPI#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -143,7 +397,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Citibank/pom.xml" />
         <option value="$PROJECT_DIR$/Alibaba/src/test/java/Page/TestAlibabaHomepage.java" />
         <option value="$PROJECT_DIR$/Alibaba/src/test/java/resources/TestAlibabaHomepageRunner" />
         <option value="$PROJECT_DIR$/Alibaba/src/test/resources/AlibabaRunner" />
@@ -158,7 +411,6 @@
         <option value="$PROJECT_DIR$/Cnn/src/test/resources/CnnTestRunner.xml" />
         <option value="$PROJECT_DIR$/LIJ/src/test/resources/LIJTestRunner.xml" />
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Alibaba/pom.xml" />
         <option value="$PROJECT_DIR$/Alibaba/src/main/java/PageFactorySearch/DropDownMenuPage.java" />
         <option value="$PROJECT_DIR$/Alibaba/src/main/java/PageFactorySearch/SearchItems.java" />
@@ -174,7 +426,6 @@
         <option value="$PROJECT_DIR$/Generic/src/main/java/Utility/ConnectDB.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/Utility/ConnectMongoDB.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/Utility/DataReader.java" />
-        <option value="$PROJECT_DIR$/Bestbuy/pom.xml" />
         <option value="$PROJECT_DIR$/Bestbuy/src/test/java/home/LogOut.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/test/java/home/TestCnnHome.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyAppLogTestRunner.properties" />
@@ -187,20 +438,18 @@
         <option value="$PROJECT_DIR$/Bestbuy/src/test/java/home/LogIn.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/PagefactoryLogin/SearchItems.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/CommonAPIBestBuy.java" />
-        <option value="$PROJECT_DIR$/Bestbuy/src/test/java/HomePage/UserLogin.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/test/java/HomePage/SearchItems.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearchItems/CommonApiBestBuy.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearchItems/SearchItems.java" />
-        <option value="$PROJECT_DIR$/Bestbuy/src/test/java/HomePage/TestSearchItems.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Bestbuy/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Bestbuy/src/test/java/HomePage/UserLogin.java" />
+        <option value="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearchItems/CommonMethods.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
+        <option value="$PROJECT_DIR$/Bestbuy/src/test/java/HomePage/TestSearchItems.java" />
       </list>
     </option>
-  </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="TestNG" name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" />
-    </enabled-run-configurations>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -219,6 +468,76 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="Generic" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Generic" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Generic" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="clean" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Generic" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Framework" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Framework" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -248,8 +567,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1919" />
     <option name="y" value="23" />
-    <option name="width" value="1744" />
+    <option name="width" value="1920" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -271,7 +591,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -282,90 +601,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cnn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -471,6 +706,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -492,36 +728,8 @@
       <recent name="C:\Users\Rajib\IdeaProjects\MyFramework\Alibaba\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml">
-    <configuration default="false" name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Bestbuy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="Bestbuy [validate]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+  <component name="RunManager" selected="TestNG./Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml">
+    <configuration default="false" name="Bestbuy [compile]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -532,7 +740,7 @@
             </option>
             <option name="goals">
               <list>
-                <option value="validate" />
+                <option value="compile" />
               </list>
             </option>
             <option name="profilesMap">
@@ -545,37 +753,28 @@
       </MavenSettings>
       <method />
     </configuration>
-    <configuration default="false" name="TestBestBuyHome" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="home.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Bestbuy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="home.TestBestBuyHome" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
+    <configuration default="false" name="Generic [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Generic" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
     <configuration default="false" name="UserLogin" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
@@ -611,7 +810,35 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="TestSearchItems" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Bestbuy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserLogin.testUserLogin" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="HomePage.*" />
@@ -621,14 +848,14 @@
       <module name="Bestbuy" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
       <option name="PACKAGE_NAME" value="HomePage" />
-      <option name="MAIN_CLASS_NAME" value="HomePage.TestSearchItems" />
-      <option name="METHOD_NAME" />
+      <option name="MAIN_CLASS_NAME" value="HomePage.UserLogin" />
+      <option name="METHOD_NAME" value="testUserLogin" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+      <option name="PARAMETERS" value="0" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
@@ -871,19 +1098,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" />
-      <item index="1" class="java.lang.String" itemvalue="Maven.Bestbuy [validate]" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.TestBestBuyHome" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.UserLogin" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.TestSearchItems" />
+      <item index="0" class="java.lang.String" itemvalue="Maven.Bestbuy [compile]" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.Generic [package]" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.UserLogin" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG./Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.UserLogin.testUserLogin" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TestSearchItems" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG./Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.UserLogin.testUserLogin" />
         <item index="2" class="java.lang.String" itemvalue="TestNG.UserLogin" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.TestBestBuyHome" />
-        <item index="4" class="java.lang.String" itemvalue="Maven.Bestbuy [validate]" />
+        <item index="3" class="java.lang.String" itemvalue="Maven.Bestbuy [compile]" />
+        <item index="4" class="java.lang.String" itemvalue="Maven.Generic [package]" />
       </list>
     </recent_temporary>
   </component>
@@ -901,40 +1128,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.18 at 16h 45m 40s.xml">
-      <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
+    <history-entry file="UserLogin_testUserLogin - 2017.01.20 at 16h 30m 03s.xml">
+      <configuration name="UserLogin.testUserLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.18 at 16h 47m 05s.xml">
-      <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
+    <history-entry file="UserLogin_testUserLogin - 2017.01.20 at 16h 30m 28s.xml">
+      <configuration name="UserLogin.testUserLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.18 at 16h 47m 27s.xml">
-      <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.20 at 16h 10m 09s.xml">
+      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.18 at 16h 49m 47s.xml">
-      <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.20 at 16h 11m 18s.xml">
+      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.18 at 16h 49m 50s.xml">
-      <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.20 at 16h 14m 22s.xml">
+      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.18 at 16h 58m 33s.xml">
-      <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.20 at 16h 17m 36s.xml">
+      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.18 at 23h 06m 41s.xml">
-      <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.20 at 16h 19m 35s.xml">
+      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.18 at 23h 07m 48s.xml">
-      <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.20 at 16h 21m 24s.xml">
+      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.18 at 23h 10m 34s.xml">
-      <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.20 at 16h 24m 16s.xml">
+      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSearchItems - 2017.01.18 at 16h 58m 29s.xml">
-      <configuration name="TestSearchItems" configurationId="TestNG" />
+    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.20 at 16h 31m 20s.xml">
+      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1744" height="1057" extended-state="0" />
-    <editor active="false" />
+    <frame x="1919" y="23" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -944,14 +1171,14 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5364188" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0940367" sideWeight="0.4902439" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37348178" sideWeight="0.46358117" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1390625" sideWeight="0.4902439" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39979756" sideWeight="0.46358117" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49092284" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2388664" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19323395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19270833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1007,25 +1234,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Alibaba/src/main/java/pageFactoryLogin/SearchObjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Alibaba/src/test/java/SearchItems/DropDownMenuSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Alibaba/src/test/java/SearchItems/Items.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,7 +1277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,7 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1110,9 +1320,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="docComment;class#TestCitibankHomepage#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1127,23 +1334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="17" lean-forward="false" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="10" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,9 +1372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding>
-            <element signature="e#2912#2913#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1192,7 +1379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18990">
           <caret line="1458" column="0" lean-forward="false" selection-start-line="1458" selection-start-column="0" selection-end-line="1458" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1200,7 +1386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
           <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,22 +1397,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#CommonAPI#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1235,7 +1408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1243,7 +1415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1251,47 +1422,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#MethodInvocationHelper#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearchItems/CommonMethods.java">
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="555">
+          <caret line="37" column="10" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearchItems/SearchItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#SearchItems#0" expanded="false" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="90">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1299,21 +1466,60 @@
     <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/HomePage/TestSearchItems.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="docComment;class#TestSearchItems#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearchItems/SearchItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#TestSearchItems#0" expanded="false" />
+            <element signature="docComment;class#SearchItems#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/HomePage/UserLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
-            <element signature="docComment;class#UserLogin#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearchItems/CommonMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#CommonMethods#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#CommonAPI#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>

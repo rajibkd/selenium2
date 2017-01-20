@@ -1,3 +1,2 @@
-home\LogIn.class
-home\LogOut.class
-home\TestBestbuyHome.class
+HomePage/UserLogin.class
+HomePage/TestSearchItems.class
