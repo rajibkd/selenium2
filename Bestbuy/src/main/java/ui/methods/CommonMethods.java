@@ -1,4 +1,4 @@
-package PageFactory;
+package ui.methods;
 
 import Base.CommonAPI;
 import org.junit.Assert;
@@ -17,15 +17,12 @@ public class CommonMethods extends CommonAPI {
     public static final String password = System.getenv("BESTBUY_PASSWORD");
     public String url;
 
+//    public void closeMailingListOption() {
+//        if (url == "http://www.bestbuy.com") {
+//            refuseMailingListOption();
+//        }
+//    }
 
-    public void closeMailingListOption() {
-        if (url == "http://www.bestbuy.com") {
-            refuseMailingListOption();
-        }
-    }
-    public void refuseMailingListOption() {
-        clickByXpath(".//*[@id='abt-email-modal']/div/div/div[1]/button");
-    }
 
     public void userLogin() throws InterruptedException {
         clickByXpath(".//*[@id='profileMenuWrap1']");

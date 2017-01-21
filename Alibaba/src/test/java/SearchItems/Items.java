@@ -34,7 +34,7 @@ public class Items extends CommonAPI{
     // @Test
    /* public void searchUsingDB()throws Exception,InterruptedException{
         //initialize Search page factory
-        SearchItems search = PageFactory.initElements(driver, SearchItems.class);
+        SearchItems search = ui.initElements(driver, SearchItems.class);
         //Read Data From Database
         ConnectDB db = new ConnectDB();
         List<String> st = db.readDataBase(Table,Column);

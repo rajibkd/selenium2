@@ -32,7 +32,7 @@ public class SearchObjects {
     @FindBy(css = ".a-list-item")
     public WebElement itemInCart;
 
-    // This constructor calls initelements method of PageFactory class. initelements method will create the WebElements declared in this class
+    // This constructor calls initelements method of ui class. initelements method will create the WebElements declared in this class
     public SearchObjects(WebDriver driver) {
         this.pageObjectDriver=driver;
         PageFactory.initElements(driver, this);

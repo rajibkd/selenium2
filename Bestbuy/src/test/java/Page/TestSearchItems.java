@@ -1,6 +1,6 @@
-package HomePage;
+package Page;
 
-import PageFactory.CommonMethods;
+import ui.methods.CommonMethods;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 /**
@@ -11,7 +11,7 @@ public class TestSearchItems extends CommonMethods {
     @Test
     @Parameters("item")
     public void testSearchFor() throws InterruptedException{
-        closeMailingListOption();
+//        closeMailingListOption();
         searchFor("item");
     }
 }

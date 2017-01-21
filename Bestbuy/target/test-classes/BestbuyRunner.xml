@@ -10,14 +10,15 @@
     <parameter name="accessKey" value="yDwsyMCrMHyXEHwXo415"/>
     <parameter name="os" value="Mac"/>
     <parameter name="url" value="http://www.bestbuy.com"/>
-    <parameter name="browserName" value="firefox"/>
+    <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="46"/>
     <parameter name="item" value="SSD"/>
 
-    <test name = "HomePage">
+    <test name = "Page">
         <classes>
-            <!--<class name="HomePage.TestUserLogin"/>-->
-            <class name="HomePage.TestSearchItems"/>
+            <!--<class name="Page.TestUserLogin"/>-->
+            <!--<class name="Page.TestSearchItems"/>-->
+            <class name="Page.TestHomePage"/>
         </classes>
     </test>
 </suite>
