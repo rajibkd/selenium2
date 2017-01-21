@@ -16,7 +16,7 @@
 
     <test name = "HomePage">
         <classes>
-            <class name="HomePage.UserLogin"/>
+            <!--<class name="HomePage.TestUserLogin"/>-->
             <class name="HomePage.TestSearchItems"/>
         </classes>
     </test>

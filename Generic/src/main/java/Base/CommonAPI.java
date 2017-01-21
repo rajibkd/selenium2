@@ -50,11 +50,9 @@ public class CommonAPI {
             //run in local
             getLocalDriver(os, browserName);
         }
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.get(url);
     }
-
-
 
     public WebDriver getLocalDriver(String OS, String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
