@@ -2,7 +2,7 @@ package Page;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
-import ui.methods.CommonMethods;
+import ui.Methods.CommonMethods;
 import ui.HomePage.UiHomepage;
 
 /**

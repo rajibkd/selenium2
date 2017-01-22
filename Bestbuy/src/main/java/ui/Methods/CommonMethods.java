@@ -1,4 +1,4 @@
-package ui.methods;
+package ui.Methods;
 
 import Base.CommonAPI;
 import org.junit.Assert;
@@ -17,12 +17,6 @@ public class CommonMethods extends CommonAPI {
     public static final String password = System.getenv("BESTBUY_PASSWORD");
     public String url;
 
-//    public void closeMailingListOption() {
-//        if (url == "http://www.bestbuy.com") {
-//            refuseMailingListOption();
-//        }
-//    }
-
 
     public void userLogin() throws InterruptedException {
         clickByXpath(".//*[@id='profileMenuWrap1']");
@@ -33,7 +27,6 @@ public class CommonMethods extends CommonAPI {
         Assert.assertTrue(driver.findElement(By.xpath(".//*[@id='profileMenuWrap1']")).isDisplayed());
         sleepFor(3);
     }
-
     @FindBy(xpath = ".//*[@id='gh-search-input']")
     public static WebElement searchField;
 

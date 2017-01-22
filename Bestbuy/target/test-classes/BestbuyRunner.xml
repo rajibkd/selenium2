@@ -16,8 +16,8 @@
 
     <test name = "Page">
         <classes>
-            <!--<class name="Page.TestUserLogin"/>-->
-            <!--<class name="Page.TestSearchItems"/>-->
+            <class name="Page.TestUserLogin"/>
+            <class name="Page.TestSearchItems"/>
             <class name="Page.TestHomePage"/>
         </classes>
     </test>

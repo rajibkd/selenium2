@@ -1,6 +1,8 @@
 package Page;
 
-import ui.methods.CommonMethods;
+import org.openqa.selenium.support.PageFactory;
+import ui.HomePage.UiHomepage;
+import ui.Methods.CommonMethods;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 /**
@@ -11,7 +13,9 @@ public class TestSearchItems extends CommonMethods {
     @Test
     @Parameters("item")
     public void testSearchFor() throws InterruptedException{
-//        closeMailingListOption();
-        searchFor("item");
+        UiHomepage ui = PageFactory.initElements(driver,UiHomepage.class);
+        ui.refuseMailingListOption();
+
+        super.searchFor("item");
     }
 }

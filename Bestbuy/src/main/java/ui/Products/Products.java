@@ -1,6 +1,6 @@
 package ui.Products;
 
-import ui.methods.CommonMethods;
+import ui.Methods.CommonMethods;
 
 /**
  * Created by admin on 1/20/17.
