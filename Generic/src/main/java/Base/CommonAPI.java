@@ -36,17 +36,18 @@ public class CommonAPI {
     public WebDriver driver = null;
     public static final String SAUCE_USERNAME = System.getenv("SAUCE_USERNAME");
     public static final String SAUCE_ACCESS_KEY = System.getenv("SAUCE_ACCESS_KEY");
+    public static final String BROWSERSTACK_USERNAME = System.getenv("BROWSERSTACK_USERNAME");
+    public static final String BROWSERSTACK_ACCESS_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");
 
-    @Parameters({"useCloudEnv","cloudEnv", "os","browserName","browserVersion","url", "testName"})
+    @Parameters({"useCloudEnv","cloudEnv","os","browserName","browserVersion","url", "testName","os_version","resolution"})
 
     @BeforeMethod
-    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("") String cloudEnv, @Optional("Windows 8") String os,
-                      @Optional("firefox") String browserName, @Optional("46") String browserVersion, @Optional("") String url,
-                      @Optional("BestBuy") String testName)throws IOException {
+    public void setUp(@Optional("false") boolean useCloudEnv,String cloudEnv, @Optional("Windows 8") String os, @Optional("firefox") String browserName, @Optional("34")
+            String browserVersion, @Optional("http://www.bestbuy.com") String url, String testName, String os_version,String resolution)throws IOException {
 
         if (useCloudEnv == true) {
             //run in cloud
-            getCloudDriver(cloudEnv, SAUCE_USERNAME, SAUCE_ACCESS_KEY, os, browserName, browserVersion, testName);
+            getCloudDriver(cloudEnv,os,browserName,browserVersion,testName,os_version,resolution);
         } else {
             //run in local
             getLocalDriver(os, browserName);
@@ -78,27 +79,27 @@ public class CommonAPI {
         return driver;
     }
 
-    public WebDriver getCloudDriver(String env, String userName, String accessKey, String os, String browserName,
-                                    String browserVersion, String testName) throws IOException {
-        {
-            DesiredCapabilities cap = new DesiredCapabilities();
-            cap.setCapability("platform", os);
-            cap.setBrowserName(browserName);
-            cap.setCapability("version", browserVersion);
-            cap.setCapability("os", os);
-            cap.setCapability("os_version", "Sierra");
-            cap.setCapability("resolution", "1024x768");
-            if (env.equalsIgnoreCase("Saucelabs")) {
-                cap.setCapability("name", testName);
-                driver = new RemoteWebDriver(new URL("http://" +SAUCE_USERNAME+":"+SAUCE_ACCESS_KEY+
-                        "@ondemand.saucelabs.com:80/wd/hub"), cap);
-            } else if (env.equalsIgnoreCase("Browserstack")) {
-                driver = new RemoteWebDriver(new URL("http://" + userName + ":" + accessKey +
-                        "@hub-cloud.browserstack.com/wd/hub"), cap);
-            }
-            return driver;
+    public WebDriver getCloudDriver(String env,String os, String browserName,
+                                    String browserVersion, String testName, String os_version,String resolution)throws IOException {
+
+        DesiredCapabilities cap = new DesiredCapabilities();
+        cap.setCapability("platform", os);
+        cap.setBrowserName(browserName);
+        cap.setCapability("version",browserVersion);
+        cap.setCapability("os", os);
+        if(env.equalsIgnoreCase("Saucelabs")){
+            cap.setCapability("name", testName);
+            driver = new RemoteWebDriver(new URL("http://"+SAUCE_USERNAME+":"+SAUCE_ACCESS_KEY+
+                    "@ondemand.saucelabs.com:80/wd/hub"), cap);
+        }else if(env.equalsIgnoreCase("Browserstack")) {
+            cap.setCapability("os_version", os_version);
+            cap.setCapability("resolution", resolution);
+            driver = new RemoteWebDriver(new URL("http://" + BROWSERSTACK_USERNAME + ":" + BROWSERSTACK_ACCESS_KEY +
+                    "@hub-cloud.browserstack.com/wd/hub"), cap);
         }
+        return driver;
     }
+
 
     @AfterMethod
     public void tearDown() throws Exception {
@@ -200,7 +201,6 @@ public class CommonAPI {
         }
         return items;
     }
-
     public void selectOptionByVisibleText(WebElement element, String value) {
         Select select = new Select(element);
         select.selectByVisibleText(value);
@@ -292,6 +292,4 @@ public class CommonAPI {
     public void keysInput(String locator) {
         driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
     }
-
-
 }

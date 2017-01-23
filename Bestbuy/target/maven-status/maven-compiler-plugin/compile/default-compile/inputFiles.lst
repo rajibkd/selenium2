@@ -1,2 +1,3 @@
-/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/main/java/PageFactorySearchItems/SearchItems.java
-/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/main/java/PageFactorySearchItems/CommonMethods.java
+/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/main/java/ui/Products/Products.java
+/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/main/java/ui/Methods/BBCommonAPI.java
+/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/main/java/ui/HomePage/UiHomepage.java

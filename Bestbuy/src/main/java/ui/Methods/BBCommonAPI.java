@@ -8,15 +8,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
+
 /**
  * Created by admin on 1/18/17.
  */
-public class CommonMethods extends CommonAPI {
+public class BBCommonAPI extends CommonAPI {
 
-    public static final String username = System.getenv("BESTBUY_USERNAME");
-    public static final String password = System.getenv("BESTBUY_PASSWORD");
-    public String url;
-
+        public static final String username = System.getenv("BESTBUY_USERNAME");
+        public static final String password = System.getenv("BESTBUY_PASSWORD");
 
     public void userLogin() throws InterruptedException {
         clickByXpath(".//*[@id='profileMenuWrap1']");
@@ -39,7 +38,8 @@ public class CommonMethods extends CommonAPI {
 
     public void searchFor(String item) throws InterruptedException {
         searchInput.sendKeys(item, Keys.ENTER);
+
         Assert.assertTrue(driver.findElement(By.className(item)).isDisplayed());
-        sleepFor(3);
+        sleepFor(1);
     }
 }

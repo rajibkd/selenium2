@@ -1,11 +1,10 @@
 package ui.Products;
 
-import ui.Methods.CommonMethods;
+import ui.Methods.BBCommonAPI;
 
 /**
  * Created by admin on 1/20/17.
  */
-public class Products  extends CommonMethods{
-
+public class Products  extends BBCommonAPI {
 
 }

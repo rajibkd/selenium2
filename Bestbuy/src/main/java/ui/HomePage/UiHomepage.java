@@ -3,7 +3,7 @@ package ui.HomePage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import ui.Methods.CommonMethods;
+import ui.Methods.BBCommonAPI;
 import ui.Products.Products;
 
 import java.util.ArrayList;
@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Created by admin on 1/20/17.
  */
-public class UiHomepage extends CommonMethods {
+public class UiHomepage extends BBCommonAPI {
 
     //closing popup
     @FindBy(how = How.XPATH,using = "html/body/div[3]/div/div/div[1]/button")
