@@ -13,7 +13,7 @@
     <test name = "Amazon Search">
         <classes>
             <!--<class name="SearchItems.Items"/>-->
-            <class name="SearchItems.DropDownMenuSearch"/>
+            <!--<class name="SearchItems.DropDownMenuSearch"/>-->
         </classes>
     </test>
 </suite>

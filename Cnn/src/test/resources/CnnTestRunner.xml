@@ -6,7 +6,7 @@
     <parameter name="browserVersion" value="50"/>
     <test name = "Cnn Home Page">
         <classes>
-            <class name="Page.TestCnnHomepage"/>
+            <!--<class name="Page.TestCnnHomepage"/>-->
         </classes>
     </test>
 </suite>

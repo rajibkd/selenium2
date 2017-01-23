@@ -6,7 +6,7 @@
     <parameter name="browserVersion" value="50"/>
     <test name = "Facebook Home Page">
         <classes>
-            <class name="Page.TestFacebookHomepage"/>
+            <!--<class name="Page.TestFacebookHomepage"/>-->
         </classes>
     </test>
 </suite>
