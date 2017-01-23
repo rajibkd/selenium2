@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515fdf2c-394d-42af-9ec7-fd692a4d8ffc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/main/java/ui/Methods/BBCommonAPI.java" afterPath="$PROJECT_DIR$/Bestbuy/src/main/java/ui/Methods/BBCommonAPI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestHomePage.java" afterPath="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestHomePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="100" column="22" lean-forward="true" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
+            <state relative-caret-position="240">
+              <caret line="94" column="63" lean-forward="true" selection-start-line="94" selection-start-column="63" selection-end-line="94" selection-end-column="63" />
               <folding>
                 <element signature="docComment;class#CommonAPI#0" expanded="false" />
               </folding>
@@ -53,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestHomePage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestHomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="210">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="docComment;class#TestHomePage#0" expanded="false" />
               </folding>
@@ -195,10 +194,10 @@
         <option value="$PROJECT_DIR$/Cnn/src/test/resources/CnnTestRunner.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Bestbuy/pom.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/ui/Methods/BBCommonAPI.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestHomePage.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
       </list>
     </option>
   </component>
@@ -1052,7 +1051,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java</url>
-          <line>93</line>
+          <line>94</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
@@ -1365,31 +1364,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="100" column="22" lean-forward="true" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
-          <folding>
-            <element signature="docComment;class#CommonAPI#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/ui/Methods/BBCommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="docComment;class#BBCommonAPI#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1413,10 +1392,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="210">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="docComment;class#TestHomePage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/ui/Methods/BBCommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="docComment;class#BBCommonAPI#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="94" column="63" lean-forward="true" selection-start-line="94" selection-start-column="63" selection-end-line="94" selection-end-column="63" />
+          <folding>
+            <element signature="docComment;class#CommonAPI#0" expanded="false" />
           </folding>
         </state>
       </provider>

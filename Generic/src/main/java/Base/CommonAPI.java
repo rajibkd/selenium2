@@ -53,20 +53,21 @@ public class CommonAPI {
             //run in local
             getLocalDriver(os, browserName);
         }
+
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.get(url);
     }
 
     public WebDriver getLocalDriver(String OS, String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
-            if (OS.equalsIgnoreCase("Mac")) {
+            if (OS.equalsIgnoreCase("OS X")) {
                 System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver");
             } else if (OS.equalsIgnoreCase("Win")) {
                 System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
             }
             driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("firefox")) {
-            if (OS.equalsIgnoreCase("Mac")) {
+            if (OS.equalsIgnoreCase("OS X")) {
                 System.setProperty("webdriver.gecko.driver", "../Generic/driver/geckodriver");
             } else if (OS.equalsIgnoreCase("Win")) {
                 System.setProperty("webdriver.gecko.driver", "C:\\drivers\\geckodriver.exe");
