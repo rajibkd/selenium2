@@ -2,48 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515fdf2c-394d-42af-9ec7-fd692a4d8ffc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/Cnn.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/src/test/java/Page/TestCnnHomepage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/src/test/resources/CnnTestRunner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/Page.TestCnnHomepage.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/Page.TestCnnHomepage/Command line test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/Page.TestCnnHomepage/Command line test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/TEST-Page.TestCnnHomepage.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/bullet_point.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/collapseall.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/emailable-report.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/failed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/junitreports/TEST-Page.TestCnnHomepage.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/navigator-bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/Command line test.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/groups.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/methods-alphabetical.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/methods-not-run.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/methods.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/reporter-output.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/testng.xml.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/toc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/passed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/skipped.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/testng-reports.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/testng-reports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/testng-results.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/testng.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/test-classes/CnnTestRunner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/test-classes/Page/TestCnnHomepage.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/target/classes/Utility/ConnectDB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/target/classes/Utility/ConnectMongoDB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/target/classes/Utility/DataReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BestbuyRunner.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BestbuyRunner.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -93,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="12" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="45" selection-end-column="12" />
+            <state relative-caret-position="375">
+              <caret line="25" column="55" lean-forward="false" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -219,10 +187,10 @@
         <option value="$PROJECT_DIR$/Alibaba/src/test/resources/AlibabaTestRunner.xml" />
         <option value="$PROJECT_DIR$/Citibank/src/test/resources/CitibankTestRunner.xml" />
         <option value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Cnn/src/test/java/Page/TestCnnHomepage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Cnn/src/test/resources/CnnTestRunner.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -241,8 +209,32 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Framework" />
+          <option name="myItemId" value="Generic" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Generic" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Profiles" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProfilesNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -777,7 +769,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="23" width="1918" height="1002" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -788,13 +780,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5364188" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11053181" sideWeight="0.4902439" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42979637" sideWeight="0.46358117" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25294748" sideWeight="0.46358117" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49092284" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2388664" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18873827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18873827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1148,14 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="12" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="45" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cnn/Cnn.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1218,6 +1202,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="55" lean-forward="false" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
           <folding />
         </state>
       </provider>

@@ -15,7 +15,6 @@
     <modules>
         <module>Generic</module>
         <module>Alibaba</module>
-        <module>Cnn</module>
         <module>Citibank</module>
         <module>Facebook</module>
         <module>LIJ</module>
@@ -77,7 +76,7 @@
             <id>cnn-app</id>
             <modules>
                 <module>Generic</module>
-                <module>Cnn</module>
+
             </modules>
         </profile>
         <profile>
@@ -104,7 +103,6 @@
                 <module>Alibaba</module>
                 <module>Bestbuy</module>
                 <module>Citibank</module>
-                <module>Cnn</module>
                 <module>Facebook</module>
                 <module>LIJ</module>
             </modules>
