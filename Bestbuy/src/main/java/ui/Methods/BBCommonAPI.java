@@ -23,6 +23,7 @@ public class BBCommonAPI extends CommonAPI {
         typeByXpath(".//*[@id='fld-e']", username);
         typeByXpath(".//*[@id='fld-p1']", password);
         clickByXpath("html/body/section/main/div[1]/div[1]/div/form/button");
+        sleepFor(2);
         Assert.assertTrue(driver.findElement(By.xpath(".//*[@id='profileMenuWrap1']")).isDisplayed());
         sleepFor(3);
     }
