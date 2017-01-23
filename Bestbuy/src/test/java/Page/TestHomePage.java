@@ -15,7 +15,7 @@ public class TestHomePage extends BBCommonAPI {
         UiHomepage ui = PageFactory.initElements(driver,UiHomepage.class);
         ui.refuseMailingListOption();
 
-        sleepFor(2);
+        sleepFor(10);
         ui.products();
         sleepFor(2);
     }
