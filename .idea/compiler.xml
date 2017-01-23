@@ -8,11 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Alibaba" />
         <module name="Bestbuy" />
-        <module name="Citibank" />
-        <module name="Facebook" />
         <module name="Generic" />
         <module name="Hbo" />
-        <module name="LIJ" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

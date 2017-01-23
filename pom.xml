@@ -15,9 +15,9 @@
     <modules>
         <module>Generic</module>
         <module>Alibaba</module>
-        <module>Citibank</module>
-        <module>Facebook</module>
-        <module>LIJ</module>
+        <!--<module>Citibank</module>-->
+        <!--<module>Facebook</module>-->
+        <!--<module>LIJ</module>-->
         <module>Bestbuy</module>
     </modules>
     <dependencyManagement>
@@ -69,7 +69,7 @@
             <id>citibank-app</id>
             <modules>
                 <module>Generic</module>
-                <module>Citibank</module>
+                <!--<module>Citibank</module>-->
             </modules>
         </profile>
         <profile>
@@ -102,9 +102,9 @@
                 <module>Generic</module>
                 <module>Alibaba</module>
                 <module>Bestbuy</module>
-                <module>Citibank</module>
-                <module>Facebook</module>
-                <module>LIJ</module>
+                <!--<module>Citibank</module>-->
+                <!--<module>Facebook</module>-->
+                <!--<module>LIJ</module>-->
             </modules>
         </profile>
     </profiles>
