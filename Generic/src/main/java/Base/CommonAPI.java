@@ -42,8 +42,9 @@ public class CommonAPI {
     @Parameters({"useCloudEnv","cloudEnv","os","browserName","browserVersion","url", "testName","os_version","resolution"})
 
     @BeforeMethod
-    public void setUp(@Optional("false") boolean useCloudEnv,String cloudEnv, @Optional("Windows 8") String os, @Optional("firefox") String browserName, @Optional("34")
-            String browserVersion, @Optional("http://www.bestbuy.com") String url, String testName, String os_version,String resolution)throws IOException {
+    public void setUp(@Optional("false") boolean useCloudEnv,@Optional("cloudEnv") String cloudEnv, @Optional("Windows 8") String os, @Optional("firefox") String browserName,
+                      @Optional("34") String browserVersion, @Optional("http://www.bestbuy.com") String url, @Optional("testName") String testName,
+                      @Optional("os_version") String os_version, @Optional("resolution") String resolution)throws IOException {
 
         if (useCloudEnv == true) {
             //run in cloud
