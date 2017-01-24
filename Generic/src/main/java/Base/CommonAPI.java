@@ -102,7 +102,6 @@ public class CommonAPI {
         return driver;
     }
 
-
     @AfterMethod
     public void tearDown() throws Exception {
         driver.quit();

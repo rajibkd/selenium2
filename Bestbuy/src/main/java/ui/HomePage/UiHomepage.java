@@ -15,8 +15,9 @@ import java.util.List;
 public class UiHomepage extends BBCommonAPI {
 
     //closing popup
-    @FindBy(how = How.XPATH,using = "html/body/div[3]/div/div/div[1]/button")
+    @FindBy(how = How.XPATH,using = "html/body/div[5]/div/div/div[1]/button")
     public WebElement closeMailingListScreen;
+
 
     public void refuseMailingListOption() {
         closeMailingListScreen.click();

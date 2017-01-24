@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515fdf2c-394d-42af-9ec7-fd692a4d8ffc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/main/java/ui/HomePage/UiHomepage.java" afterPath="$PROJECT_DIR$/Bestbuy/src/main/java/ui/HomePage/UiHomepage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,10 +44,22 @@
       <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="86" column="60" lean-forward="false" selection-start-line="86" selection-start-column="60" selection-end-line="86" selection-end-column="60" />
+            <state relative-caret-position="1110">
+              <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
               <folding>
                 <element signature="docComment;class#CommonAPI#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UiHomepage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/ui/HomePage/UiHomepage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="28" column="60" lean-forward="true" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+              <folding>
+                <element signature="docComment;class#UiHomepage#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -75,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+              <caret line="69" column="22" lean-forward="false" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -193,7 +205,6 @@
         <option value="$PROJECT_DIR$/Bestbuy/src/test/java/HomePage/TestHomePage.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/ui/CommonMethods.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/ui/methods/CommonMethods.java" />
-        <option value="$PROJECT_DIR$/Bestbuy/src/main/java/ui/HomePage/UiHomepage.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/ui/Products/Products.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestUserLogin.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestSearchItems.java" />
@@ -207,8 +218,9 @@
         <option value="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/ui/Methods/BBCommonAPI.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestHomePage.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Bestbuy/src/main/java/ui/HomePage/UiHomepage.java" />
       </list>
     </option>
   </component>
@@ -248,8 +260,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="55" />
-    <option name="y" value="29" />
+    <option name="x" value="40" />
+    <option name="y" value="92" />
     <option name="width" value="1864" />
     <option name="height" value="1051" />
   </component>
@@ -390,10 +402,6 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -485,7 +493,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Methods" />
+              <option name="myItemId" value="HomePage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -980,7 +988,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="29" width="1864" height="1051" extended-state="0" />
+    <frame x="40" y="92" width="1864" height="1051" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1257,17 +1265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/ui/HomePage/UiHomepage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#UiHomepage#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/ui/Products/Products.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1322,6 +1319,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="69" column="22" lean-forward="false" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestUserLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1350,16 +1363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="86" column="60" lean-forward="false" selection-start-line="86" selection-start-column="60" selection-end-line="86" selection-end-column="60" />
-          <folding>
-            <element signature="docComment;class#CommonAPI#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/ui/Methods/BBCommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1370,19 +1373,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="1110">
+          <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#CommonAPI#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/ui/HomePage/UiHomepage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="28" column="60" lean-forward="true" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+          <folding>
+            <element signature="docComment;class#UiHomepage#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
