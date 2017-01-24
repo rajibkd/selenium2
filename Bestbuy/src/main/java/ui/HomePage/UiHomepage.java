@@ -28,7 +28,8 @@ public class UiHomepage extends BBCommonAPI {
 
     public Products products() throws InterruptedException {
         elements.get(0).click();
-        sleepFor(4);
+        sleepFor(1);
+
         return new Products();
     }
 }

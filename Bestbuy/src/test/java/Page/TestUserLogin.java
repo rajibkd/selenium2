@@ -10,9 +10,10 @@ public class TestUserLogin extends BBCommonAPI {
 
     @Test
     public void testUserLogin() throws InterruptedException{
+        sleepFor(2);
         UiHomepage ui = PageFactory.initElements(driver,UiHomepage.class);
         ui.refuseMailingListOption();
-
+        sleepFor(1);
         super.userLogin();
     }
 }

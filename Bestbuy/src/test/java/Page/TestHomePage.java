@@ -15,8 +15,9 @@ public class TestHomePage extends BBCommonAPI {
         UiHomepage ui = PageFactory.initElements(driver,UiHomepage.class);
         ui.refuseMailingListOption();
 
-        sleepFor(10);
+        sleepFor(1);
         ui.products();
-        sleepFor(2);
+        clickByXpath(".//*[@id='group0']/div[1]/div[1]/ul/li[1]/a");
+        sleepFor(1);
     }
 }
