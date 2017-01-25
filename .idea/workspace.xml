@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515fdf2c-394d-42af-9ec7-fd692a4d8ffc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" afterPath="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/main/java/ui/Methods/BBCommonAPI.java" afterPath="$PROJECT_DIR$/Bestbuy/src/main/java/ui/Methods/BBCommonAPI.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,12 +30,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BestbuyRunner.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BestbuyRunner.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BBCommonAPI.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/ui/Methods/BBCommonAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="docComment;class#BBCommonAPI#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,11 +137,11 @@
         <option value="$PROJECT_DIR$/Bestbuy/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/Bestbuy/src/main/java/ui/Methods/BBCommonAPI.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestUserLogin.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/ui/HomePage/UiHomepage.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestHomePage.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
+        <option value="$PROJECT_DIR$/Bestbuy/src/main/java/ui/Methods/BBCommonAPI.java" />
       </list>
     </option>
   </component>
@@ -169,7 +181,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1933" />
+    <option name="x" value="78" />
     <option name="y" value="23" />
     <option name="width" value="1864" />
     <option name="height" value="1051" />
@@ -903,9 +915,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.23 at 00h 11m 06s.xml">
-      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.23 at 01h 05m 35s.xml">
       <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -924,6 +933,9 @@
     <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.24 at 18h 49m 37s.xml">
       <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.24 at 18h 59m 23s.xml">
+      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Cnn_src_test_resources_CnnTestRunner_xml - 2017.01.22 at 22h 11m 15s.xml">
       <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Cnn/src/test/resources/CnnTestRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -935,8 +947,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1933" y="23" width="1864" height="1051" extended-state="0" />
-    <editor active="true" />
+    <frame x="78" y="23" width="1864" height="1051" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -953,7 +965,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2388664" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19420601" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19420601" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1312,16 +1324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/ui/Methods/BBCommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="49" />
-          <folding>
-            <element signature="docComment;class#BBCommonAPI#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestSearchItems.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1337,6 +1339,16 @@
         <state relative-caret-position="240">
           <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/ui/Methods/BBCommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#BBCommonAPI#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

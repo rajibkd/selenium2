@@ -18,6 +18,7 @@ public class BBCommonAPI extends CommonAPI {
         public static final String password = System.getenv("BESTBUY_PASSWORD");
 
     public void userLogin() throws InterruptedException {
+        waitUntilClickAble(By.xpath(".//*[@id='profileMenuWrap1']"));
         clickByXpath(".//*[@id='profileMenuWrap1']");
         clickByXpath(".//*[@id='profileMenu1']/a");
         typeByXpath(".//*[@id='fld-e']", username);
