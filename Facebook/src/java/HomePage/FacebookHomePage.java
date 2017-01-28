@@ -14,7 +14,7 @@ public class FacebookHomePage extends CommonMethods{
  public WebElement headingSettings;
     @FindBy(how = How.XPATH,using = ".//*[@id='u_g_0']")
       public WebElement headingCreateGroup;
-
+//User Info
     @FindBy(id = "u_0_1")
     public WebElement firstName;
     @FindBy(how = How.XPATH, using = ".//*[@id='u_0_3']")
@@ -28,12 +28,12 @@ public class FacebookHomePage extends CommonMethods{
 
 
 
-    //birth date drop box
-    @FindBy(how = How.XPATH, using = ".//*[@id='u_0_3']")
+    //birth date drop down menu
+    @FindBy(how = How.ID, using ="month")
     public WebElement Month;
-    @FindBy (how = How.XPATH, using=".//*[@id='u_0_6']")
+    @FindBy (how = How.ID,using="day")
     public WebElement Day;
-    @FindBy(how = How.XPATH, using = ".//*[@id='u_0_9']")
+    @FindBy(how = How.ID,using = "year")
     public WebElement Year;
 
 

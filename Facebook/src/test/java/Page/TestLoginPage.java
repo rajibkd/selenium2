@@ -11,12 +11,12 @@ import org.testng.annotations.Test;
  */
 public class TestLoginPage extends CommonAPI {
     @Test
-    public void InputID()
+    public void InputID () throws InterruptedException
 
     {
         LoginPage login_page = PageFactory.initElements(driver, LoginPage.class);
-        login_page.login_facebook("Unaer7@gmail.com", "demo123");
-
+        login_page.login_facebook("testunae123@gmail.com", "test123456");
+        sleepFor(2);
 
     }
 }

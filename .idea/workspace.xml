@@ -2,17 +2,283 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515fdf2c-394d-42af-9ec7-fd692a4d8ffc" name="Default" comment="First Commit">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/classes/LandingPage/FacebookHomePage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/classes/LandingPage/FacebookPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/test-classes/Page/TestFacebookPage.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/classes/methods/CommonMethods.class" afterPath="$PROJECT_DIR$/Facebook/target/classes/methods/CommonMethods.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/test-classes/Page/TestFacebookHomepage.class" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/Page/TestFacebookHomepage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/Alibaba-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/classes/Page/TestAlibabaHomepage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/classes/test/resources/AlibabaTestRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/css/maven-base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/css/maven-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/css/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/css/site.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/dependencies.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/dependency-convergence.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/dependency-info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/dependency-management.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/images/close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/images/collapsed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/images/expanded.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/images/external.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/images/icon_error_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/images/icon_info_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/images/icon_success_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/images/icon_warning_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/images/logos/build-by-maven-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/images/logos/build-by-maven-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/images/logos/maven-feather.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/images/newwindow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/plugin-management.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/plugins.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/project-info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/site/project-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/Page.TestAlibabaHomepage.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/Page.TestAlibabaHomepage/Command line test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/Page.TestAlibabaHomepage/Command line test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/Page.TestAlibabaHomepage/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/TEST-Page.TestAlibabaHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/junitreports/TEST-Page.TestAlibabaHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Page.TestAlibabaHomepage/Command line test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Page.TestAlibabaHomepage/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Page.TestAlibabaHomepage/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Page.TestAlibabaHomepage/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Page.TestAlibabaHomepage/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Page.TestAlibabaHomepage/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Page.TestAlibabaHomepage/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Page.TestAlibabaHomepage/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Page.TestAlibabaHomepage/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Page.TestAlibabaHomepage/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/Page.TestAlibabaHomepage/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/AlibabaRunner" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/AlibabaTestRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/Page/TestAlibabaHomepage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/Bestbuy-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Page.TestBestbuyHomepage.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Page.TestBestbuyHomepage/Command line test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Page.TestBestbuyHomepage/Command line test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TEST-Page.TestBestbuyHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/junitreports/TEST-Page.TestBestbuyHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/Command line test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Page.TestBestbuyHomepage/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/test-classes/BestbuyRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/test-classes/Page/TestBestbuyHomepage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/Citibank-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/Page.TestCitibankHomepage.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/Page.TestCitibankHomepage/Command line test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/Page.TestCitibankHomepage/Command line test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/Page.TestCitibankHomepage/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/TEST-Page.TestCitibankHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/junitreports/TEST-Page.TestCitibankHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/Command line test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/Page.TestCitibankHomepage/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/surefire-reports/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/test-classes/CitibankTestRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Citibank/target/test-classes/Page/TestCitibankHomepage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/Cnn-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/Page.TestCnnHomepage.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/Page.TestCnnHomepage/Command line test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/Page.TestCnnHomepage/Command line test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/TEST-Page.TestCnnHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/junitreports/TEST-Page.TestCnnHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/Command line test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/Page.TestCnnHomepage/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/surefire-reports/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/test-classes/CnnTestRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cnn/target/test-classes/Page/TestCnnHomepage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/Facebook-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/classes/HomePage/FacebookHomePage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/classes/HomePage/LoginPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/classes/methods/CommonMethods.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/Page.TestFacebookHomepage.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/Page.TestFacebookHomepage/Command line test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/Page.TestFacebookHomepage/Command line test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/TEST-Page.TestFacebookHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/junitreports/TEST-Page.TestFacebookHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/Command line test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/Page.TestFacebookHomepage/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/surefire-reports/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/test-classes/Page/TestFacebookHomepage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/target/test-classes/Page/TestLoginPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/LIJ-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage/Command line test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage/Command line test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/Page.TestLIJHomepage/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/TEST-Page.TestLIJHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/junitreports/TEST-Page.TestLIJHomepage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/Command line test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/Page.TestLIJHomepage/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/surefire-reports/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/test-classes/LIJTestRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LIJ/target/test-classes/Page/TestLIJHomepage.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" afterPath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/classes/Utility/ConnectDB.class" afterPath="$PROJECT_DIR$/Generic/target/classes/Utility/ConnectDB.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/classes/Utility/DataReader.class" afterPath="$PROJECT_DIR$/Generic/target/classes/Utility/DataReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/Facebook.iml" afterPath="$PROJECT_DIR$/Facebook/Facebook.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/pom.xml" afterPath="$PROJECT_DIR$/Facebook/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/src/java/HomePage/FacebookHomePage.java" afterPath="$PROJECT_DIR$/Facebook/src/java/HomePage/FacebookHomePage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/src/test/java/Page/TestFacebookHomepage.java" afterPath="$PROJECT_DIR$/Facebook/src/test/java/Page/TestFacebookHomepage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/src/test/java/Page/TestLoginPage.java" afterPath="$PROJECT_DIR$/Facebook/src/test/java/Page/TestLoginPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" afterPath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/test-classes/FacebookTestRunner.xml" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/FacebookTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/Generic.iml" afterPath="$PROJECT_DIR$/Generic/Generic.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/pom.xml" afterPath="$PROJECT_DIR$/Generic/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,35 +309,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestFacebookHomepage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestFacebookHomepage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Page/TestFacebookHomepage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FacebookHomePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/java/HomePage/FacebookHomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Utility/DataReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+            <state relative-caret-position="34">
+              <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -80,59 +322,18 @@
       <file leaf-file-name="TestLoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Page/TestLoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonMethods.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/java/Methods/CommonMethods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/java/HomePage/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#456#468#0" expanded="true" />
-                <element signature="e#619#620#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FacebookTestRunner.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="194">
+              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LIJ/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="428">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,8 +342,62 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+            <state relative-caret-position="170">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LandingPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/java/LandingPageFactory/LandingPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestLandingPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Page/TestLandingPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="68" lean-forward="false" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/java/HomePage/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriverFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/java/Utility/DriverFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="19" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FacebookTestRunner.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -151,8 +406,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="391">
+              <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -183,7 +438,6 @@
         <option value="$PROJECT_DIR$/Alibaba/pom.xml" />
         <option value="$PROJECT_DIR$/Bestbuy/pom.xml" />
         <option value="$PROJECT_DIR$/Cnn/pom.xml" />
-        <option value="$PROJECT_DIR$/Facebook/pom.xml" />
         <option value="$PROJECT_DIR$/LIJ/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/Utility/ConnectDB.java" />
         <option value="$PROJECT_DIR$/Hbo/pom.xml" />
@@ -210,23 +464,26 @@
         <option value="$PROJECT_DIR$/Facebook/src/java/pagefactory/LoginPage.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/Page/TestLogIn.java" />
         <option value="$PROJECT_DIR$/Facebook/src/java/LandingPage/UiLandingPage.java" />
-        <option value="$PROJECT_DIR$/Facebook/src/test/java/Page/TestLandingPage.java" />
         <option value="$PROJECT_DIR$/Facebook/src/java/LandingPage/FacebookPage.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/Page/TestFacebookPage.java" />
         <option value="$PROJECT_DIR$/Facebook/src/java/LandingPage/LoginPage.java" />
-        <option value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" />
         <option value="$PROJECT_DIR$/Facebook/src/java/LandingPage/FacebookHomePage.java" />
         <option value="$PROJECT_DIR$/Facebook/src/java/methods/CommonMethods.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Facebook/src/java/HomePage/SearchObjects.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/SearchObjectsTest.java" />
         <option value="$PROJECT_DIR$/Facebook/src/java/HomePage/LoginPage.java" />
-        <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Facebook/src/java/Methods/CommonMethods.java" />
         <option value="$PROJECT_DIR$/Facebook/src/java/HomePage/FacebookHomePage.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/Page/TestLoginPage.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/Page/TestFacebookHomepage.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Facebook/src/java/LandingPageFactory/LandingPage.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/java/Page/TestLandingPage.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/java/Utility/DriverFactory.java" />
+        <option value="$PROJECT_DIR$/Facebook/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/pom.xml" />
       </list>
     </option>
   </component>
@@ -272,6 +529,66 @@
           <option name="myItemId" value="Framework" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Framework" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="clean" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Framework" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Facebook" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Facebook" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -294,6 +611,9 @@
         </PATH_ELEMENT>
       </PATH>
     </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -340,6 +660,54 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LIJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Selenium2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Selenium2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Selenium2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Selenium2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -414,6 +782,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Selenium2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Selenium2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Generic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Driver" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -506,36 +892,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Methods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Facebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HomePage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -954,9 +1310,9 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/Rajib/IdeaProjects/MyFramework/Facebook/src/test/resources/FacebookTestRunner.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/Rajib/IdeaProjects/MyFramework/Bestbuy/src/test/resources/BestbuyRunner.xml" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.TestBestbuyHomepage" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/Rajib/IdeaProjects/MyFramework/LIJ/src/test/resources/LIJTestRunner.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/Rajib/IdeaProjects/MyFramework/LIJ/src/test/resources/LIJTestRunner.xml" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/Rajib/IdeaProjects/MyFramework/Bestbuy/src/test/resources/BestbuyRunner.xml" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.TestBestbuyHomepage" />
         <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/Rajib/IdeaProjects/MyFramework/Cnn/src/test/resources/CnnTestRunner.xml" />
       </list>
     </recent_temporary>
@@ -975,52 +1331,52 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.23 at 16h 41m 55s.xml">
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.28 at 13h 53m 54s.xml">
       <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/Facebook/src/test/resources/FacebookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.27 at 17h 29m 05s.xml">
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.28 at 13h 58m 04s.xml">
       <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/Facebook/src/test/resources/FacebookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.27 at 17h 29m 41s.xml">
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.28 at 13h 58m 40s.xml">
       <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/Facebook/src/test/resources/FacebookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.27 at 17h 30m 27s.xml">
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.28 at 13h 59m 12s.xml">
       <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/Facebook/src/test/resources/FacebookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.27 at 17h 45m 22s.xml">
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.28 at 14h 00m 04s.xml">
       <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/Facebook/src/test/resources/FacebookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.27 at 18h 15m 35s.xml">
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.28 at 14h 00m 58s.xml">
       <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/Facebook/src/test/resources/FacebookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.27 at 18h 50m 59s.xml">
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.28 at 14h 01m 37s.xml">
       <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/Facebook/src/test/resources/FacebookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.27 at 18h 51m 37s.xml">
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.28 at 14h 02m 59s.xml">
       <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/Facebook/src/test/resources/FacebookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.27 at 18h 53m 15s.xml">
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.28 at 14h 03m 26s.xml">
       <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/Facebook/src/test/resources/FacebookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.27 at 18h 54m 27s.xml">
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_Facebook_src_test_resources_FacebookTestRunner_xml - 2017.01.28 at 14h 04m 16s.xml">
       <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/Facebook/src/test/resources/FacebookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31501058" sideWeight="0.4757208" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3127889" sideWeight="0.4757208" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5364188" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20558003" sideWeight="0.4902439" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20364584" sideWeight="0.4902439" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49092284" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23044397" sideWeight="0.46358117" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18604651" sideWeight="0.46358117" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1086,45 +1442,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/Page/TestCnnHomepage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Page/TestFacebookHomepage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LIJ/src/test/java/Page/TestLIJHomepage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Citibank/src/test/java/Page/TestCitibankHomepage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1138,7 +1455,7 @@
         <state relative-caret-position="255">
           <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1229,13 +1546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LIJ/src/test/resources/LIJTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="59" lean-forward="false" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1269,14 +1579,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/java/LandingPage/FacebookPage.java" />
     <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Page/TestFacebookPage.java" />
-    <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/SearchObjectsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1293,21 +1595,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Utility/DataReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/java/Methods/CommonMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1319,34 +1631,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Facebook/src/java/LoggedInUserTest/LoggedIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="85">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/java/HomePage/FacebookHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LIJ/src/test/resources/LIJTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="59" lean-forward="false" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/java/LandingPageFactory/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Page/TestLoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/java/Utility/DriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="19" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        <state relative-caret-position="170">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Page/TestFacebookHomepage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/target/test-classes/FacebookTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="238">
+          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/java/Methods/CommonMethods.java">
+    <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Page/TestLandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="68" lean-forward="false" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1355,43 +1739,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/java/HomePage/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#456#468#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/java/HomePage/FacebookHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Page/TestLoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Page/TestFacebookHomepage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="408">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

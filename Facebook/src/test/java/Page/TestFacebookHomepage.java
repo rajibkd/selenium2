@@ -20,40 +20,52 @@ import java.util.List;
  */
 
 public class TestFacebookHomepage extends CommonAPI {
-    @Test
-    public void InputFirstName()
-//creating a new account on facebook homepage
+    @Test(priority = 1)
+   public void InputFirstName() throws InterruptedException
+////creating a new account on facebook homepage
     {
 
-        FacebookHomePage login_page = PageFactory.initElements(driver, FacebookHomePage.class);
-        login_page.firstName.sendKeys("Molang");
+        FacebookHomePage page = PageFactory.initElements(driver, FacebookHomePage.class);
+        page.firstName.sendKeys("Molang");
+        sleepFor(2);
     }
 
-    @Test
-    public void InputLastName() {
+    @Test(priority = 2)
+    public void InputLastName() throws InterruptedException {
 
-        FacebookHomePage login_page = PageFactory.initElements(driver, FacebookHomePage.class);
-        login_page.lastName.sendKeys("Bunny");
-
+        FacebookHomePage page = PageFactory.initElements(driver, FacebookHomePage.class);
+        page.lastName.sendKeys("Bunny");
+        sleepFor(2);
     }
 
-    @Test
-    public void InputEmail() {
+    @Test(priority = 3)
+    public void InputEmail() throws InterruptedException {
 
-        FacebookHomePage login_page = PageFactory.initElements(driver, FacebookHomePage.class);
-        login_page.mobileNumber.sendKeys("1234567");
+        FacebookHomePage page = PageFactory.initElements(driver, FacebookHomePage.class);
+        page.mobileNumber.sendKeys("1234567");
+        sleepFor(2);
     }
 
-    @Test
-    public void InputNewPass() {
-        FacebookHomePage login_page = PageFactory.initElements(driver, FacebookHomePage.class);
-        login_page.createPassword.sendKeys("testing");
+    @Test(priority = 4)
+    public void InputNewPass() throws InterruptedException {
+        FacebookHomePage page = PageFactory.initElements(driver, FacebookHomePage.class);
+        page.createPassword.sendKeys("testing");
+        sleepFor(2);
+ }
 
+    @Test(priority = 5)
+    public void InputBirthday() throws InterruptedException{
+        FacebookHomePage page = PageFactory.initElements(driver, FacebookHomePage.class);
+        page.selectOptionByVisibleText(page.Month, "Apr");
+        sleepFor(2);
+        page.selectOptionByVisibleText(page.Day,"12");
+        sleepFor(2);
+        page.selectOptionByVisibleText(page.Year,"1993");
+        sleepFor(2);
+
+        //click on radio button and create account
+        clickByXpath(".//*[@id='u_0_i']");
+        clickByXpath(".//*[@id='u_0_f']");
     }
-
-
 
 }
-
-
-

@@ -4,10 +4,16 @@
     <parameter name="url" value="https://www.facebook.com/"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="50"/>
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="env" value="browserstack"/>
+    <parameter name="userName" value="unaerichardson1"/>
+    <parameter name="accessKey" value="UqK1b99ds7neyFBKzgqw"/>
+    <parameter name="os" value="Win"/>
     <test name = "Facebook Home Page">
         <classes>
-            <class name="Page.TestFacebookHomepage"/>
-            <class name="Page.TestLoginPage"/>
+            <!--<class name="Page.TestFacebookHomepage"/>-->
+           <!-- <class name="Page.TestLoginPage"/>-->
+            <class name="Page.TestLandingPage"/>
         </classes>
     </test>
 </suite>
