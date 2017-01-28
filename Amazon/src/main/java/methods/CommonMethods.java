@@ -3,6 +3,7 @@ package methods;
 import Base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import java.io.IOException;
@@ -13,6 +14,7 @@ import java.sql.*;
  */
 
 public class CommonMethods extends CommonAPI{
+    public WebDriver driver = null;
     public boolean isAlreadyLogIn = false;
     public ResultSet rs = null;
     Connection connect = null;
@@ -25,9 +27,9 @@ public class CommonMethods extends CommonAPI{
         if (!isAlreadyLogIn) {
             clickByXpath(".//*[@id='nav-link-yourAccount']/span[2]");
             sleepFor(2);
-            typeByXpath(".//*[@id='ap_email']", "nahreen789@gmail.com");
+            typeByXpath(".//*[@id='ap_email']", "rajib_delhi@hotmail.com");
             sleepFor(2);
-            typeByXpath(".//*[@id='ap_password']", "0606440");
+            typeByXpath(".//*[@id='ap_password']", "rakuda00");
             sleepFor(2);
             clickByXpath(".//*[@id='signInSubmit']");
             sleepFor(2);
@@ -51,7 +53,7 @@ public class CommonMethods extends CommonAPI{
             System.out.println("First attempt has been done, This is second try");
             WebElement element = driver.findElement(By.cssSelector(locator));
             Actions action = new Actions(driver);
-            action.moveToElement(element).perform();
+            action.moveToElement(element).build().perform();
         }
     }
 }

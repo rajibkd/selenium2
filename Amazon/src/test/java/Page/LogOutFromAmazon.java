@@ -1,6 +1,7 @@
 package Page;
 
 import Base.CommonAPI;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import pageFactoryLogin.LogInInfo;
 import pageFactoryLogin.LogInInfo.*;
@@ -18,7 +19,6 @@ public class LogOutFromAmazon extends CommonAPI {
         LO.sleepFor(5);
         LO.AmazonLogout();
         LO.sleepFor(2);
-        System.out.println("You need to Login First");
     }
 
 }

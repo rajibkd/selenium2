@@ -11,10 +11,10 @@ import org.testng.annotations.Test;
  */
 public class TestAmazonHomepage extends CommonAPI {
     @Test
-    public void testAmazonHomepage(){
+    public void testAmazonHomepage()throws InterruptedException{
 
         System.out.println("Our Test is successful for  :"+driver.getCurrentUrl());
-        //clickByXpath("//*[@id='nav-xshop']/a[2]");
+        sleepFor(2);
     }
 
 }

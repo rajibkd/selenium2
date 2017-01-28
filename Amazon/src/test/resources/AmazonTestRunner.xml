@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Amazon E-Commerce" parallel="tests">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="env" value="browserstack"/>
-    <parameter name="userName" value="rajibdas11"/>
-    <parameter name="accessKey" value="yDwsyMCrMHyXEHwXo415"/>
+    <parameter name="userName" value="rajibdas12"/>
+    <parameter name="accessKey" value="wuiT8HRRjNyUMkkKK8ML"/>
     <parameter name="os" value="Win"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="50.0"/>
@@ -13,18 +13,18 @@
 
     <test name = "Amazon Search">
         <classes>
-            <!--<class name="Page.TestAmazonHomepage"/>-->
-            <!--<class name="CreateAccount.CreateAnewAccount"/>-->
-            <!--<class name="Page.exploreHomePage"/>-->
+            <class name="Page.TestAmazonHomepage"/>
+            <class name="CreateAccount.CreateAnewAccount"/>
+            <class name="Page.exploreHomePage"/>
             <class name="Shopping.FindAndAddToCart"/>
             <class name="Shopping.DeleteFromCart"/>
-            <!--<class name="Page.LogIntoAmazon"/>-->
-            <!--<class name="Page.LogOutFromAmazon"/>-->
-            <!--<class name="SearchItems.DropDownMenuSearch"/>-->
-            <!--<class name="SearchItems.SearchItemsByDatabase"/>-->
-            <!--<class name="SearchItems.SearchItemsByDataProvider"/>-->
-            <!--<class name="SearchItems.SearchItemsByExcel"/>-->
-            <!--<class name="SearchItems.SearchItemsByMongoDB"/>-->
+            <class name="Page.LogIntoAmazon"/>
+            <class name="Page.LogOutFromAmazon"/>
+            <class name="SearchItems.DropDownMenuSearch"/>
+            <class name="SearchItems.SearchItemsByDatabase"/>
+            <class name="SearchItems.SearchItemsByDataProvider"/>
+            <class name="SearchItems.SearchItemsByExcel"/>
+            <class name="SearchItems.SearchItemsByMongoDB"/>
         </classes>
     </test>
 </suite>

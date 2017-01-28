@@ -31,7 +31,7 @@ import java.util.concurrent.TimeUnit;
  * Created by Rajib Das **/
 
 public class CommonAPI {
-    public static WebDriver driver = null;
+    public WebDriver driver = null;
 
     @Parameters({"useCloudEnv", "env", "userName", "accessKey", "os", "browserName", "browserVersion", "url"})
 

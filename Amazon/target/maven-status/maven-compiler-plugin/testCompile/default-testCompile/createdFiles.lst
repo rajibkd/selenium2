@@ -1,7 +1,7 @@
-Page\LogIntoAmazon.class
 SearchItems\SearchItemsByDatabase.class
+SearchItems\SearchItemsByDataProvider.class
+SearchItems\SearchItemsByExcel.class
+Page\LogIntoAmazon.class
 Page\TestAmazonHomepage.class
 SearchItems\DropDownMenuSearch.class
 SearchItems\Items.class
-SearchItems\SearchItemsByDataProvider.class
-SearchItems\SearchItemsByExcel.class

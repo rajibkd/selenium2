@@ -1,5 +1,6 @@
 package pageFactoryLogin;
 
+import Base.CommonAPI;
 import methods.CommonMethods;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,8 +11,7 @@ import org.openqa.selenium.support.How;
 /**
  * Created by Rajib on 1/11/2017.
  */
-public class LogInInfo extends CommonMethods{
-    WebDriver driver;
+public class LogInInfo extends CommonAPI{
 
     public LogInInfo(WebDriver driver) {
         this.driver = driver;
@@ -32,7 +32,7 @@ public class LogInInfo extends CommonMethods{
         return driver.findElement(submit);
     }
 
-    @FindBy(how = How.XPATH, using = "//*[@id=\"nav-link-accountList\"]/span[1]")
+    @FindBy(how = How.XPATH, using = "//*[@id=\"a-autoid-0-announce\"]/span")
     public static WebElement AccountLogInLink;
 
     @FindBy(how=How.XPATH, using = ".//*[@id='ap_email']")
@@ -46,13 +46,13 @@ public class LogInInfo extends CommonMethods{
 
     public void setLogOutLink()
     {
-        mouseHoverByXpath(".//*[@id='nav-link-accountList']/span[2]");
+        mouseHoverByXpath(".//*[@id='nav-link-accountList']");
     }
 
-    @FindBy(how = How.XPATH, using = "//*[@id=\"nav-link-accountList\"]/span[2]")
+    @FindBy(how = How.XPATH, using = ".//*[@id='nav-link-accountList']")
     public static WebElement AccountLogOutLink;
 
-    @FindBy(how=How.XPATH, using = ".//*[@id='nav-item-signout']/span")
+    @FindBy(how=How.XPATH, using = "//*[@id=\"nav-item-signout\"]")
     public static WebElement LogoutSubmit;
 
     public void AmazonLogin(String userID, String userPass)
@@ -65,8 +65,7 @@ public class LogInInfo extends CommonMethods{
 
     public void AmazonLogout()
     {
-        mouseHoverByXpath(".//*[@id='nav-link-accountList']/span[2]");
-        LogoutSubmit.click();
-
+       mouseHoverByXpath(".//*[@id='nav-link-accountList']");
+       driver.findElement(By.xpath("//*[@id=\"nav-item-signout\"]"));
     }
 }

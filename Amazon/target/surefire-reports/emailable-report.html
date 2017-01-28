@@ -1,44 +1,242 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Amazon E-Commerce</th></tr><tr><td><a href="#t0">Amazon Search</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">254</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Amazon E-Commerce</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Amazon Search &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">Page.TestAmazonHomepage</td><td><a href="#m0">setUp</a></td><td rowspan="1">1485225638547</td><td rowspan="1">0</td></tr><tr><th colspan="4">Amazon Search &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="2">Page.LogIntoAmazon</td><td><a href="#m1">setUp</a></td><td rowspan="1">1485225638751</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">tearDown</a></td><td rowspan="1">1485225638751</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">Page.TestAmazonHomepage</td><td><a href="#m3">tearDown</a></td><td rowspan="1">1485225638751</td><td rowspan="1">0</td></tr><tr><th colspan="4">Amazon Search &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">Page.LogIntoAmazon</td><td><a href="#m4">LoginTest</a></td><td rowspan="1">1485225638751</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">Page.TestAmazonHomepage</td><td><a href="#m5">testAmazonHomepage</a></td><td rowspan="1">1485225638747</td><td rowspan="1">3</td></tr></tbody></table><h2>Amazon Search</h2><h3 id="m0">Page.TestAmazonHomepage#setUp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr><tr class="param stripe"><td>false</td><td>browserstack</td><td>rajibdas11</td><td>yDwsyMCrMHyXEHwXo415</td><td>OS X</td><td>chrome</td><td>55.0</td><td>http://www.amazon.com</td></tr><tr><th colspan="8">Exception</th></tr><tr><td colspan="8"><div class="stacktrace">java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:120)
-	at Base.CommonAPI.getLocalDriver(CommonAPI.java:61)
-	at Base.CommonAPI.setUp(CommonAPI.java:47)
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Amazon E-Commerce</th></tr><tr><td><a href="#t0">Amazon Search</a></td><td class="num">0</td><td class="num attn">14</td><td class="num">0</td><td class="num">2,215</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Amazon E-Commerce</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Amazon Search &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">Page.TestAmazonHomepage</td><td><a href="#m0">setUp</a></td><td rowspan="1">1485631679970</td><td rowspan="1">0</td></tr><tr><th colspan="4">Amazon Search &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="2">CreateAccount.CreateAnewAccount</td><td><a href="#m1">setUp</a></td><td rowspan="1">1485631682082</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">tearDown</a></td><td rowspan="1">1485631682086</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="2">Page.LogIntoAmazon</td><td><a href="#m3">setUp</a></td><td rowspan="1">1485631682095</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m4">tearDown</a></td><td rowspan="1">1485631682098</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="2">Page.LogOutFromAmazon</td><td><a href="#m5">setUp</a></td><td rowspan="1">1485631682098</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m6">tearDown</a></td><td rowspan="1">1485631682101</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">Page.TestAmazonHomepage</td><td><a href="#m7">tearDown</a></td><td rowspan="1">1485631682080</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="2">Page.exploreHomePage</td><td><a href="#m8">setUp</a></td><td rowspan="1">1485631682086</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m9">tearDown</a></td><td rowspan="1">1485631682089</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="2">SearchItems.DropDownMenuSearch</td><td><a href="#m10">setUp</a></td><td rowspan="1">1485631682102</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m11">tearDown</a></td><td rowspan="1">1485631682106</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="6">SearchItems.SearchItemsByDataProvider</td><td><a href="#m12">setUp</a></td><td rowspan="3">1485631682121</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m13">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m14">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m15">tearDown</a></td><td rowspan="3">1485631682125</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m16">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m17">tearDown</a></td></tr><tr class="skippedodd"><td rowspan="2">SearchItems.SearchItemsByDatabase</td><td><a href="#m18">setUp</a></td><td rowspan="1">1485631682107</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m19">tearDown</a></td><td rowspan="1">1485631682109</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="2">SearchItems.SearchItemsByExcel</td><td><a href="#m20">setUp</a></td><td rowspan="1">1485631682126</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m21">tearDown</a></td><td rowspan="1">1485631682128</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="2">SearchItems.SearchItemsByMongoDB</td><td><a href="#m22">setUp</a></td><td rowspan="1">1485631682129</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m23">tearDown</a></td><td rowspan="1">1485631682131</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="2">Shopping.DeleteFromCart</td><td><a href="#m24">setUp</a></td><td rowspan="1">1485631682093</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m25">tearDown</a></td><td rowspan="1">1485631682095</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="2">Shopping.FindAndAddToCart</td><td><a href="#m26">setUp</a></td><td rowspan="1">1485631682090</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m27">tearDown</a></td><td rowspan="1">1485631682092</td><td rowspan="1">0</td></tr><tr><th colspan="4">Amazon Search &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">CreateAccount.CreateAnewAccount</td><td><a href="#m28">newAccount</a></td><td rowspan="1">1485631682083</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">Page.LogIntoAmazon</td><td><a href="#m29">LoginTest</a></td><td rowspan="1">1485631682096</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="1">Page.LogOutFromAmazon</td><td><a href="#m30">logOutFromAmazon</a></td><td rowspan="1">1485631682099</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">Page.TestAmazonHomepage</td><td><a href="#m31">testAmazonHomepage</a></td><td rowspan="1">1485631682073</td><td rowspan="1">2</td></tr><tr class="skippedeven"><td rowspan="1">Page.exploreHomePage</td><td><a href="#m32">exploreHomepage</a></td><td rowspan="1">1485631682087</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">SearchItems.DropDownMenuSearch</td><td><a href="#m33">dropDownMenu</a></td><td rowspan="1">1485631682102</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="3">SearchItems.SearchItemsByDataProvider</td><td><a href="#m34">searchUsingDataProvider</a></td><td rowspan="3">1485631682122</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m35">searchUsingDataProvider</a></td></tr><tr class="skippedeven"><td><a href="#m36">searchUsingDataProvider</a></td></tr><tr class="skippedodd"><td rowspan="1">SearchItems.SearchItemsByDatabase</td><td><a href="#m37">searchUsingDB</a></td><td rowspan="1">1485631682107</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="1">SearchItems.SearchItemsByExcel</td><td><a href="#m38">search</a></td><td rowspan="1">1485631682127</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">SearchItems.SearchItemsByMongoDB</td><td><a href="#m39">searchUsingMongoDB</a></td><td rowspan="1">1485631682130</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="1">Shopping.DeleteFromCart</td><td><a href="#m40">deleteFromCart</a></td><td rowspan="1">1485631682093</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">Shopping.FindAndAddToCart</td><td><a href="#m41">findAndAddToCart</a></td><td rowspan="1">1485631682090</td><td rowspan="1">0</td></tr></tbody></table><h2>Amazon Search</h2><h3 id="m0">Page.TestAmazonHomepage#setUp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr><tr class="param stripe"><td>true</td><td>browserstack</td><td>rajibdas11</td><td>yDwsyMCrMHyXEHwXo415</td><td>Win</td><td>chrome</td><td>55.0</td><td>http://www.amazon.com</td></tr><tr><th colspan="8">Exception</th></tr><tr><td colspan="8"><div class="stacktrace">org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
+Session ID: 
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
+	at Base.CommonAPI.setUp(CommonAPI.java:49)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">Page.LogIntoAmazon#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">Page.LogIntoAmazon#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">Page.TestAmazonHomepage#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">Page.LogIntoAmazon#LoginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:120)
-	at Base.CommonAPI.getLocalDriver(CommonAPI.java:61)
-	at Base.CommonAPI.setUp(CommonAPI.java:47)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">CreateAccount.CreateAnewAccount#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">CreateAccount.CreateAnewAccount#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">Page.LogIntoAmazon#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">Page.LogIntoAmazon#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">Page.LogOutFromAmazon#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">Page.LogOutFromAmazon#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">Page.TestAmazonHomepage#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">Page.exploreHomePage#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">Page.exploreHomePage#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m10">SearchItems.DropDownMenuSearch#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m11">SearchItems.DropDownMenuSearch#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m12">SearchItems.SearchItemsByDataProvider#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m13">SearchItems.SearchItemsByDataProvider#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m14">SearchItems.SearchItemsByDataProvider#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m15">SearchItems.SearchItemsByDataProvider#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m16">SearchItems.SearchItemsByDataProvider#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m17">SearchItems.SearchItemsByDataProvider#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m18">SearchItems.SearchItemsByDatabase#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m19">SearchItems.SearchItemsByDatabase#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m20">SearchItems.SearchItemsByExcel#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m21">SearchItems.SearchItemsByExcel#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m22">SearchItems.SearchItemsByMongoDB#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m23">SearchItems.SearchItemsByMongoDB#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m24">Shopping.DeleteFromCart#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m25">Shopping.DeleteFromCart#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m26">Shopping.FindAndAddToCart#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m27">Shopping.FindAndAddToCart#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m28">CreateAccount.CreateAnewAccount#newAccount</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
+Session ID: 
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
+	at Base.CommonAPI.setUp(CommonAPI.java:49)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">Page.TestAmazonHomepage#testAmazonHomepage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:120)
-	at Base.CommonAPI.getLocalDriver(CommonAPI.java:61)
-	at Base.CommonAPI.setUp(CommonAPI.java:47)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m29">Page.LogIntoAmazon#LoginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
+Session ID: 
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
+	at Base.CommonAPI.setUp(CommonAPI.java:49)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m30">Page.LogOutFromAmazon#logOutFromAmazon</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
+Session ID: 
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
+	at Base.CommonAPI.setUp(CommonAPI.java:49)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m31">Page.TestAmazonHomepage#testAmazonHomepage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
+Session ID: 
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
+	at Base.CommonAPI.setUp(CommonAPI.java:49)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m32">Page.exploreHomePage#exploreHomepage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
+Session ID: 
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
+	at Base.CommonAPI.setUp(CommonAPI.java:49)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m33">SearchItems.DropDownMenuSearch#dropDownMenu</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
+Session ID: 
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
+	at Base.CommonAPI.setUp(CommonAPI.java:49)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m34">SearchItems.SearchItemsByDataProvider#searchUsingDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Baby</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
+Session ID: 
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
+	at Base.CommonAPI.setUp(CommonAPI.java:49)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m35">SearchItems.SearchItemsByDataProvider#searchUsingDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Computer</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
+Session ID: 
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
+	at Base.CommonAPI.setUp(CommonAPI.java:49)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m36">SearchItems.SearchItemsByDataProvider#searchUsingDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Books</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
+Session ID: 
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
+	at Base.CommonAPI.setUp(CommonAPI.java:49)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m37">SearchItems.SearchItemsByDatabase#searchUsingDB</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
+Session ID: 
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
+	at Base.CommonAPI.setUp(CommonAPI.java:49)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m38">SearchItems.SearchItemsByExcel#search</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
+Session ID: 
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
+	at Base.CommonAPI.setUp(CommonAPI.java:49)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m39">SearchItems.SearchItemsByMongoDB#searchUsingMongoDB</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
+Session ID: 
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
+	at Base.CommonAPI.setUp(CommonAPI.java:49)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m40">Shopping.DeleteFromCart#deleteFromCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
+Session ID: 
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
+	at Base.CommonAPI.setUp(CommonAPI.java:49)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m41">Shopping.FindAndAddToCart#findAndAddToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
+Session ID: 
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
+	at Base.CommonAPI.setUp(CommonAPI.java:49)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

@@ -18,8 +18,10 @@ public class DeleteFromCart extends CommonAPI {
         driver.findElement(By.cssSelector("#nav-cart > span.nav-line-2")).click();
         driver.findElement(By.cssSelector("#nav-cart > span.nav-line-2")).click();
         driver.findElement(By.xpath("//*[@id=\"activeCartViewForm\"]/div[2]/div/div[4]/div[2]/div[1]/div/div/div[2]/div/span[1]/span/input")).click();
-        driver.findElement(By.partialLinkText("Delete")).click();
-        driver.findElement(By.id("a-autoid-0-announce")).click();
-        driver.findElement(By.cssSelector("#nav-item-signout > span.nav-text")).click();
+        //driver.findElement(By.xpath("//*[@id=\"activeCartViewForm\"]/div[2]/div/div[4]/div[2]/div[1]/div/div/div[2]/div/span[1]/span/input")).click();
+        sleepFor(1);
+//        driver.findElement(By.id("a-autoid-0-announce")).click();
+  //      driver.findElement(By.cssSelector("#nav-item-signout > span.nav-text")).click();
+        LI.AmazonLogout();
     }
 }
