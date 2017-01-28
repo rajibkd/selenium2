@@ -44,9 +44,15 @@ public class LogInInfo extends CommonMethods{
     @FindBy(how=How.XPATH, using = ".//*[@id='signInSubmit']")
     public static WebElement LoginSubmit;
 
-    public void setLogOutLink(){mouseHoverByXpath(".//*[@id='nav-link-yourAccount']/span[2]");}
-    @FindBy(how=How.XPATH, using = ".//*[@id='nav-item-signout']/span")
+    public void setLogOutLink()
+    {
+        mouseHoverByXpath(".//*[@id='nav-link-accountList']/span[2]");
+    }
 
+    @FindBy(how = How.XPATH, using = "//*[@id=\"nav-link-accountList\"]/span[2]")
+    public static WebElement AccountLogOutLink;
+
+    @FindBy(how=How.XPATH, using = ".//*[@id='nav-item-signout']/span")
     public static WebElement LogoutSubmit;
 
     public void AmazonLogin(String userID, String userPass)
@@ -55,5 +61,12 @@ public class LogInInfo extends CommonMethods{
         UserId.sendKeys(userID);
         UserPass.sendKeys(userPass);
         LoginSubmit.click();
+    }
+
+    public void AmazonLogout()
+    {
+        mouseHoverByXpath(".//*[@id='nav-link-accountList']/span[2]");
+        LogoutSubmit.click();
+
     }
 }

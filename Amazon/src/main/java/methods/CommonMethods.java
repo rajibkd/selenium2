@@ -46,7 +46,7 @@ public class CommonMethods extends CommonAPI{
         try {
             WebElement element = driver.findElement(By.xpath(locator));
             Actions action = new Actions(driver);
-            action.moveToElement(element).perform();
+            action.moveToElement(element).build().perform();
         } catch (Exception ex) {
             System.out.println("First attempt has been done, This is second try");
             WebElement element = driver.findElement(By.cssSelector(locator));

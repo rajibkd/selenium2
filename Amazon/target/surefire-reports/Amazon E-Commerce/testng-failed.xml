@@ -2,21 +2,26 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Amazon E-Commerce]" parallel="tests">
   <parameter name="useCloudEnv" value="false"/>
-  <parameter name="os" value="Win"/>
-  <parameter name="accessKey" value="022ecbd2-2420-414c-b1f0-caa938ad760a"/>
-  <parameter name="browserVersion" value="55"/>
+  <parameter name="os" value="OS X"/>
+  <parameter name="accessKey" value="yDwsyMCrMHyXEHwXo415"/>
+  <parameter name="browserVersion" value="55.0"/>
   <parameter name="browserName" value="chrome"/>
-  <parameter name="userName" value="rajibkd"/>
+  <parameter name="env" value="browserstack"/>
+  <parameter name="userName" value="rajibdas11"/>
   <parameter name="url" value="http://www.amazon.com"/>
   <test name="Amazon Search(failed)" parallel="tests">
     <classes>
-      <class name="SearchItems.SearchItemsByDatabase">
+      <class name="Page.LogIntoAmazon">
         <methods>
-          <include name="tearDown"/>
-          <include name="loginToAmazon"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- Page.LogIntoAmazon -->
+      <class name="Page.TestAmazonHomepage">
+        <methods>
+          <include name="testAmazonHomepage"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- SearchItems.SearchItemsByDatabase -->
+      </class> <!-- Page.TestAmazonHomepage -->
     </classes>
   </test> <!-- Amazon Search(failed) -->
 </suite> <!-- Failed suite [Amazon E-Commerce] -->

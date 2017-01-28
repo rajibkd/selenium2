@@ -1,11 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 6.38 sec <<< FAILURE! - in TestSuite
-setUp(home.TestBestbuyHome)  Time elapsed: 5.258 sec  <<< FAILURE!
-org.openqa.selenium.SessionNotCreatedException: 
-Unable to create new remote session. desired capabilities = Capabilities [{browserName=Chrome, version=55.0, platform=MAC}], required capabilities = Capabilities [{}]
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 4.161 sec <<< FAILURE! - in TestSuite
+setUp(home.TestBestbuyHome)  Time elapsed: 3.607 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 139 milliseconds
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: driver.version: RemoteWebDriver
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
+Session ID: 
 

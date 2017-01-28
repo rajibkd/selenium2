@@ -128,19 +128,19 @@
                   <a name="testHome">
                   </a> <!-- testHome -->
                   <span class="method-name">testHome</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Unable to create new remote session. desired capabilities = Capabilities [{browserName=Chrome, version=55.0, platform=MAC}], required capabilities = Capabilities [{}]
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 139 milliseconds
 Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
 System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:91)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:155)
-	at Base.CommonAPI.getCloudDriver(CommonAPI.java:82)
-	at Base.CommonAPI.setUp(CommonAPI.java:43)
-... Removed 30 stack frames
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
+Session ID: 
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
+	at Base.CommonAPI.setUp(CommonAPI.java:49)
+... Removed 34 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -157,7 +157,7 @@ Driver info: driver.version: RemoteWebDriver
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Potbelly Client on Chrome Browser&quot;&gt;
   &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;true&quot;/&gt;
-  &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;Windows 10&quot;/&gt;
   &lt;parameter name=&quot;accessKey&quot; value=&quot;yDwsyMCrMHyXEHwXo415&quot;/&gt;
   &lt;parameter name=&quot;browserVersion&quot; value=&quot;55.0&quot;/&gt;
   &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
@@ -210,12 +210,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testHome')
 data.setCell(0, 2, 'home.TestBestbuyHome')
-data.setCell(0, 3, 2);
+data.setCell(0, 3, 1);
 window.suiteTableData['Potbelly_Client_on_Chrome_Browser']= { tableData: data, tableDiv: 'times-div-Potbelly_Client_on_Chrome_Browser'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 ms</span>
+              <span class="suite-total-time">Total running time: 1 ms</span>
               <div id="times-div-Potbelly_Client_on_Chrome_Browser">
               </div> <!-- times-div-Potbelly_Client_on_Chrome_Browser -->
             </div> <!-- times-div -->
@@ -245,12 +245,12 @@ return data;
               <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">setUp(true, rajibdas11, yDwsyMCrMHyXEHwXo415, OS X, Chrome, 55.0, http://www.bestbuy.com/)</span>
+                <span class="method-name">setUp(true, browserstack, rajibdas11, yDwsyMCrMHyXEHwXo415, Windows 10, Chrome, 55.0, http://www.bestbuy.c...)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testHome</span>
-                <span class="method-start">3519 ms</span>
+                <span class="method-start">2377 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

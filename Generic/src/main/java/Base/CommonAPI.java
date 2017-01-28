@@ -31,14 +31,14 @@ import java.util.concurrent.TimeUnit;
  * Created by Rajib Das **/
 
 public class CommonAPI {
-    public WebDriver driver = null;
+    public static WebDriver driver = null;
 
     @Parameters({"useCloudEnv", "env", "userName", "accessKey", "os", "browserName", "browserVersion", "url"})
 
     @BeforeMethod
-    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("Saucelabs") String env, @Optional("rahmanww") String userName, @Optional("")
-            String accessKey, @Optional("Windows 8") String os, @Optional("firefox") String browserName, @Optional("34")
-                              String browserVersion, @Optional("http://www.cnn.com") String url) throws IOException {
+    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("Saucelabs") String env, @Optional("rajibdas11") String userName, @Optional("")
+            String accessKey, @Optional("Windows 10") String os, @Optional("firefox") String browserName, @Optional("34")
+                              String browserVersion, @Optional("http://www.amazon.com") String url) throws IOException {
         if (useCloudEnv == true) {
             //run in cloud
             getCloudDriver(env, userName, accessKey, os, browserName, browserVersion);

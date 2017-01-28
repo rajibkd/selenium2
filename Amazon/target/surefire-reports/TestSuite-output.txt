@@ -1,6 +1,4 @@
-Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 14706
-Only local connections are allowed.
-Jan 19, 2017 9:58:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 22, 2017 9:20:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-Jan 19, 2017 9:58:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 22, 2017 9:20:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS

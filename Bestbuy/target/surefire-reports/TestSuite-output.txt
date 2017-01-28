@@ -1,6 +1,4 @@
-Jan 13, 2017 3:03:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 22, 2017 9:49:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-Jan 13, 2017 3:03:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Falling back to original OSS JSON Wire Protocol.
-Jan 13, 2017 3:03:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Falling back to straight W3C remote end connection
+Jan 22, 2017 9:49:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
