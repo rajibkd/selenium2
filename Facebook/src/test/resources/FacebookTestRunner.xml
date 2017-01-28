@@ -7,7 +7,7 @@
     <test name = "Facebook Home Page">
         <classes>
             <class name="Page.TestFacebookHomepage"/>
-            <class name="Page.TestFacebookPage"/>
+            <class name="Page.TestLoginPage"/>
         </classes>
     </test>
 </suite>
