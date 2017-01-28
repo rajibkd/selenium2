@@ -1,19 +1,16 @@
 package SearchItems;
 
-import Base.CommonAPI;
+import base.CommonAPI;
 import dataToSearch.ItemsToBeSearched;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import PageFactorySearch.SearchItems;
-import Utility.ConnectDB;
 //import sun.text.normalizer.Utility;
 
 
-import javax.swing.text.Utilities;
 import java.io.IOException;
 
-import java.util.List;
 /**
  * Created by Rajib on 1/11/2017.
  */

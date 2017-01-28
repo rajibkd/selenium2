@@ -1,6 +1,6 @@
 package PageFactorySearch;
 
-import Base.CommonAPI;
+import base.CommonAPI;
 import java.util.ArrayList;
 import java.util.List;
 

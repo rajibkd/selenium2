@@ -1,8 +1,7 @@
 package Page;
 
 
-import Base.CommonAPI;
-import org.openqa.selenium.By;
+import base.CommonAPI;
 import org.testng.annotations.Test;
 
 
