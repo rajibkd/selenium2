@@ -1,445 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="14" failed="0" ignored="0" total="14" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="Amazon E-Commerce" duration-ms="2215" started-at="2017-01-28T19:27:59Z" finished-at="2017-01-28T19:28:02Z">
+  <suite name="Amazon E-Commerce" duration-ms="450225" started-at="2017-01-29T02:26:54Z" finished-at="2017-01-29T02:34:25Z">
     <groups>
     </groups>
-    <test name="Amazon Search" duration-ms="2215" started-at="2017-01-28T19:27:59Z" finished-at="2017-01-28T19:28:02Z">
+    <test name="Amazon Search" duration-ms="450225" started-at="2017-01-29T02:26:54Z" finished-at="2017-01-29T02:34:25Z">
       <class name="SearchItems.DropDownMenuSearch">
-        <test-method status="SKIP" signature="dropDownMenu()[pri:0, instance:SearchItems.DropDownMenuSearch@531be3c5]" name="dropDownMenu" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
-	at Base.CommonAPI.setUp(CommonAPI.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dropDownMenu -->
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.DropDownMenuSearch@531be3c5]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:SearchItems.DropDownMenuSearch@531be3c5]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- SearchItems.DropDownMenuSearch -->
-      <class name="Page.LogIntoAmazon">
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Page.LogIntoAmazon@5a61f5df]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="LoginTest()[pri:0, instance:Page.LogIntoAmazon@5a61f5df]" name="LoginTest" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
-	at Base.CommonAPI.setUp(CommonAPI.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Page.LogIntoAmazon@5a61f5df]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Page.LogIntoAmazon -->
-      <class name="SearchItems.SearchItemsByMongoDB">
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.SearchItemsByMongoDB@2096442d]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="searchUsingMongoDB()[pri:0, instance:SearchItems.SearchItemsByMongoDB@2096442d]" name="searchUsingMongoDB" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
-	at Base.CommonAPI.setUp(CommonAPI.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchUsingMongoDB -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:SearchItems.SearchItemsByMongoDB@2096442d]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- SearchItems.SearchItemsByMongoDB -->
-      <class name="SearchItems.SearchItemsByDataProvider">
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDataProvider@735b478]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="searchUsingDataProvider(java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDataProvider@735b478]" name="searchUsingDataProvider" duration-ms="0" started-at="2017-01-28T14:28:02Z" data-provider="items" finished-at="2017-01-28T14:28:02Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.DropDownMenuSearch@6537cf78]" name="setUp" is-config="true" duration-ms="10543" started-at="2017-01-28T21:30:29Z" finished-at="2017-01-28T21:30:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Books]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
-	at Base.CommonAPI.setUp(CommonAPI.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchUsingDataProvider -->
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDataProvider@735b478]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:SearchItems.SearchItemsByDataProvider@735b478]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="searchUsingDataProvider(java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDataProvider@735b478]" name="searchUsingDataProvider" duration-ms="0" started-at="2017-01-28T14:28:02Z" data-provider="items" finished-at="2017-01-28T14:28:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Baby]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
-	at Base.CommonAPI.setUp(CommonAPI.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchUsingDataProvider -->
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDataProvider@735b478]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:SearchItems.SearchItemsByDataProvider@735b478]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="searchUsingDataProvider(java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDataProvider@735b478]" name="searchUsingDataProvider" duration-ms="0" started-at="2017-01-28T14:28:02Z" data-provider="items" finished-at="2017-01-28T14:28:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Computer]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
-	at Base.CommonAPI.setUp(CommonAPI.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchUsingDataProvider -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:SearchItems.SearchItemsByDataProvider@735b478]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- SearchItems.SearchItemsByDataProvider -->
-      <class name="Page.TestAmazonHomepage">
-        <test-method status="FAIL" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Page.TestAmazonHomepage@3cbbc1e0]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-28T14:27:59Z" finished-at="2017-01-28T14:27:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[true]]>
+                <![CDATA[false]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[browserstack]]>
+                <![CDATA[Browserstack]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[rajibdas11]]>
+                <![CDATA[rajibdas12]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[yDwsyMCrMHyXEHwXo415]]>
+                <![CDATA[wuiT8HRRjNyUMkkKK8ML]]>
               </value>
             </param>
             <param index="4">
@@ -463,580 +50,759 @@ Session ID:
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
-	at Base.CommonAPI.setUp(CommonAPI.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="testAmazonHomepage()[pri:0, instance:Page.TestAmazonHomepage@3cbbc1e0]" name="testAmazonHomepage" duration-ms="2" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
-	at Base.CommonAPI.setUp(CommonAPI.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="dropDownMenu()[pri:0, instance:SearchItems.DropDownMenuSearch@6537cf78]" name="dropDownMenu" duration-ms="36392" started-at="2017-01-28T21:30:40Z" finished-at="2017-01-28T21:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchItems.DropDownMenuSearch@6537cf78]" name="tearDown" is-config="true" duration-ms="620" started-at="2017-01-28T21:31:16Z" finished-at="2017-01-28T21:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SearchItems.DropDownMenuSearch -->
+      <class name="Page.LogIntoAmazon">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Page.LogIntoAmazon@2d3fcdbd]" name="setUp" is-config="true" duration-ms="10290" started-at="2017-01-28T21:29:36Z" finished-at="2017-01-28T21:29:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rajibdas12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wuiT8HRRjNyUMkkKK8ML]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Win]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:Page.LogIntoAmazon@2d3fcdbd]" name="LoginTest" duration-ms="10606" started-at="2017-01-28T21:29:47Z" finished-at="2017-01-28T21:29:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Page.LogIntoAmazon@2d3fcdbd]" name="tearDown" is-config="true" duration-ms="750" started-at="2017-01-28T21:29:57Z" finished-at="2017-01-28T21:29:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Page.LogIntoAmazon -->
+      <class name="SearchItems.SearchItemsByDataProvider">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDataProvider@34b7bfc0]" name="setUp" is-config="true" duration-ms="9164" started-at="2017-01-28T21:31:51Z" finished-at="2017-01-28T21:32:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rajibdas12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wuiT8HRRjNyUMkkKK8ML]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Win]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchUsingDataProvider(java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDataProvider@34b7bfc0]" name="searchUsingDataProvider" duration-ms="7570" started-at="2017-01-28T21:32:00Z" data-provider="items" finished-at="2017-01-28T21:32:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Books]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUsingDataProvider -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchItems.SearchItemsByDataProvider@34b7bfc0]" name="tearDown" is-config="true" duration-ms="772" started-at="2017-01-28T21:32:08Z" finished-at="2017-01-28T21:32:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDataProvider@34b7bfc0]" name="setUp" is-config="true" duration-ms="11067" started-at="2017-01-28T21:32:09Z" finished-at="2017-01-28T21:32:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rajibdas12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wuiT8HRRjNyUMkkKK8ML]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Win]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchUsingDataProvider(java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDataProvider@34b7bfc0]" name="searchUsingDataProvider" duration-ms="11495" started-at="2017-01-28T21:32:20Z" data-provider="items" finished-at="2017-01-28T21:32:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Baby]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUsingDataProvider -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchItems.SearchItemsByDataProvider@34b7bfc0]" name="tearDown" is-config="true" duration-ms="386" started-at="2017-01-28T21:32:31Z" finished-at="2017-01-28T21:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDataProvider@34b7bfc0]" name="setUp" is-config="true" duration-ms="9028" started-at="2017-01-28T21:32:32Z" finished-at="2017-01-28T21:32:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rajibdas12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wuiT8HRRjNyUMkkKK8ML]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Win]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchUsingDataProvider(java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDataProvider@34b7bfc0]" name="searchUsingDataProvider" duration-ms="13012" started-at="2017-01-28T21:32:41Z" data-provider="items" finished-at="2017-01-28T21:32:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Computer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUsingDataProvider -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchItems.SearchItemsByDataProvider@34b7bfc0]" name="tearDown" is-config="true" duration-ms="437" started-at="2017-01-28T21:32:54Z" finished-at="2017-01-28T21:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SearchItems.SearchItemsByDataProvider -->
+      <class name="SearchItems.SearchItemsByMongoDB">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.SearchItemsByMongoDB@6df97b55]" name="setUp" is-config="true" duration-ms="9254" started-at="2017-01-28T21:33:55Z" finished-at="2017-01-28T21:34:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rajibdas12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wuiT8HRRjNyUMkkKK8ML]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Win]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchUsingMongoDB()[pri:0, instance:SearchItems.SearchItemsByMongoDB@6df97b55]" name="searchUsingMongoDB" duration-ms="20456" started-at="2017-01-28T21:34:04Z" finished-at="2017-01-28T21:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUsingMongoDB -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchItems.SearchItemsByMongoDB@6df97b55]" name="tearDown" is-config="true" duration-ms="280" started-at="2017-01-28T21:34:24Z" finished-at="2017-01-28T21:34:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SearchItems.SearchItemsByMongoDB -->
+      <class name="Page.TestAmazonHomepage">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Page.TestAmazonHomepage@6b143ee9]" name="setUp" is-config="true" duration-ms="13479" started-at="2017-01-28T21:26:54Z" finished-at="2017-01-28T21:27:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rajibdas12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wuiT8HRRjNyUMkkKK8ML]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Win]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAmazonHomepage()[pri:0, instance:Page.TestAmazonHomepage@6b143ee9]" name="testAmazonHomepage" duration-ms="2496" started-at="2017-01-28T21:27:08Z" finished-at="2017-01-28T21:27:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAmazonHomepage -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Page.TestAmazonHomepage@3cbbc1e0]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Page.TestAmazonHomepage@6b143ee9]" name="tearDown" is-config="true" duration-ms="392" started-at="2017-01-28T21:27:10Z" finished-at="2017-01-28T21:27:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Page.TestAmazonHomepage -->
       <class name="Page.exploreHomePage">
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Page.exploreHomePage@7225790e]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Page.exploreHomePage@6615435c]" name="setUp" is-config="true" duration-ms="9485" started-at="2017-01-28T21:27:30Z" finished-at="2017-01-28T21:27:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rajibdas12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wuiT8HRRjNyUMkkKK8ML]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Win]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="exploreHomepage()[pri:0, instance:Page.exploreHomePage@7225790e]" name="exploreHomepage" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
-	at Base.CommonAPI.setUp(CommonAPI.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="exploreHomepage()[pri:0, instance:Page.exploreHomePage@6615435c]" name="exploreHomepage" duration-ms="16258" started-at="2017-01-28T21:27:40Z" finished-at="2017-01-28T21:27:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exploreHomepage -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Page.exploreHomePage@7225790e]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Page.exploreHomePage@6615435c]" name="tearDown" is-config="true" duration-ms="365" started-at="2017-01-28T21:27:56Z" finished-at="2017-01-28T21:27:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Page.exploreHomePage -->
       <class name="SearchItems.SearchItemsByExcel">
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.SearchItemsByExcel@2c9f9fb0]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.SearchItemsByExcel@366e2eef]" name="setUp" is-config="true" duration-ms="8933" started-at="2017-01-28T21:32:54Z" finished-at="2017-01-28T21:33:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rajibdas12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wuiT8HRRjNyUMkkKK8ML]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Win]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="search()[pri:0, instance:SearchItems.SearchItemsByExcel@2c9f9fb0]" name="search" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
-	at Base.CommonAPI.setUp(CommonAPI.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="search()[pri:0, instance:SearchItems.SearchItemsByExcel@366e2eef]" name="search" duration-ms="51300" started-at="2017-01-28T21:33:03Z" finished-at="2017-01-28T21:33:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:SearchItems.SearchItemsByExcel@2c9f9fb0]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchItems.SearchItemsByExcel@366e2eef]" name="tearDown" is-config="true" duration-ms="431" started-at="2017-01-28T21:33:54Z" finished-at="2017-01-28T21:33:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SearchItems.SearchItemsByExcel -->
-      <class name="Shopping.FindAndAddToCart">
-        <test-method status="SKIP" signature="findAndAddToCart()[pri:0, instance:Shopping.FindAndAddToCart@54a097cc]" name="findAndAddToCart" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
-	at Base.CommonAPI.setUp(CommonAPI.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findAndAddToCart -->
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Shopping.FindAndAddToCart@54a097cc]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Shopping.FindAndAddToCart@54a097cc]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Shopping.FindAndAddToCart -->
       <class name="Page.LogOutFromAmazon">
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Page.LogOutFromAmazon@3551a94]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Page.LogOutFromAmazon@617c74e5]" name="setUp" is-config="true" duration-ms="10516" started-at="2017-01-28T21:29:58Z" finished-at="2017-01-28T21:30:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rajibdas12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wuiT8HRRjNyUMkkKK8ML]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Win]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="logOutFromAmazon()[pri:0, instance:Page.LogOutFromAmazon@3551a94]" name="logOutFromAmazon" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
-	at Base.CommonAPI.setUp(CommonAPI.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="logOutFromAmazon()[pri:0, instance:Page.LogOutFromAmazon@617c74e5]" name="logOutFromAmazon" duration-ms="20517" started-at="2017-01-28T21:30:09Z" finished-at="2017-01-28T21:30:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromAmazon -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Page.LogOutFromAmazon@3551a94]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Page.LogOutFromAmazon@617c74e5]" name="tearDown" is-config="true" duration-ms="414" started-at="2017-01-28T21:30:29Z" finished-at="2017-01-28T21:30:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Page.LogOutFromAmazon -->
-      <class name="CreateAccount.CreateAnewAccount">
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CreateAccount.CreateAnewAccount@35fb3008]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
+      <class name="Shopping.FindAndAddToCart">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Shopping.FindAndAddToCart@4909b8da]" name="setUp" is-config="true" duration-ms="10273" started-at="2017-01-28T21:27:56Z" finished-at="2017-01-28T21:28:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rajibdas12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wuiT8HRRjNyUMkkKK8ML]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Win]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="newAccount()[pri:0, instance:CreateAccount.CreateAnewAccount@35fb3008]" name="newAccount" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
-	at Base.CommonAPI.setUp(CommonAPI.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="findAndAddToCart()[pri:0, instance:Shopping.FindAndAddToCart@4909b8da]" name="findAndAddToCart" duration-ms="47089" started-at="2017-01-28T21:28:06Z" finished-at="2017-01-28T21:28:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAndAddToCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Shopping.FindAndAddToCart@4909b8da]" name="tearDown" is-config="true" duration-ms="457" started-at="2017-01-28T21:28:54Z" finished-at="2017-01-28T21:28:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Shopping.FindAndAddToCart -->
+      <class name="CreateAccount.CreateAnewAccount">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CreateAccount.CreateAnewAccount@1936f0f5]" name="setUp" is-config="true" duration-ms="8955" started-at="2017-01-28T21:27:11Z" finished-at="2017-01-28T21:27:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rajibdas12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wuiT8HRRjNyUMkkKK8ML]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Win]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="newAccount()[pri:0, instance:CreateAccount.CreateAnewAccount@1936f0f5]" name="newAccount" duration-ms="9930" started-at="2017-01-28T21:27:20Z" finished-at="2017-01-28T21:27:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newAccount -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:CreateAccount.CreateAnewAccount@35fb3008]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:CreateAccount.CreateAnewAccount@1936f0f5]" name="tearDown" is-config="true" duration-ms="293" started-at="2017-01-28T21:27:30Z" finished-at="2017-01-28T21:27:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- CreateAccount.CreateAnewAccount -->
       <class name="SearchItems.SearchItemsByDatabase">
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDatabase@52af6cff]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDatabase@67b6d4ae]" name="setUp" is-config="true" duration-ms="10328" started-at="2017-01-28T21:31:17Z" finished-at="2017-01-28T21:31:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rajibdas12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wuiT8HRRjNyUMkkKK8ML]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Win]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="searchUsingDB()[pri:0, instance:SearchItems.SearchItemsByDatabase@52af6cff]" name="searchUsingDB" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
-	at Base.CommonAPI.setUp(CommonAPI.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="searchUsingDB()[pri:0, instance:SearchItems.SearchItemsByDatabase@67b6d4ae]" name="searchUsingDB" duration-ms="23246" started-at="2017-01-28T21:31:27Z" finished-at="2017-01-28T21:31:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchUsingDB -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:SearchItems.SearchItemsByDatabase@52af6cff]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchItems.SearchItemsByDatabase@67b6d4ae]" name="tearDown" is-config="true" duration-ms="424" started-at="2017-01-28T21:31:51Z" finished-at="2017-01-28T21:31:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SearchItems.SearchItemsByDatabase -->
       <class name="Shopping.DeleteFromCart">
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Shopping.DeleteFromCart@36f6e879]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Shopping.DeleteFromCart@3a03464]" name="setUp" is-config="true" duration-ms="10837" started-at="2017-01-28T21:28:54Z" finished-at="2017-01-28T21:29:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rajibdas12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wuiT8HRRjNyUMkkKK8ML]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Win]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="deleteFromCart()[pri:0, instance:Shopping.DeleteFromCart@36f6e879]" name="deleteFromCart" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:822)
-	at Base.CommonAPI.setUp(CommonAPI.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="deleteFromCart()[pri:0, instance:Shopping.DeleteFromCart@3a03464]" name="deleteFromCart" duration-ms="30615" started-at="2017-01-28T21:29:05Z" finished-at="2017-01-28T21:29:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteFromCart -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Shopping.DeleteFromCart@36f6e879]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-01-28T14:28:02Z" finished-at="2017-01-28T14:28:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Shopping.DeleteFromCart@3a03464]" name="tearDown" is-config="true" duration-ms="969" started-at="2017-01-28T21:29:35Z" finished-at="2017-01-28T21:29:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

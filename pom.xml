@@ -11,11 +11,11 @@
     <modules>
         <module>Generic</module>
         <module>Amazon</module>
-        <module>Cnn</module>
-        <module>Citibank</module>
-        <module>Facebook</module>
-        <module>LIJ</module>
-        <module>Bestbuy</module>
+        <!--<module>Cnn</module>-->
+        <!--<module>Citibank</module>-->
+        <!--<module>Facebook</module>-->
+        <!--<module>LIJ</module>-->
+        <!--<module>Bestbuy</module>-->
     </modules>
     <dependencyManagement>
         <dependencies>
@@ -61,41 +61,41 @@
                 <module>Amazon</module>
             </modules>
         </profile>
-        <profile>
-            <id>bestbuy-app</id>
-            <modules>
-                <module>Generic</module>
-                <module>Bestbuy</module>
-            </modules>
-        </profile>
-        <profile>
-            <id>citibank-app</id>
-            <modules>
-                <module>Generic</module>
-                <module>Citibank</module>
-            </modules>
-        </profile>
-        <profile>
-            <id>cnn-app</id>
-            <modules>
-                <module>Generic</module>
-                <module>Cnn</module>
-            </modules>
-        </profile>
-        <profile>
-            <id>facebook-app</id>
-            <modules>
-                <module>Generic</module>
-                <module>Facebook</module>
-            </modules>
-        </profile>
-        <profile>
-            <id>lij-app</id>
-            <modules>
-                <module>Generic</module>
-                <module>LIJ</module>
-            </modules>
-        </profile>
+        <!--<profile>-->
+            <!--<id>bestbuy-app</id>-->
+            <!--<modules>-->
+                <!--<module>Generic</module>-->
+                <!--<module>Bestbuy</module>-->
+            <!--</modules>-->
+        <!--</profile>-->
+        <!--<profile>-->
+            <!--<id>citibank-app</id>-->
+            <!--<modules>-->
+                <!--<module>Generic</module>-->
+                <!--<module>Citibank</module>-->
+            <!--</modules>-->
+        <!--</profile>-->
+        <!--<profile>-->
+            <!--<id>cnn-app</id>-->
+            <!--<modules>-->
+                <!--<module>Generic</module>-->
+                <!--<module>Cnn</module>-->
+            <!--</modules>-->
+        <!--</profile>-->
+        <!--<profile>-->
+            <!--<id>facebook-app</id>-->
+            <!--<modules>-->
+                <!--<module>Generic</module>-->
+                <!--<module>Facebook</module>-->
+            <!--</modules>-->
+        <!--</profile>-->
+        <!--<profile>-->
+            <!--<id>lij-app</id>-->
+            <!--<modules>-->
+                <!--<module>Generic</module>-->
+                <!--<module>LIJ</module>-->
+            <!--</modules>-->
+        <!--</profile>-->
         <profile>
             <id>default</id>
             <activation>
@@ -104,11 +104,11 @@
             <modules>
                 <module>Generic</module>
                 <module>Amazon</module>
-                <module>Bestbuy</module>
-                <module>Citibank</module>
-                <module>Cnn</module>
-                <module>Facebook</module>
-                <module>LIJ</module>
+                <!--<module>Bestbuy</module>-->
+                <!--<module>Citibank</module>-->
+                <!--<module>Cnn</module>-->
+                <!--<module>Facebook</module>-->
+                <!--<module>LIJ</module>-->
             </modules>
         </profile>
     </profiles>

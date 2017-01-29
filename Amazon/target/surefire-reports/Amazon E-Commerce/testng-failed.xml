@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Amazon E-Commerce]" parallel="tests">
-  <parameter name="useCloudEnv" value="true"/>
-  <parameter name="os" value="Win"/>
-  <parameter name="accessKey" value="yDwsyMCrMHyXEHwXo415"/>
-  <parameter name="browserVersion" value="55.0"/>
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="Windows 10"/>
+  <parameter name="accessKey" value="wuiT8HRRjNyUMkkKK8ML"/>
+  <parameter name="browserVersion" value="50.0"/>
   <parameter name="browserName" value="chrome"/>
-  <parameter name="env" value="browserstack"/>
-  <parameter name="userName" value="rajibdas11"/>
+  <parameter name="env" value="Browserstack"/>
+  <parameter name="userName" value="rajibdas12"/>
   <parameter name="url" value="http://www.amazon.com"/>
   <test name="Amazon Search(failed)" parallel="tests">
     <classes>
-      <class name="CreateAccount.CreateAnewAccount">
-        <methods>
-          <include name="newAccount"/>
-        </methods>
-      </class> <!-- CreateAccount.CreateAnewAccount -->
-      <class name="Shopping.DeleteFromCart">
-        <methods>
-          <include name="deleteFromCart"/>
-        </methods>
-      </class> <!-- Shopping.DeleteFromCart -->
       <class name="Shopping.FindAndAddToCart">
         <methods>
           <include name="findAndAddToCart"/>
         </methods>
       </class> <!-- Shopping.FindAndAddToCart -->
-      <class name="SearchItems.DropDownMenuSearch">
-        <methods>
-          <include name="dropDownMenu"/>
-        </methods>
-      </class> <!-- SearchItems.DropDownMenuSearch -->
       <class name="Page.LogIntoAmazon">
         <methods>
           <include name="LoginTest"/>
         </methods>
       </class> <!-- Page.LogIntoAmazon -->
+      <class name="SearchItems.SearchItemsByDataProvider">
+        <methods>
+          <include name="searchUsingDataProvider" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- SearchItems.SearchItemsByDataProvider -->
+      <class name="Page.LogOutFromAmazon">
+        <methods>
+          <include name="logOutFromAmazon"/>
+        </methods>
+      </class> <!-- Page.LogOutFromAmazon -->
+      <class name="SearchItems.SearchItemsByMongoDB">
+        <methods>
+          <include name="searchUsingMongoDB"/>
+        </methods>
+      </class> <!-- SearchItems.SearchItemsByMongoDB -->
+      <class name="Page.exploreHomePage">
+        <methods>
+          <include name="exploreHomepage"/>
+        </methods>
+      </class> <!-- Page.exploreHomePage -->
+      <class name="SearchItems.SearchItemsByDatabase">
+        <methods>
+          <include name="searchUsingDB"/>
+        </methods>
+      </class> <!-- SearchItems.SearchItemsByDatabase -->
+      <class name="SearchItems.SearchItemsByExcel">
+        <methods>
+          <include name="search"/>
+        </methods>
+      </class> <!-- SearchItems.SearchItemsByExcel -->
+      <class name="CreateAccount.CreateAnewAccount">
+        <methods>
+          <include name="newAccount"/>
+        </methods>
+      </class> <!-- CreateAccount.CreateAnewAccount -->
+      <class name="SearchItems.DropDownMenuSearch">
+        <methods>
+          <include name="dropDownMenu"/>
+        </methods>
+      </class> <!-- SearchItems.DropDownMenuSearch -->
       <class name="Page.TestAmazonHomepage">
         <methods>
           <include name="testAmazonHomepage"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- Page.TestAmazonHomepage -->
-      <class name="Page.exploreHomePage">
+      <class name="Shopping.DeleteFromCart">
         <methods>
-          <include name="exploreHomepage"/>
+          <include name="deleteFromCart"/>
         </methods>
-      </class> <!-- Page.exploreHomePage -->
-      <class name="SearchItems.SearchItemsByMongoDB">
-        <methods>
-          <include name="searchUsingMongoDB"/>
-        </methods>
-      </class> <!-- SearchItems.SearchItemsByMongoDB -->
-      <class name="SearchItems.SearchItemsByExcel">
-        <methods>
-          <include name="search"/>
-        </methods>
-      </class> <!-- SearchItems.SearchItemsByExcel -->
-      <class name="SearchItems.SearchItemsByDatabase">
-        <methods>
-          <include name="searchUsingDB"/>
-        </methods>
-      </class> <!-- SearchItems.SearchItemsByDatabase -->
-      <class name="Page.LogOutFromAmazon">
-        <methods>
-          <include name="logOutFromAmazon"/>
-        </methods>
-      </class> <!-- Page.LogOutFromAmazon -->
-      <class name="SearchItems.SearchItemsByDataProvider">
-        <methods>
-          <include name="searchUsingDataProvider" invocation-numbers="0 1 2"/>
-        </methods>
-      </class> <!-- SearchItems.SearchItemsByDataProvider -->
+      </class> <!-- Shopping.DeleteFromCart -->
     </classes>
   </test> <!-- Amazon Search(failed) -->
 </suite> <!-- Failed suite [Amazon E-Commerce] -->

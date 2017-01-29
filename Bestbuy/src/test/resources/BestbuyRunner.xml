@@ -4,9 +4,9 @@
 
     <parameter name="useCloudEnv" value="true"/>
     <parameter name="env" value="browserstack"/>
-    <parameter name="userName" value="rajibdas11"/>
-    <parameter name="accessKey" value="yDwsyMCrMHyXEHwXo415"/>
-    <parameter name="os" value="Windows 10"/>
+    <parameter name="userName" value="rajibdas12"/>
+    <parameter name="accessKey" value="wuiT8HRRjNyUMkkKK8ML"/>
+    <parameter name="os" value="OS X"/>
     <parameter name="url" value="http://www.bestbuy.com/"/>
     <parameter name="browserName" value="Chrome"/>
     <parameter name="browserVersion" value="55.0"/>

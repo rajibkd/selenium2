@@ -2,13 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Amazon E-Commerce" parallel="tests">
 
-    <parameter name="useCloudEnv" value="true"/>
-    <parameter name="env" value="browserstack"/>
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="env" value="Browserstack"/>
     <parameter name="userName" value="rajibdas12"/>
     <parameter name="accessKey" value="wuiT8HRRjNyUMkkKK8ML"/>
     <parameter name="os" value="Win"/>
     <parameter name="browserName" value="chrome"/>
-    <parameter name="browserVersion" value="50.0"/>
+    <parameter name="browserVersion" value="55.0"/>
     <parameter name="url" value="http://www.amazon.com"/>
 
     <test name = "Amazon Search">

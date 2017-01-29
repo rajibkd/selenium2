@@ -2,36 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515fdf2c-394d-42af-9ec7-fd692a4d8ffc" name="Default" comment="First Commit">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/classes/ItemsSearch/SearchUtilities.class" afterPath="$PROJECT_DIR$/Amazon/target/classes/ItemsSearch/SearchUtilities.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/classes/methods/CommonMethods.class" afterPath="$PROJECT_DIR$/Amazon/target/classes/methods/CommonMethods.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/classes/pageFactoryLogin/LogInInfo.class" afterPath="$PROJECT_DIR$/Amazon/target/classes/pageFactoryLogin/LogInInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/CreateAccount/CreateAnewAccount.class" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/CreateAccount/CreateAnewAccount.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/Page/LogIntoAmazon.class" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/Page/LogIntoAmazon.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/Page/LogOutFromAmazon.class" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/Page/LogOutFromAmazon.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/Page/TestAmazonHomepage.class" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/Page/TestAmazonHomepage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/Page/exploreHomePage.class" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/Page/exploreHomePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/SearchItems/Items.class" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/SearchItems/Items.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/SearchItems/SearchItemsByDataProvider.class" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/SearchItems/SearchItemsByDataProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/SearchItems/SearchItemsByDatabase.class" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/SearchItems/SearchItemsByDatabase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/SearchItems/SearchItemsByExcel.class" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/SearchItems/SearchItemsByExcel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/SearchItems/SearchItemsByMongoDB.class" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/SearchItems/SearchItemsByMongoDB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/Shopping/DeleteFromCart.class" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/Shopping/DeleteFromCart.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/Shopping/FindAndAddToCart.class" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/Shopping/FindAndAddToCart.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" afterPath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/target/test-classes/Page/TestLIJHomepage.class" afterPath="$PROJECT_DIR$/LIJ/target/test-classes/Page/TestLIJHomepage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/src/main/java/methods/CommonMethods.java" afterPath="$PROJECT_DIR$/Amazon/src/main/java/methods/CommonMethods.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/src/main/java/pageFactoryLogin/LogInInfo.java" afterPath="$PROJECT_DIR$/Amazon/src/main/java/pageFactoryLogin/LogInInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/src/test/java/Page/LogOutFromAmazon.java" afterPath="$PROJECT_DIR$/Amazon/src/test/java/Page/LogOutFromAmazon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/src/test/java/Page/TestAmazonHomepage.java" afterPath="$PROJECT_DIR$/Amazon/src/test/java/Page/TestAmazonHomepage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/src/test/java/Shopping/DeleteFromCart.java" afterPath="$PROJECT_DIR$/Amazon/src/test/java/Shopping/DeleteFromCart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/src/test/java/Shopping/FindAndAddToCart.java" afterPath="$PROJECT_DIR$/Amazon/src/test/java/Shopping/FindAndAddToCart.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" afterPath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/Amazon E-Commerce/Amazon Search.html" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/Amazon E-Commerce/Amazon Search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/Amazon E-Commerce/Amazon Search.xml" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/Amazon E-Commerce/Amazon Search.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/Amazon E-Commerce/testng-failed.xml" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/Amazon E-Commerce/testng-failed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/TEST-TestSuite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/TestSuite-output.txt" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/TestSuite-output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/TestSuite.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/emailable-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-CreateAccount.CreateAnewAccount.xml" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-CreateAccount.CreateAnewAccount.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-Page.LogIntoAmazon.xml" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-Page.LogIntoAmazon.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-Page.LogOutFromAmazon.xml" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-Page.LogOutFromAmazon.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-Page.TestAmazonHomepage.xml" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-Page.TestAmazonHomepage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-Page.exploreHomePage.xml" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-Page.exploreHomePage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-SearchItems.DropDownMenuSearch.xml" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-SearchItems.DropDownMenuSearch.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-SearchItems.SearchItemsByDataProvider.xml" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-SearchItems.SearchItemsByDataProvider.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-SearchItems.SearchItemsByDatabase.xml" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-SearchItems.SearchItemsByDatabase.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-SearchItems.SearchItemsByExcel.xml" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-SearchItems.SearchItemsByExcel.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-SearchItems.SearchItemsByMongoDB.xml" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-SearchItems.SearchItemsByMongoDB.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-Shopping.DeleteFromCart.xml" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-Shopping.DeleteFromCart.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-Shopping.FindAndAddToCart.xml" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-Shopping.FindAndAddToCart.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Amazon E-Commerce/methods-alphabetical.html" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Amazon E-Commerce/methods-alphabetical.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Amazon E-Commerce/methods.html" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Amazon E-Commerce/methods.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Amazon E-Commerce/testng.xml.html" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Amazon E-Commerce/testng.xml.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/testng-failed.xml" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/testng-failed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/testng-results.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/AmazonTestRunner.xml" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/AmazonTestRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/Bestbuy.iml" afterPath="$PROJECT_DIR$/Bestbuy/Bestbuy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" afterPath="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/test-classes/BestbuyRunner.xml" afterPath="$PROJECT_DIR$/Bestbuy/target/test-classes/BestbuyRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Citibank/Citibank.iml" afterPath="$PROJECT_DIR$/Citibank/Citibank.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/Cnn.iml" afterPath="$PROJECT_DIR$/Cnn/Cnn.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/Facebook.iml" afterPath="$PROJECT_DIR$/Facebook/Facebook.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LIJ/LIJ.iml" afterPath="$PROJECT_DIR$/LIJ/LIJ.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,18 +71,48 @@
       <file leaf-file-name="AmazonTestRunner.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="59" lean-forward="false" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+            <state relative-caret-position="81">
+              <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateAnewAccount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/CreateAccount/CreateAnewAccount.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="455">
+              <caret line="114" column="10" lean-forward="true" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LIJTestRunner.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LIJ/src/test/resources/LIJTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BestbuyRunner.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BestbuyAppLogTestRunner" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyAppLogTestRunner">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,7 +121,7 @@
       <file leaf-file-name="TestAmazonHomepage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/Page/TestAmazonHomepage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
+            <state relative-caret-position="187">
               <caret line="13" column="63" lean-forward="false" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,8 +133,8 @@
       <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,7 +145,7 @@
       <file leaf-file-name="FindAndAddToCart.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/Shopping/FindAndAddToCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
+            <state relative-caret-position="187">
               <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -120,34 +157,8 @@
       <file leaf-file-name="DeleteFromCart.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/Shopping/DeleteFromCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogInInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/pageFactoryLogin/LogInInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="68" column="69" lean-forward="false" selection-start-line="68" selection-start-column="69" selection-end-line="68" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1309#1310#0" expanded="true" />
-                <element signature="e#1378#1379#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogIntoAmazon.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/Page/LogIntoAmazon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="255">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,20 +169,8 @@
       <file leaf-file-name="LogOutFromAmazon.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/Page/LogOutFromAmazon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
+            <state relative-caret-position="136">
               <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonMethods.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/methods/CommonMethods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -236,20 +235,20 @@
         <option value="$PROJECT_DIR$/Amazon/src/test/java/SearchItems/DropDownMenuSearch.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/SearchItems/SearchItemsByDatabase.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/SearchItems/SearchItemsByMongoDB.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/LIJ/pom.xml" />
         <option value="$PROJECT_DIR$/LIJ/src/test/resources/LIJTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/Page/LogIntoAmazon.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/Page/exploreHomePage.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/CreateAccount/CreateAnewAccount.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/Page/TestAmazonHomepage.java" />
         <option value="$PROJECT_DIR$/Amazon/src/main/java/methods/CommonMethods.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Amazon/src/main/java/pageFactoryLogin/LogInInfo.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/Shopping/FindAndAddToCart.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/Shopping/DeleteFromCart.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/Page/LogOutFromAmazon.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
       </list>
     </option>
@@ -292,7 +291,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -311,8 +310,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -322,76 +319,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -725,6 +652,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1134,10 +1063,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Amazon/src/test/resources/AmazonTestRunner.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TestAmazonHomepage.testAmazonHomepage" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.LogOutFromAmazon" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/LIJ/src/test/resources/LIJTestRunner.xml" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.TestAmazonHomepage.testAmazonHomepage" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.LogOutFromAmazon" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/LIJ/src/test/resources/LIJTestRunner.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -1155,40 +1084,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Amazon_src_test_resources_AmazonTestRunner_xml - 2017.01.28 at 13h 29m 16s.xml">
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Amazon_src_test_resources_AmazonTestRunner_xml - 2017.01.28 at 15h 46m 58s.xml">
       <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Amazon_src_test_resources_AmazonTestRunner_xml - 2017.01.28 at 13h 45m 01s.xml">
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Amazon_src_test_resources_AmazonTestRunner_xml - 2017.01.28 at 15h 47m 41s.xml">
       <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Amazon_src_test_resources_AmazonTestRunner_xml - 2017.01.28 at 13h 56m 55s.xml">
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Amazon_src_test_resources_AmazonTestRunner_xml - 2017.01.28 at 15h 55m 35s.xml">
       <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Amazon_src_test_resources_AmazonTestRunner_xml - 2017.01.28 at 14h 05m 08s.xml">
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Amazon_src_test_resources_AmazonTestRunner_xml - 2017.01.28 at 21h 16m 08s.xml">
       <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Amazon_src_test_resources_AmazonTestRunner_xml - 2017.01.28 at 14h 09m 34s.xml">
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Amazon_src_test_resources_AmazonTestRunner_xml - 2017.01.28 at 21h 16m 57s.xml">
       <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Amazon_src_test_resources_AmazonTestRunner_xml - 2017.01.28 at 14h 17m 00s.xml">
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Amazon_src_test_resources_AmazonTestRunner_xml - 2017.01.28 at 21h 25m 25s.xml">
       <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Amazon_src_test_resources_AmazonTestRunner_xml - 2017.01.28 at 14h 24m 23s.xml">
-      <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.28 at 15h 22m 13s.xml">
+      <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Amazon_src_test_resources_AmazonTestRunner_xml - 2017.01.28 at 14h 25m 54s.xml">
-      <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.28 at 15h 27m 19s.xml">
+      <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Amazon_src_test_resources_AmazonTestRunner_xml - 2017.01.28 at 14h 29m 16s.xml">
-      <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.28 at 15h 27m 51s.xml">
+      <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Amazon_src_test_resources_AmazonTestRunner_xml - 2017.01.28 at 14h 30m 12s.xml">
-      <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Rajib_IdeaProjects_MyFramework_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.28 at 15h 31m 18s.xml">
+      <configuration name="C:/Users/Rajib/IdeaProjects/MyFramework/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1198,14 +1127,14 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5364188" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26626325" sideWeight="0.4818402" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26626325" sideWeight="0.4818402" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49092284" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39443535" sideWeight="0.46358117" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39443535" sideWeight="0.46358117" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3584288" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3584288" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25113463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25493172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1420,15 +1349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1472,13 +1392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LIJ/src/test/resources/LIJTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/home/LogOut.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1490,23 +1403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyAppLogTestRunner">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1525,7 +1421,7 @@
         <state relative-caret-position="255">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1564,7 +1460,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/CreateAccount/CreateAnewAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="187">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
@@ -1572,18 +1468,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/Shopping/FindAndAddToCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
+        <state relative-caret-position="187">
           <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/Shopping/DeleteFromCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1592,7 +1478,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/Page/LogOutFromAmazon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="136">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1602,7 +1488,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/Page/TestAmazonHomepage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
+        <state relative-caret-position="187">
           <caret line="13" column="63" lean-forward="false" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1610,10 +1496,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LIJ/src/test/resources/LIJTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyAppLogTestRunner">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/Shopping/DeleteFromCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="114" column="10" lean-forward="true" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1622,8 +1550,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="59" lean-forward="false" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+        <state relative-caret-position="81">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding />
         </state>
       </provider>

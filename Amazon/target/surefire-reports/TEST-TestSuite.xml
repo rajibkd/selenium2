@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="5.476" tests="42" errors="0" skipped="41" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="452.45" tests="14" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="idea.version" value="2016.3.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\bin"/>
     <property name="java.vm.version" value="25.71-b15"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Rajib\IdeaProjects\MyFramework\selenium2\Amazon"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Rajib\IdeaProjects\MyFramework\selenium2"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7535"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Rajib\IdeaProjects\MyFramework\selenium2\Amazon"/>
+    <property name="user.dir" value="C:\Users\Rajib\IdeaProjects\MyFramework\selenium2"/>
     <property name="java.runtime.version" value="1.8.0_71-b15"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\endorsed"/>
@@ -28,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_71\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_71\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;%M2_HOME%\bin;C:\Program Files\nodejs\;C:\Program Files\Apache\Maven;C:\Program Files\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\Users\Rajib\AppData\Roaming\npm;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -39,14 +37,13 @@
     <property name="user.timezone" value="America/New_York"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="idea.launcher.bin.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.3\bin"/>
-    <property name="file.encoding" value="UTF-8"/>
+    <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="Rajib"/>
-    <property name="java.class.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.3\lib\idea_rt.jar"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.3.9-bin\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_71\jre"/>
-    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=2016.3.3 install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -54,152 +51,29 @@
     <property name="java.version" value="1.8.0_71"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_71\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.3\plugins\maven\lib\maven3"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.3.9-bin\apache-maven-3.3.9"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="setUp" classname="Page.TestAmazonHomepage" time="3.908">
-    <failure message="Session not started or terminated (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 63 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]&#10;Session ID: " type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Test', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]
-Session ID: 
-</failure>
-    <system-err><![CDATA[Jan 28, 2017 2:28:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-Jan 28, 2017 2:28:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="testAmazonHomepage" classname="Page.TestAmazonHomepage" time="0">
-    <skipped message="Session not started or terminated (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 63 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]&#10;Session ID: "/>
-  </testcase>
-  <testcase name="tearDown" classname="Page.TestAmazonHomepage" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="CreateAccount.CreateAnewAccount" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="newAccount" classname="CreateAccount.CreateAnewAccount" time="0">
-    <skipped message="Session not started or terminated (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 63 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]&#10;Session ID: "/>
-  </testcase>
-  <testcase name="tearDown" classname="CreateAccount.CreateAnewAccount" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="Page.exploreHomePage" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="exploreHomepage" classname="Page.exploreHomePage" time="0">
-    <skipped message="Session not started or terminated (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 63 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]&#10;Session ID: "/>
-  </testcase>
-  <testcase name="tearDown" classname="Page.exploreHomePage" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="Shopping.FindAndAddToCart" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="findAndAddToCart" classname="Shopping.FindAndAddToCart" time="0">
-    <skipped message="Session not started or terminated (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 63 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]&#10;Session ID: "/>
-  </testcase>
-  <testcase name="tearDown" classname="Shopping.FindAndAddToCart" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="Shopping.DeleteFromCart" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="deleteFromCart" classname="Shopping.DeleteFromCart" time="0">
-    <skipped message="Session not started or terminated (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 63 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]&#10;Session ID: "/>
-  </testcase>
-  <testcase name="tearDown" classname="Shopping.DeleteFromCart" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="Page.LogIntoAmazon" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="LoginTest" classname="Page.LogIntoAmazon" time="0">
-    <skipped message="Session not started or terminated (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 63 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]&#10;Session ID: "/>
-  </testcase>
-  <testcase name="tearDown" classname="Page.LogIntoAmazon" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="Page.LogOutFromAmazon" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="logOutFromAmazon" classname="Page.LogOutFromAmazon" time="0">
-    <skipped message="Session not started or terminated (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 63 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]&#10;Session ID: "/>
-  </testcase>
-  <testcase name="tearDown" classname="Page.LogOutFromAmazon" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="SearchItems.DropDownMenuSearch" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="dropDownMenu" classname="SearchItems.DropDownMenuSearch" time="0">
-    <skipped message="Session not started or terminated (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 63 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]&#10;Session ID: "/>
-  </testcase>
-  <testcase name="tearDown" classname="SearchItems.DropDownMenuSearch" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="SearchItems.SearchItemsByDatabase" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="searchUsingDB" classname="SearchItems.SearchItemsByDatabase" time="0">
-    <skipped message="Session not started or terminated (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 63 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]&#10;Session ID: "/>
-  </testcase>
-  <testcase name="tearDown" classname="SearchItems.SearchItemsByDatabase" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="SearchItems.SearchItemsByDataProvider" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="SearchItems.SearchItemsByDataProvider" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="SearchItems.SearchItemsByDataProvider" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="searchUsingDataProvider" classname="SearchItems.SearchItemsByDataProvider" time="0">
-    <skipped message="Session not started or terminated (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 63 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]&#10;Session ID: "/>
-  </testcase>
-  <testcase name="searchUsingDataProvider" classname="SearchItems.SearchItemsByDataProvider" time="0">
-    <skipped message="Session not started or terminated (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 63 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]&#10;Session ID: "/>
-  </testcase>
-  <testcase name="searchUsingDataProvider" classname="SearchItems.SearchItemsByDataProvider" time="0">
-    <skipped message="Session not started or terminated (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 63 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]&#10;Session ID: "/>
-  </testcase>
-  <testcase name="tearDown" classname="SearchItems.SearchItemsByDataProvider" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="SearchItems.SearchItemsByDataProvider" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="SearchItems.SearchItemsByDataProvider" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="SearchItems.SearchItemsByExcel" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="search" classname="SearchItems.SearchItemsByExcel" time="0">
-    <skipped message="Session not started or terminated (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 63 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]&#10;Session ID: "/>
-  </testcase>
-  <testcase name="tearDown" classname="SearchItems.SearchItemsByExcel" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="SearchItems.SearchItemsByMongoDB" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="searchUsingMongoDB" classname="SearchItems.SearchItemsByMongoDB" time="0">
-    <skipped message="Session not started or terminated (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 63 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Test&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{message=Error: OS and OS Version not supported., platform=ANY}]&#10;Session ID: "/>
-  </testcase>
-  <testcase name="tearDown" classname="SearchItems.SearchItemsByMongoDB" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="testAmazonHomepage" classname="Page.TestAmazonHomepage" time="2.497"/>
+  <testcase name="newAccount" classname="CreateAccount.CreateAnewAccount" time="9.932"/>
+  <testcase name="exploreHomepage" classname="Page.exploreHomePage" time="16.261"/>
+  <testcase name="findAndAddToCart" classname="Shopping.FindAndAddToCart" time="47.089"/>
+  <testcase name="deleteFromCart" classname="Shopping.DeleteFromCart" time="30.615"/>
+  <testcase name="LoginTest" classname="Page.LogIntoAmazon" time="10.606"/>
+  <testcase name="logOutFromAmazon" classname="Page.LogOutFromAmazon" time="20.516"/>
+  <testcase name="dropDownMenu" classname="SearchItems.DropDownMenuSearch" time="36.393"/>
+  <testcase name="searchUsingDB" classname="SearchItems.SearchItemsByDatabase" time="23.245"/>
+  <testcase name="searchUsingDataProvider" classname="SearchItems.SearchItemsByDataProvider" time="7.57"/>
+  <testcase name="searchUsingDataProvider" classname="SearchItems.SearchItemsByDataProvider" time="11.494"/>
+  <testcase name="searchUsingDataProvider" classname="SearchItems.SearchItemsByDataProvider" time="13.013"/>
+  <testcase name="search" classname="SearchItems.SearchItemsByExcel" time="51.3"/>
+  <testcase name="searchUsingMongoDB" classname="SearchItems.SearchItemsByMongoDB" time="20.457"/>
 </testsuite>
