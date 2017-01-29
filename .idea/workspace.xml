@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515fdf2c-394d-42af-9ec7-fd692a4d8ffc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/classes/dataToSearch/ItemsToSearch.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Bestbuy/src/main/java/dataToSearch/ItemsToSearch.java" afterPath="$PROJECT_DIR$/Bestbuy/src/main/java/dataToSearch/DataToSearch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/Data/searchData.xls" afterPath="$PROJECT_DIR$/Bestbuy/Data/searchData.xls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/classes/BBMethods/BBCommonAPI.class" afterPath="$PROJECT_DIR$/Bestbuy/target/classes/BBMethods/BBCommonAPI.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/classes/PageFactorySearch/DropDownMenus.class" afterPath="$PROJECT_DIR$/Bestbuy/target/classes/PageFactorySearch/DropDownMenus.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/classes/PageFactorySearch/SearchItems.class" afterPath="$PROJECT_DIR$/Bestbuy/target/classes/PageFactorySearch/SearchItems.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/test-classes/Page/TestDropdownMenus.class" afterPath="$PROJECT_DIR$/Bestbuy/target/test-classes/Page/TestDropdownMenus.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/test-classes/Page/TestSearchItemsByExcel.class" afterPath="$PROJECT_DIR$/Bestbuy/target/test-classes/Page/TestSearchItemsByExcel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/test-classes/Page/TestUserLogin.class" afterPath="$PROJECT_DIR$/Bestbuy/target/test-classes/Page/TestUserLogin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/main/java/BBMethods/BBCommonAPI.java" afterPath="$PROJECT_DIR$/Bestbuy/src/main/java/BBMethods/BBCommonAPI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/DropDownMenus.java" afterPath="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/DropDownMenus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/SearchItems.java" afterPath="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/SearchItems.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestDropdownMenus.java" afterPath="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestDropdownMenus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestSearchItemsByExcel.java" afterPath="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestSearchItemsByExcel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestUserLogin.java" afterPath="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestUserLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" afterPath="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,8 +50,8 @@
       <file leaf-file-name="DropDownMenus.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/DropDownMenus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            <state relative-caret-position="621">
+              <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#DropDownMenus#0" expanded="false" />
@@ -107,8 +88,8 @@
       <file leaf-file-name="TestDropdownMenus.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestDropdownMenus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#TestDropdownMenus#0" expanded="false" />
@@ -130,7 +111,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestHomePage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestHomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -156,11 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BestbuyRunner.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BestbuyRunner.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state relative-caret-position="285">
+              <caret line="19" column="45" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="19" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -259,13 +240,13 @@
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/DropDownMenu.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestUserLogin.java" />
-        <option value="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestDropdownMenus.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/dataToSearch/DataToSearch.java" />
-        <option value="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/DropDownMenus.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/SearchItems.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestSearchItemsByExcel.java" />
-        <option value="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/BBMethods/BBCommonAPI.java" />
+        <option value="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/DropDownMenus.java" />
+        <option value="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestDropdownMenus.java" />
+        <option value="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
       </list>
     </option>
   </component>
@@ -310,10 +291,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="31" />
-    <option name="y" value="30" />
+    <option name="x" value="2007" />
+    <option name="y" value="27" />
     <option name="width" value="1512" />
-    <option name="height" value="1050" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -1061,15 +1042,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.28 at 15h 02m 37s.xml">
-      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.28 at 15h 07m 42s.xml">
-      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.28 at 15h 15m 54s.xml">
-      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.28 at 15h 22m 51s.xml">
       <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -1091,9 +1063,18 @@
     <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.28 at 15h 32m 24s.xml">
       <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.28 at 20h 15m 00s.xml">
+      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.28 at 20h 18m 01s.xml">
+      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.28 at 20h 19m 15s.xml">
+      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="31" y="30" width="1512" height="1050" extended-state="0" />
+    <frame x="2007" y="27" width="1512" height="1053" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1106,7 +1087,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5364188" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17063493" sideWeight="0.4902439" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49092284" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4006116" sideWeight="0.46358117" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28252032" sideWeight="0.46358117" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2388664" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1183,7 +1164,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestDropdownMenus.java</url>
-          <line>18</line>
+          <line>17</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
@@ -1501,17 +1482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/DropDownMenus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#DropDownMenus#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestUserLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1529,17 +1499,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#DataToSearch#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestDropdownMenus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#TestDropdownMenus#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1566,14 +1525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/BBMethods/BBCommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1593,6 +1544,36 @@
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#TestHomePage#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/DropDownMenus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#DropDownMenus#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestDropdownMenus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#TestDropdownMenus#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="45" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="19" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>

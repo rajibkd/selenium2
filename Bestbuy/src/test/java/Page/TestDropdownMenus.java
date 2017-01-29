@@ -14,8 +14,7 @@ public class TestDropdownMenus extends BBCommonAPI{
     public void DropDownMenu() throws InterruptedException{
         BBCommonAPI bb = PageFactory.initElements(driver,BBCommonAPI.class);
         bb.refuseMailingListOption();
-        sleepFor(2);
-
+        sleepFor(1);
         DropDownMenus dd = PageFactory.initElements(driver,DropDownMenus.class);
         dd.dropDownMenu();
     }

@@ -24,7 +24,6 @@ public class DropDownMenus extends CommonAPI {
     @FindBy(how = How.XPATH, using = ".//*[@id='menu3']")
     public static WebElement servicesMenu;
 
-
     public void dropDownMenu()throws InterruptedException{
     productsMenu.click();
     sleepFor(2);
@@ -45,10 +44,4 @@ public class DropDownMenus extends CommonAPI {
 //    public void clearBox() {
 //        clearInput("#gh-search-input");
 //    }
-//
-//   public List<String> getMenus(){
-//        List<String> items = new ArrayList<String>();
-//        items = getListOfWebElementsById(gh-search-input);
-//        return items;
-
 }
