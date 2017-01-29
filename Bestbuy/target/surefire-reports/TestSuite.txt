@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 48.559 sec <<< FAILURE! - in TestSuite
+search(Page.TestSearchItemsByExcel)  Time elapsed: 1.735 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Page.TestSearchItemsByExcel.search(TestSearchItemsByExcel.java:27)
+
+DropDownMenu(Page.TestDropdownMenus)  Time elapsed: 0.058 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: 
+Element is not visible
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'mbp.local', ip: '10.1.10.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.2', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20160502172042, version=, platform=MAC, proxy={}, specificationLevel=1, acceptSslCerts=false, browserVersion=46.0.1, platformVersion=16.3.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Darwin, device=desktop}]
+Session ID: 7e19eb43-ee8b-3a43-805b-03ad8c01ba18
+	at Page.TestDropdownMenus.DropDownMenu(TestDropdownMenus.java:16)
+

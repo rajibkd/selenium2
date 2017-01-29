@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="48.559" tests="4" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="idea.version" value="2016.3.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.112-b16"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/admin/IdeaSpace/selenium2/Bestbuy"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7534"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/admin/IdeaSpace/selenium2/Bestbuy"/>
+    <property name="java.runtime.version" value="1.8.0_112-b16"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/4h/fms1325s1_v01nbsn953sd500000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/admin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.2"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/admin"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="idea.launcher.bin.path" value="/Applications/IntelliJ IDEA CE.app/Contents/bin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="admin"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=2016.3.3 test -P bestbuy-app"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_112"/>
+    <property name="java.ext.dirs" value="/Users/admin/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testUserLogin" classname="Page.TestUserLogin" time="12.251"/>
+  <testcase name="search" classname="Page.TestSearchItemsByExcel" time="1.735">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Page.TestSearchItemsByExcel.search(TestSearchItemsByExcel.java:27)
+</failure>
+    <system-err><![CDATA[&amp#7;[NPAPI 905] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 1857
+[NPAPI 905] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 1857
+Jan 28, 2017 3:01:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1485633719562	geckodriver	INFO	Listening on 127.0.0.1:47548
+1485633719567	mozprofile::profile	INFO	Using profile path /var/folders/4h/fms1325s1_v01nbsn953sd500000gn/T/rust_mozprofile.x1O7nACCPr7z
+1485633719569	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1485633719573	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53816
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+1485633720543	Marionette	INFO	Listening on port 53816
+Jan 28, 2017 3:02:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: http://js.bbystatic.com/timeline-web/timeline-1.2.3-inline.6.js, line 22: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript warning: http://images.bestbuy.com/BestBuy_US/store/js/jQuery/plugins/ku4j-min.js, line 5: unreachable code after return statement
+JavaScript warning: http://images.bestbuy.com/BestBuy_US/store/js/jQuery/plugins/ku4j-min.js, line 5: unreachable code after return statement
+JavaScript warning: http://images.bestbuy.com/BestBuy_US/store/js/jQuery/plugins/ku4j-min.js, line 5: unreachable code after return statement
+JavaScript warning: http://images.bestbuy.com/BestBuy_US/store/js/jQuery/plugins/ku4j-min.js, line 5: unreachable code after return statement
+JavaScript warning: http://images.bestbuy.com/BestBuy_US/store/js/bby-cart.js, line 532: unreachable code after return statement
+JavaScript error: http://www.bestbuy.com/, line 5: ReferenceError: osdlfm is not defined
+JavaScript error: http://www.bestbuy.com/, line 7: ReferenceError: osdlfm is not defined
+]]></system-err>
+  </testcase>
+  <testcase name="testTopNav" classname="Page.TestHomePage" time="1.222"/>
+  <testcase name="DropDownMenu" classname="Page.TestDropdownMenus" time="0.058">
+    <failure message="Element is not visible&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;mbp.local&apos;, ip: &apos;10.1.10.15&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.2&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20160502172042, version=, platform=MAC, proxy={}, specificationLevel=1, acceptSslCerts=false, browserVersion=46.0.1, platformVersion=16.3.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Darwin, device=desktop}]&#10;Session ID: 7e19eb43-ee8b-3a43-805b-03ad8c01ba18" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+Element is not visible
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'mbp.local', ip: '10.1.10.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.2', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20160502172042, version=, platform=MAC, proxy={}, specificationLevel=1, acceptSslCerts=false, browserVersion=46.0.1, platformVersion=16.3.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Darwin, device=desktop}]
+Session ID: 7e19eb43-ee8b-3a43-805b-03ad8c01ba18
+	at Page.TestDropdownMenus.DropDownMenu(TestDropdownMenus.java:16)
+</failure>
+    <system-err><![CDATA[1485633738083	geckodriver	INFO	Listening on 127.0.0.1:42766
+Jan 28, 2017 3:02:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1485633738197	mozprofile::profile	INFO	Using profile path /var/folders/4h/fms1325s1_v01nbsn953sd500000gn/T/rust_mozprofile.mUCBXepBCvAM
+1485633738199	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1485633738202	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54415
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+1485633739433	Marionette	INFO	Listening on port 54415
+Jan 28, 2017 3:02:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: http://js.bbystatic.com/timeline-web/timeline-1.2.3-inline.6.js, line 22: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript warning: http://images.bestbuy.com/BestBuy_US/store/js/jQuery/plugins/ku4j-min.js, line 5: unreachable code after return statement
+JavaScript warning: http://images.bestbuy.com/BestBuy_US/store/js/jQuery/plugins/ku4j-min.js, line 5: unreachable code after return statement
+JavaScript warning: http://images.bestbuy.com/BestBuy_US/store/js/jQuery/plugins/ku4j-min.js, line 5: unreachable code after return statement
+JavaScript warning: http://images.bestbuy.com/BestBuy_US/store/js/jQuery/plugins/ku4j-min.js, line 5: unreachable code after return statement
+JavaScript warning: http://images.bestbuy.com/BestBuy_US/store/js/bby-cart.js, line 532: unreachable code after return statement
+]]></system-err>
+  </testcase>
+</testsuite>

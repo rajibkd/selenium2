@@ -11,7 +11,7 @@
 
     <modules>
         <module>Generic</module>
-        <module>Alibaba</module>
+        <!--<module>Alibaba</module>-->
         <!--<module>Citibank</module>-->
         <!--<module>Facebook</module>-->
         <!--<module>LIJ</module>-->
@@ -66,14 +66,7 @@
             <id>citibank-app</id>
             <modules>
                 <module>Generic</module>
-                <!--<module>Citibank</module>-->
-            </modules>
-        </profile>
-        <profile>
-            <id>cnn-app</id>
-            <modules>
-                <module>Generic</module>
-
+                <module>Citibank</module>
             </modules>
         </profile>
         <profile>
@@ -97,7 +90,7 @@
             </activation>
             <modules>
                 <module>Generic</module>
-                <module>Alibaba</module>
+                <!--<module>Alibaba</module>-->
                 <module>Bestbuy</module>
                 <!--<module>Citibank</module>-->
                 <!--<module>Facebook</module>-->

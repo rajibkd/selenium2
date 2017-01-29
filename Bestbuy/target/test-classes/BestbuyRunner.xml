@@ -15,9 +15,9 @@
 
     <test name = "Page">
         <classes>
-            <!--<class name="Page.TestUserLogin"/>-->
-            <!--<class name="Page.TestSearchItemsByExcel"/>-->
-            <!--<class name="Page.TestHomePage"/>-->
+            <class name="Page.TestUserLogin"/>
+            <class name="Page.TestSearchItemsByExcel"/>
+            <class name="Page.TestHomePage"/>
             <class name="Page.TestDropdownMenus"/>
         </classes>
     </test>
