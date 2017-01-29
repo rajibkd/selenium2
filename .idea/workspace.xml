@@ -2,25 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515fdf2c-394d-42af-9ec7-fd692a4d8ffc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Tsunami on Chrome Firefox/testng-failed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/Bestbuy-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TEST-TestSuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TestSuite-output.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TestSuite.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Tsunami on Chrome Firefox/Page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Tsunami on Chrome Firefox/Page.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/junitreports/TEST-Page.TestDropdownMenus.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/junitreports/TEST-Page.TestHomePage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/junitreports/TEST-Page.TestSearchItemsByExcel.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/junitreports/TEST-Page.TestUserLogin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Tsunami on Chrome Firefox/Page.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Tsunami on Chrome Firefox/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Tsunami on Chrome Firefox/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Tsunami on Chrome Firefox/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Tsunami on Chrome Firefox/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Tsunami on Chrome Firefox/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Tsunami on Chrome Firefox/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Tsunami on Chrome Firefox/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Tsunami on Chrome Firefox/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Tsunami on Chrome Firefox/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Tsunami on Chrome Firefox/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/test-classes/BestbuyRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/test-classes/Page/TestDropdownMenus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/test-classes/Page/TestHomePage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/test-classes/Page/TestSearchItemsByExcel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/target/test-classes/Page/TestUserLogin.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/classes/PageFactorySearch/DropDownMenus.class" afterPath="$PROJECT_DIR$/Bestbuy/target/classes/PageFactorySearch/DropDownMenus.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TEST-TestSuite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TestSuite-output.txt" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TestSuite-output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/TestSuite.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Tsunami on Chrome Firefox/Page.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Tsunami on Chrome Firefox/Page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Tsunami on Chrome Firefox/Page.xml" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/Tsunami on Chrome Firefox/Page.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/emailable-report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/junitreports/TEST-Page.TestDropdownMenus.xml" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/junitreports/TEST-Page.TestDropdownMenus.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/junitreports/TEST-Page.TestHomePage.xml" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/junitreports/TEST-Page.TestHomePage.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/junitreports/TEST-Page.TestSearchItemsByExcel.xml" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/junitreports/TEST-Page.TestSearchItemsByExcel.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/junitreports/TEST-Page.TestUserLogin.xml" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/junitreports/TEST-Page.TestUserLogin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Tsunami on Chrome Firefox/methods-alphabetical.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Tsunami on Chrome Firefox/methods-alphabetical.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Tsunami on Chrome Firefox/methods.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Tsunami on Chrome Firefox/methods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Tsunami on Chrome Firefox/toc.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/Tsunami on Chrome Firefox/toc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/old/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/Bestbuy/target/surefire-reports/testng-results.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/DropDownMenus.java" afterPath="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/DropDownMenus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestDropdownMenus.java" afterPath="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestDropdownMenus.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,8 +79,8 @@
       <file leaf-file-name="TestSearchItemsByExcel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestSearchItemsByExcel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#TestSearchItemsByExcel#0" expanded="false" />
@@ -64,8 +92,8 @@
       <file leaf-file-name="DropDownMenus.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/DropDownMenus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            <state relative-caret-position="360">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#DropDownMenus#0" expanded="false" />
@@ -102,8 +130,8 @@
       <file leaf-file-name="TestDropdownMenus.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestDropdownMenus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#TestDropdownMenus#0" expanded="false" />
@@ -257,10 +285,10 @@
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/dataToSearch/DataToSearch.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/SearchItems.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestSearchItemsByExcel.java" />
-        <option value="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/DropDownMenus.java" />
-        <option value="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestDropdownMenus.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/BBMethods/BBCommonAPI.java" />
+        <option value="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestDropdownMenus.java" />
+        <option value="$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/DropDownMenus.java" />
       </list>
     </option>
   </component>
@@ -277,12 +305,99 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Generic" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Generic" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Generic" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Framework" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Framework" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Bestbuy" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Bestbuy" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="315" />
+    <option name="x" value="1948" />
     <option name="y" value="27" />
-    <option name="width" value="1512" />
+    <option name="width" value="1751" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -384,6 +499,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -544,24 +673,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="BBMethods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bestbuy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1031,12 +1142,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.28 at 15h 22m 51s.xml">
-      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.28 at 15h 24m 13s.xml">
-      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.28 at 15h 26m 27s.xml">
       <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -1061,27 +1166,33 @@
     <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.28 at 20h 19m 15s.xml">
       <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.28 at 20h 34m 04s.xml">
+      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_admin_Documents_IdeaSpace_selenium2_Bestbuy_src_test_resources_BestbuyRunner_xml - 2017.01.28 at 21h 07m 14s.xml">
+      <configuration name="/Users/admin/Documents/IdeaSpace/selenium2/Bestbuy/src/test/resources/BestbuyRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="315" y="27" width="1512" height="1053" extended-state="0" />
+    <frame x="1948" y="27" width="1751" height="1053" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41182467" sideWeight="0.4757208" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41158536" sideWeight="0.4757208" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5364188" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17063493" sideWeight="0.4902439" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14734438" sideWeight="0.4902439" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49092284" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40142277" sideWeight="0.46358117" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34552845" sideWeight="0.46358117" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2388664" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2361111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2038835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1153,7 +1264,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestDropdownMenus.java</url>
-          <line>17</line>
+          <line>18</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
@@ -1481,17 +1592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestSearchItemsByExcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#TestSearchItemsByExcel#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1499,17 +1599,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#TestHomePage#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestDropdownMenus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#TestDropdownMenus#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1544,6 +1633,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestSearchItemsByExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#TestSearchItemsByExcel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/SearchItems.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1555,10 +1655,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestDropdownMenus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#TestDropdownMenus#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/PageFactorySearch/DropDownMenus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        <state relative-caret-position="360">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#DropDownMenus#0" expanded="false" />

@@ -15,9 +15,8 @@ public class TestDropdownMenus extends BBCommonAPI{
         BBCommonAPI bb = PageFactory.initElements(driver,BBCommonAPI.class);
         bb.refuseMailingListOption();
         sleepFor(1);
+
         DropDownMenus dd = PageFactory.initElements(driver,DropDownMenus.class);
         dd.dropDownMenu();
     }
-
-
 }
