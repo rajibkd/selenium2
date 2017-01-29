@@ -6,14 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Alibaba" />
-        <module name="Bestbuy" />
-        <module name="Citibank" />
-        <module name="Cnn" />
         <module name="Facebook" />
         <module name="Generic" />
         <module name="Hbo" />
-        <module name="LIJ" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

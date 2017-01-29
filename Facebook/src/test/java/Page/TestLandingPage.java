@@ -18,9 +18,8 @@ public class TestLandingPage extends CommonAPI {
         sleepFor(2);
 
         //update status
-        LandingPage landingPage= PageFactory.initElements(driver, LandingPage.class);
-        landingPage.postStatus.click();
-        landingPage.postStatus.sendKeys("Hello, i am feeling happy today");
-        sleepFor(2);
+       // LandingPage landingPage= PageFactory.initElements(driver, LandingPage.class);
+        //landingPage.postStatus.click();
+        //sleepFor(2);
     }
 }

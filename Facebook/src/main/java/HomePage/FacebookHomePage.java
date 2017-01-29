@@ -1,11 +1,9 @@
 package HomePage;
-import Base.CommonAPI;
 import Methods.CommonMethods;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import java.util.ArrayList;
-import java.util.List;
+
 /**
  * Created by Unaer on 1/27/2017.
  */

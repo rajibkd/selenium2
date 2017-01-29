@@ -1,18 +1,9 @@
 package Page;
 import HomePage.FacebookHomePage;
-import HomePage.LoginPage;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
-import org.apache.bcel.generic.Visitor;
 
 import Base.CommonAPI;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
-
-import java.util.List;
 
 
 /**

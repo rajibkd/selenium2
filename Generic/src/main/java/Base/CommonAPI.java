@@ -1,6 +1,7 @@
 package Base;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.*;
 import org.openqa.selenium.By;
@@ -19,7 +20,9 @@ import org.testng.annotations.Parameters;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
@@ -32,7 +35,11 @@ public class CommonAPI {
     public void setUp(String url)throws Exception {
 
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Unaer\\IdeaProjects\\Selenium2\\Generic\\Driver\\chromedriver.exe");
-        driver = new ChromeDriver();
+        Map<String, Object> prefs = new HashMap<String, Object>();
+        prefs.put("profile.default_content_setting_values.notifications", 2);
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.setExperimentalOption("prefs", prefs);
+        driver = new ChromeDriver(chromeOptions);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get(url);
         driver.manage().window().maximize();

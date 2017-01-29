@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Potbelly Client on Chrome Browser]">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="Win"/>
+  <parameter name="accessKey" value="UqK1b99ds7neyFBKzgqw"/>
+  <parameter name="browserVersion" value="50"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="env" value="browserstack"/>
+  <parameter name="userName" value="unaerichardson1"/>
+  <parameter name="url" value="https://www.facebook.com/"/>
+  <test name="Facebook Home Page(failed)">
+    <classes>
+      <class name="Page.TestLandingPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="InputID"/>
+        </methods>
+      </class> <!-- Page.TestLandingPage -->
+    </classes>
+  </test> <!-- Facebook Home Page(failed) -->
+</suite> <!-- Failed suite [Potbelly Client on Chrome Browser] -->

@@ -8,7 +8,7 @@ import org.openqa.selenium.support.How;
  * Created by Unaer on 1/28/2017.
  */
 public class LandingPage {
-    @FindBy(how= How.XPATH ,using =".//*[@id='u_0_12']/div/div[2]/textarea")
+    @FindBy(how= How.XPATH ,using =".//*[@id='js_17']/div")
     public WebElement postStatus;
 
 }
