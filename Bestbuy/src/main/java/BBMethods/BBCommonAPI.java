@@ -9,9 +9,9 @@ import org.openqa.selenium.support.How;
 /**
  * Created by admin on 1/18/17.
  */
-public class BBCommonAPI extends CommonAPI {
+public class BBCommonAPI extends CommonAPI{
 
-    //getting credentials from env. var
+    //getting credentials from env var
     public static final String username = System.getenv("BESTBUY_USERNAME");
     public static final String password = System.getenv("BESTBUY_PASSWORD");
 

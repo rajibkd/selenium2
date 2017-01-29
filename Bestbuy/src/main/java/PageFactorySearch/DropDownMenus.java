@@ -9,7 +9,8 @@ import org.openqa.selenium.support.How;
  * Created by admin on 1/28/17.
  */
 
-public class DropDownMenus extends CommonAPI {
+public class DropDownMenus extends CommonAPI{
+
     @FindBy(how= How.XPATH,using=".//*[@id='menu0']")
     public static WebElement productsMenu;
     @FindBy(how=How.XPATH,using=".//*[@id='menu1']")

@@ -48,13 +48,13 @@
         </dependencies>
     </dependencyManagement>
     <profiles>
-        <!--<profile>-->
-            <!--<id>alibaba-app</id>-->
-            <!--<modules>-->
-                <!--<module>Generic</module>-->
-                <!--<module>Alibaba</module>-->
-            <!--</modules>-->
-        <!--</profile>-->
+        <profile>
+            <id>alibaba-app</id>
+            <modules>
+                <module>Generic</module>
+                <module>Alibaba</module>
+            </modules>
+        </profile>
         <profile>
             <id>bestbuy-app</id>
             <modules>
@@ -62,27 +62,27 @@
                 <module>Bestbuy</module>
             </modules>
         </profile>
-        <!--<profile>-->
-            <!--<id>citibank-app</id>-->
-            <!--<modules>-->
-                <!--<module>Generic</module>-->
-                <!--<module>Citibank</module>-->
-            <!--</modules>-->
-        <!--</profile>-->
-        <!--<profile>-->
-            <!--<id>facebook-app</id>-->
-            <!--<modules>-->
-                <!--<module>Generic</module>-->
-                <!--<module>Facebook</module>-->
-            <!--</modules>-->
-        <!--</profile>-->
-        <!--<profile>-->
-            <!--<id>lij-app</id>-->
-            <!--<modules>-->
-                <!--<module>Generic</module>-->
-                <!--<module>LIJ</module>-->
-            <!--</modules>-->
-        <!--</profile>-->
+        <profile>
+            <id>citibank-app</id>
+            <modules>
+                <module>Generic</module>
+                <module>Citibank</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>facebook-app</id>
+            <modules>
+                <module>Generic</module>
+                <module>Facebook</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>lij-app</id>
+            <modules>
+                <module>Generic</module>
+                <module>LIJ</module>
+            </modules>
+        </profile>
         <profile>
             <id>default</id>
             <activation>

@@ -38,9 +38,9 @@ public class CommonAPI {
     public static final String SAUCE_ACCESS_KEY = System.getenv("SAUCE_ACCESS_KEY");
     public static final String BROWSERSTACK_USERNAME = System.getenv("BROWSERSTACK_USERNAME");
     public static final String BROWSERSTACK_ACCESS_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");
-    public static final String MYSQL_URL = System.getenv("MYSQL_URL");
-    public static final String MYSQL_USERNAME = System.getenv("MYSQL_USERNAME");
-    public static final String MYSQL_PASSWORD = System.getenv("MYSQL_PASSWORD");
+//    public static final String MYSQL_URL = System.getenv("MYSQL_URL");
+//    public static final String MYSQL_USERNAME = System.getenv("MYSQL_USERNAME");
+//    public static final String MYSQL_PASSWORD = System.getenv("MYSQL_PASSWORD");
 
     @Parameters({"useCloudEnv","cloudEnv","os","browserName","browserVersion","url", "testName","os_version","resolution"})
 
@@ -57,7 +57,7 @@ public class CommonAPI {
             getLocalDriver(os, browserName);
         }
 
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(url);
     }
 
