@@ -19,6 +19,9 @@
             <class name="Page.TestSearchItemsByExcel"/>
             <class name="Page.TestHomePage"/>
             <class name="Page.TestDropdownMenus"/>
+            <class name="Page.TestStoreLocator"/>
+            <class name="Page.TestOrderStatus"/>
+            <class name="Page.TestDropDownDeals"/>
         </classes>
     </test>
 </suite>
