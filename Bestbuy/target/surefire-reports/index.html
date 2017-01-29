@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Tsunami_on_Chrome_Firefox">
-              <span class="suite-name border-failed">Tsunami on Chrome Firefox</span>
+              <span class="suite-name border-passed">Tsunami on Chrome Firefox</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,26 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Tsunami_on_Chrome_Firefox" class="hide-methods failed suite-Tsunami_on_Chrome_Firefox"> (hide)</a> <!-- hide-methods failed suite-Tsunami_on_Chrome_Firefox -->
-                      <a href="#" panel-name="suite-Tsunami_on_Chrome_Firefox" class="show-methods failed suite-Tsunami_on_Chrome_Firefox"> (show)</a> <!-- show-methods failed suite-Tsunami_on_Chrome_Firefox -->
-                    </span>
-                    <div class="method-list-content failed suite-Tsunami_on_Chrome_Firefox">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Tsunami_on_Chrome_Firefox" title="Page.TestDropdownMenus" hash-for-method="DropDownMenu">DropDownMenu</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Tsunami_on_Chrome_Firefox" title="Page.TestSearchItemsByExcel" hash-for-method="search">search</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Tsunami_on_Chrome_Firefox -->
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -119,6 +100,16 @@
                       <a href="#" panel-name="suite-Tsunami_on_Chrome_Firefox" class="show-methods passed suite-Tsunami_on_Chrome_Firefox"> (show)</a> <!-- show-methods passed suite-Tsunami_on_Chrome_Firefox -->
                     </span>
                     <div class="method-list-content passed suite-Tsunami_on_Chrome_Firefox">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tsunami_on_Chrome_Firefox" title="Page.TestDropdownMenus" hash-for-method="DropDownMenu">DropDownMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tsunami_on_Chrome_Firefox" title="Page.TestSearchItemsByExcel" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Tsunami_on_Chrome_Firefox" title="Page.TestHomePage" hash-for-method="testTopNav">testTopNav</a> <!-- method navigator-link -->
@@ -141,61 +132,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Tsunami_on_Chrome_Firefox" class="panel Tsunami_on_Chrome_Firefox">
-          <div class="suite-Tsunami_on_Chrome_Firefox-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Page.TestSearchItemsByExcel</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="search">
-                  </a> <!-- search -->
-                  <span class="method-name">search</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at PageFactorySearch.SearchItems.searchFor(SearchItems.java:32)
-	at Page.TestSearchItemsByExcel.search(TestSearchItemsByExcel.java:27)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Tsunami_on_Chrome_Firefox-class-failed -->
-          <div class="suite-Tsunami_on_Chrome_Firefox-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Page.TestDropdownMenus</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="DropDownMenu">
-                  </a> <!-- DropDownMenu -->
-                  <span class="method-name">DropDownMenu</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: Element is not visible
-Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
-System info: host: &apos;mbp.local&apos;, ip: &apos;10.1.10.15&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.2&apos;, java.version: &apos;1.8.0_112&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20160502172042, version=, platform=MAC, proxy={}, specificationLevel=1, acceptSslCerts=false, browserVersion=46.0.1, platformVersion=16.3.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Darwin, device=desktop}]
-Session ID: 7e19eb43-ee8b-3a43-805b-03ad8c01ba18
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy7.click(Unknown Source)
-	at BBMethods.BBCommonAPI.refuseMailingListOption(BBCommonAPI.java:31)
-	at Page.TestDropdownMenus.DropDownMenu(TestDropdownMenus.java:16)
-... Removed 36 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Tsunami_on_Chrome_Firefox-class-failed -->
           <div class="suite-Tsunami_on_Chrome_Firefox-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -207,6 +143,36 @@ Session ID: 7e19eb43-ee8b-3a43-805b-03ad8c01ba18
                   <a name="testTopNav">
                   </a> <!-- testTopNav -->
                   <span class="method-name">testTopNav</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Tsunami_on_Chrome_Firefox-class-passed -->
+          <div class="suite-Tsunami_on_Chrome_Firefox-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Page.TestSearchItemsByExcel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Tsunami_on_Chrome_Firefox-class-passed -->
+          <div class="suite-Tsunami_on_Chrome_Firefox-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Page.TestDropdownMenus</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DropDownMenu">
+                  </a> <!-- DropDownMenu -->
+                  <span class="method-name">DropDownMenu</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -292,26 +258,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testUserLogin')
-data.setCell(0, 2, 'Page.TestUserLogin')
-data.setCell(0, 3, 12250);
+data.setCell(0, 1, 'search')
+data.setCell(0, 2, 'Page.TestSearchItemsByExcel')
+data.setCell(0, 3, 15978);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'search')
-data.setCell(1, 2, 'Page.TestSearchItemsByExcel')
-data.setCell(1, 3, 1725);
+data.setCell(1, 1, 'testUserLogin')
+data.setCell(1, 2, 'Page.TestUserLogin')
+data.setCell(1, 3, 12347);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testTopNav')
-data.setCell(2, 2, 'Page.TestHomePage')
-data.setCell(2, 3, 1222);
+data.setCell(2, 1, 'DropDownMenu')
+data.setCell(2, 2, 'Page.TestDropdownMenus')
+data.setCell(2, 3, 8414);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'DropDownMenu')
-data.setCell(3, 2, 'Page.TestDropdownMenus')
-data.setCell(3, 3, 54);
+data.setCell(3, 1, 'testTopNav')
+data.setCell(3, 2, 'Page.TestHomePage')
+data.setCell(3, 3, 3087);
 window.suiteTableData['Tsunami_on_Chrome_Firefox']= { tableData: data, tableDiv: 'times-div-Tsunami_on_Chrome_Firefox'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
               <div id="times-div-Tsunami_on_Chrome_Firefox">
               </div> <!-- times-div-Tsunami_on_Chrome_Firefox -->
             </div> <!-- times-div -->
@@ -344,60 +310,56 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testUserLogin</span>
-                <span class="method-start">6415 ms</span>
+                <span class="method-start">4762 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18666 ms</span>
+                <span class="method-start">17109 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Page.TestSearchItemsByExcel</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, Browserstack, OS X, firefox, 46, http://www.bestbuy.com, TestBestBuyApp, Sierra, 1024x768)</span>
-                <span class="method-start">18850 ms</span>
+                <span class="method-start">17322 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">search</span>
-                <span class="method-start">26494 ms</span>
+                <span class="method-start">22486 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">28229 ms</span>
+                <span class="method-start">38464 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Page.TestHomePage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, Browserstack, OS X, firefox, 46, http://www.bestbuy.com, TestBestBuyApp, Sierra, 1024x768)</span>
-                <span class="method-start">28377 ms</span>
+                <span class="method-start">38660 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testTopNav</span>
-                <span class="method-start">36021 ms</span>
+                <span class="method-start">42753 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37243 ms</span>
+                <span class="method-start">45840 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Page.TestDropdownMenus</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, Browserstack, OS X, firefox, 46, http://www.bestbuy.com, TestBestBuyApp, Sierra, 1024x768)</span>
-                <span class="method-start">37382 ms</span>
+                <span class="method-start">45978 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">DropDownMenu</span>
-                <span class="method-start">47909 ms</span>
+                <span class="method-start">49992 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">47968 ms</span>
+                <span class="method-start">58406 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
