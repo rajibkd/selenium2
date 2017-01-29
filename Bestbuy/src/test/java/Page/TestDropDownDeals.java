@@ -4,20 +4,19 @@ import BBMethods.BBCommonAPI;
 import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
-import ui.DropDownMenus;
+import ui.DropDownDeals;
 
 /**
- * Created by admin on 1/27/17.
+ * Created by admin on 1/29/17.
  */
-public class TestDropdownMenus extends CommonAPI {
-
+public class TestDropDownDeals extends CommonAPI {
     @Test
     public void DropDownMenu() throws InterruptedException{
-        BBCommonAPI bbapi= PageFactory.initElements(driver,BBCommonAPI.class);
+        BBCommonAPI bbapi = PageFactory.initElements(driver,BBCommonAPI.class);
         bbapi.refuseMailingListOption();
 
-        DropDownMenus dd = PageFactory.initElements(driver,DropDownMenus.class);
-        dd.dropDownMenu();
+        DropDownDeals ddd = PageFactory.initElements(driver, DropDownDeals.class);
+        ddd.dropDownDeals();
         sleepFor(1);
     }
 }

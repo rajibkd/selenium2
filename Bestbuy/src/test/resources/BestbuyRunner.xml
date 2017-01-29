@@ -3,7 +3,7 @@
 
 <suite name="Tsunami on Chrome Firefox">
 
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnv" value="Browserstack"/>
     <parameter name="os" value="OS X"/>
     <parameter name="os_version" value="Sierra"/>
@@ -15,13 +15,14 @@
 
     <test name = "Page">
         <classes>
-            <class name="Page.TestUserLogin"/>
-            <class name="Page.TestSearchItemsByExcel"/>
-            <class name="Page.TestHomePage"/>
+            <class name="Page.TestUserLoginButton"/>
+            <!--<class name="Page.TestSearchItemsByExcel"/>-->
+            <!--<class name="Page.TestCart"/>-->
             <class name="Page.TestDropdownMenus"/>
-            <class name="Page.TestStoreLocator"/>
-            <class name="Page.TestOrderStatus"/>
-            <class name="Page.TestDropDownDeals"/>
+            <!--<class name="Page.TestDropDownDeals"/>-->
+            <!--<class name="Page.TestStoreLocator"/>-->
+            <!--<class name="Page.TestOrderStatus"/>-->
+            <!--<class name="Page.TestMyAccountPage"/>-->
         </classes>
     </test>
 </suite>

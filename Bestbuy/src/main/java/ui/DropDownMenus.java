@@ -1,4 +1,4 @@
-package PageFactorySearch;
+package ui;
 
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
@@ -12,15 +12,15 @@ import org.openqa.selenium.support.How;
 public class DropDownMenus extends CommonAPI{
 
     @FindBy(how= How.XPATH,using=".//*[@id='menu0']")
-    public static WebElement productsMenu;
+    public  WebElement productsMenu;
     @FindBy(how=How.XPATH,using=".//*[@id='menu1']")
-    public static WebElement brandsMenu;
+    public  WebElement brandsMenu;
     @FindBy(how=How.XPATH,using=".//*[@id='menu2']")
-    public static WebElement dealsMenu;
+    public  WebElement dealsMenu;
     @FindBy(how=How.XPATH,using=".//*[@id='menu3']")
-    public static WebElement servicesMenu;
+    public  WebElement servicesMenu;
 
-    public void dropDownMenu()throws InterruptedException{
+    public void dropDownMenu() throws InterruptedException{
         productsMenu.click(); sleepFor(1);
         brandsMenu.click(); sleepFor(1);
         dealsMenu.click(); sleepFor(1);

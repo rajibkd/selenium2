@@ -1,7 +1,7 @@
 package Page;
 
 import BBMethods.BBCommonAPI;
-import PageFactorySearch.SearchItems;
+import ui.SearchItems;
 import dataToSearch.DataToSearch;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
@@ -25,7 +25,6 @@ public class TestSearchItemsByExcel extends BBCommonAPI {
         String [] value = DataToSearch.getData();
             for (int i=1; i<value.length; i++ ) {
                 search.searchFor(value[i]);
-                sleepFor(2);
                 search.clearInput();
             }
     }
