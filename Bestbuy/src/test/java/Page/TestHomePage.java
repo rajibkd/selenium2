@@ -9,12 +9,13 @@ import org.testng.annotations.Test;
  */
 public class TestHomePage extends BBCommonAPI {
 
-    @Test
+    @Test(priority = 1)
     public void testTopNav() throws InterruptedException {
 
         BBCommonAPI bb = PageFactory.initElements(driver,BBCommonAPI.class);
         bb.refuseMailingListOption();
         sleepFor(1);
+
 
     }
 }
