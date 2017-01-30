@@ -16,13 +16,13 @@
     <test name = "Page">
         <classes>
             <class name="Page.TestUserLoginButton"/>
-            <!--<class name="Page.TestSearchItemsByExcel"/>-->
-            <!--<class name="Page.TestCart"/>-->
+            <class name="Page.TestSearchItemsByExcel"/>
+            <class name="Page.TestCart"/>
             <class name="Page.TestDropdownMenus"/>
-            <!--<class name="Page.TestDropDownDeals"/>-->
-            <!--<class name="Page.TestStoreLocator"/>-->
-            <!--<class name="Page.TestOrderStatus"/>-->
-            <!--<class name="Page.TestMyAccountPage"/>-->
+            <class name="Page.TestDropDownDeals"/>
+            <class name="Page.TestStoreLocator"/>
+            <class name="Page.TestOrderStatus"/>
+            <class name="Page.TestMyAccountPage"/>
         </classes>
     </test>
 </suite>
