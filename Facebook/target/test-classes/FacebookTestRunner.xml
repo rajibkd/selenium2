@@ -11,7 +11,7 @@
     <parameter name="os" value="Win"/>
     <test name = "Facebook Home Page">
         <classes>
-            <!--<class name="Page.TestFacebookHomepage"/>-->
+        <!--    <class name="Page.TestFacebookHomepage"/>-->
            <!-- <class name="Page.TestLoginPage"/>-->
             <class name="Page.TestLandingPage"/>
         </classes>

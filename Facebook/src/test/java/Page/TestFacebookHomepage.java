@@ -17,16 +17,16 @@ public class TestFacebookHomepage extends CommonAPI {
     {
 
         FacebookHomePage page = PageFactory.initElements(driver, FacebookHomePage.class);
-        page.firstName.sendKeys("Molang");
-        sleepFor(2);
+        page.firstName.sendKeys("Bob");
+        sleepFor(1);
     }
 
     @Test(priority = 2)
     public void InputLastName() throws InterruptedException {
 
         FacebookHomePage page = PageFactory.initElements(driver, FacebookHomePage.class);
-        page.lastName.sendKeys("Bunny");
-        sleepFor(2);
+        page.lastName.sendKeys("tester");
+        sleepFor(1);
     }
 
     @Test(priority = 3)
@@ -34,25 +34,25 @@ public class TestFacebookHomepage extends CommonAPI {
 
         FacebookHomePage page = PageFactory.initElements(driver, FacebookHomePage.class);
         page.mobileNumber.sendKeys("1234567");
-        sleepFor(2);
+        sleepFor(1);
     }
 
     @Test(priority = 4)
     public void InputNewPass() throws InterruptedException {
         FacebookHomePage page = PageFactory.initElements(driver, FacebookHomePage.class);
         page.createPassword.sendKeys("testing");
-        sleepFor(2);
+        sleepFor(1);
  }
 
     @Test(priority = 5)
     public void InputBirthday() throws InterruptedException{
         FacebookHomePage page = PageFactory.initElements(driver, FacebookHomePage.class);
         page.selectOptionByVisibleText(page.Month, "Apr");
-        sleepFor(2);
+        sleepFor(1);
         page.selectOptionByVisibleText(page.Day,"12");
-        sleepFor(2);
+        sleepFor(1);
         page.selectOptionByVisibleText(page.Year,"1993");
-        sleepFor(2);
+        sleepFor(1);
 
         //click on radio button and create account
         clickByXpath(".//*[@id='u_0_i']");

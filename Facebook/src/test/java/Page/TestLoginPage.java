@@ -10,6 +10,10 @@ import org.testng.annotations.Test;
  * Created by Unaer on 1/23/2017.
  */
 public class TestLoginPage extends CommonAPI {
+
+
+
+
     @Test
     public void InputID () throws InterruptedException
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Potbelly Client on Chrome Browser" duration-ms="12869" started-at="2017-01-29T01:18:36Z" finished-at="2017-01-29T01:18:49Z">
+  <suite name="Potbelly Client on Chrome Browser" duration-ms="53187" started-at="2017-01-29T17:46:29Z" finished-at="2017-01-29T17:47:22Z">
     <groups>
     </groups>
-    <test name="Facebook Home Page" duration-ms="12869" started-at="2017-01-29T01:18:36Z" finished-at="2017-01-29T01:18:49Z">
+    <test name="Facebook Home Page" duration-ms="53187" started-at="2017-01-29T17:46:29Z" finished-at="2017-01-29T17:47:22Z">
       <class name="Page.TestLandingPage">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Page.TestLandingPage@2ef9b8bc]" name="setUp" is-config="true" duration-ms="4354" started-at="2017-01-28T20:18:36Z" finished-at="2017-01-28T20:18:41Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Page.TestLandingPage@6fb554cc]" name="setUp" is-config="true" duration-ms="4567" started-at="2017-01-29T12:46:29Z" finished-at="2017-01-29T12:46:34Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,112 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="InputID()[pri:0, instance:Page.TestLandingPage@2ef9b8bc]" name="InputID" duration-ms="6185" started-at="2017-01-28T20:18:41Z" finished-at="2017-01-28T20:18:47Z">
+        <test-method status="PASS" signature="InputID()[pri:0, instance:Page.TestLandingPage@6fb554cc]" name="InputID" duration-ms="4430" started-at="2017-01-29T12:46:34Z" finished-at="2017-01-29T12:46:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InputID -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Page.TestLandingPage@2ef9b8bc]" name="tearDown" is-config="true" duration-ms="2315" started-at="2017-01-28T20:18:47Z" finished-at="2017-01-28T20:18:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Page.TestLandingPage@6fb554cc]" name="tearDown" is-config="true" duration-ms="192" started-at="2017-01-29T12:46:38Z" finished-at="2017-01-29T12:46:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Page.TestLandingPage -->
+      <class name="Page.TestFacebookHomepage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Page.TestFacebookHomepage@4cb2c100]" name="setUp" is-config="true" duration-ms="5295" started-at="2017-01-29T12:46:38Z" finished-at="2017-01-29T12:46:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InputFirstName()[pri:1, instance:Page.TestFacebookHomepage@4cb2c100]" name="InputFirstName" duration-ms="1858" started-at="2017-01-29T12:46:44Z" finished-at="2017-01-29T12:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputFirstName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Page.TestFacebookHomepage@4cb2c100]" name="tearDown" is-config="true" duration-ms="176" started-at="2017-01-29T12:46:46Z" finished-at="2017-01-29T12:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Page.TestFacebookHomepage@4cb2c100]" name="setUp" is-config="true" duration-ms="4820" started-at="2017-01-29T12:46:46Z" finished-at="2017-01-29T12:46:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InputLastName()[pri:2, instance:Page.TestFacebookHomepage@4cb2c100]" name="InputLastName" duration-ms="1897" started-at="2017-01-29T12:46:51Z" finished-at="2017-01-29T12:46:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputLastName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Page.TestFacebookHomepage@4cb2c100]" name="tearDown" is-config="true" duration-ms="173" started-at="2017-01-29T12:46:52Z" finished-at="2017-01-29T12:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Page.TestFacebookHomepage@4cb2c100]" name="setUp" is-config="true" duration-ms="5151" started-at="2017-01-29T12:46:53Z" finished-at="2017-01-29T12:46:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InputEmail()[pri:3, instance:Page.TestFacebookHomepage@4cb2c100]" name="InputEmail" duration-ms="1898" started-at="2017-01-29T12:46:58Z" finished-at="2017-01-29T12:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Page.TestFacebookHomepage@4cb2c100]" name="tearDown" is-config="true" duration-ms="2323" started-at="2017-01-29T12:47:00Z" finished-at="2017-01-29T12:47:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Page.TestFacebookHomepage@4cb2c100]" name="setUp" is-config="true" duration-ms="4867" started-at="2017-01-29T12:47:02Z" finished-at="2017-01-29T12:47:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InputNewPass()[pri:4, instance:Page.TestFacebookHomepage@4cb2c100]" name="InputNewPass" duration-ms="2088" started-at="2017-01-29T12:47:07Z" finished-at="2017-01-29T12:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputNewPass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Page.TestFacebookHomepage@4cb2c100]" name="tearDown" is-config="true" duration-ms="2101" started-at="2017-01-29T12:47:09Z" finished-at="2017-01-29T12:47:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Page.TestFacebookHomepage@4cb2c100]" name="setUp" is-config="true" duration-ms="4866" started-at="2017-01-29T12:47:11Z" finished-at="2017-01-29T12:47:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InputBirthday()[pri:5, instance:Page.TestFacebookHomepage@4cb2c100]" name="InputBirthday" duration-ms="6280" started-at="2017-01-29T12:47:16Z" finished-at="2017-01-29T12:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputBirthday -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Page.TestFacebookHomepage@4cb2c100]" name="tearDown" is-config="true" duration-ms="177" started-at="2017-01-29T12:47:22Z" finished-at="2017-01-29T12:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Page.TestFacebookHomepage -->
     </test> <!-- Facebook Home Page -->
   </suite> <!-- Potbelly Client on Chrome Browser -->
 </testng-results>

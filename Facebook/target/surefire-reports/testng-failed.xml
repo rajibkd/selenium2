@@ -15,9 +15,15 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="InputID"/>
         </methods>
       </class> <!-- Page.TestLandingPage -->
+      <class name="Page.TestFacebookHomepage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="InputLastName"/>
+        </methods>
+      </class> <!-- Page.TestFacebookHomepage -->
     </classes>
   </test> <!-- Facebook Home Page(failed) -->
 </suite> <!-- Failed suite [Potbelly Client on Chrome Browser] -->
