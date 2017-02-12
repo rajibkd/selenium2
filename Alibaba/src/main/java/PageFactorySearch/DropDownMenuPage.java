@@ -1,4 +1,4 @@
-package PageFactorySearch;
+package ui;
 
 import base.CommonAPI;
 import java.util.ArrayList;

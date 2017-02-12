@@ -1,8 +1,8 @@
-PageFactorySearch/DropDownMenuPage.class
-PageFactorySearch/SearchObjects.class
+ui/DropDownMenuPage.class
+ui/SearchObjects.class
 pageFactoryLogin/SearchObjects.class
 methods/CommonMethods.class
 dataToSearch/ItemsToBeSearched.class
 pageFactoryLogin/SearchItems.class
 pageFactoryLogin/LogInInfo.class
-PageFactorySearch/SearchItems.class
+ui/SearchItems.class

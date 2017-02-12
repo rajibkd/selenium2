@@ -1,4 +1,4 @@
-package PageFactorySearch;
+package ui;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Bestbuy" />
+        <module name="Cigna" />
         <module name="Generic" />
         <module name="Hbo" />
       </profile>
@@ -14,6 +15,7 @@
     <bytecodeTargetLevel>
       <module name="Alibaba" target="1.8" />
       <module name="Bestbuy" target="1.8" />
+      <module name="Cigna" target="1.8" />
       <module name="Citibank" target="1.5" />
       <module name="Cnn" target="1.5" />
       <module name="Facebook" target="1.5" />

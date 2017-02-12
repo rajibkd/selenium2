@@ -1,22 +1,19 @@
 package Page;
 
-import BBMethods.BBCommonAPI;
-import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import ui.DropDownDeals;
 
+import java.io.IOException;
+
 /**
  * Created by admin on 1/29/17.
  */
-public class TestDropDownDeals extends CommonAPI {
+public class TestDropDownDeals extends DropDownDeals{
     @Test
-    public void DropDownMenu() throws InterruptedException{
-        BBCommonAPI bbapi = PageFactory.initElements(driver,BBCommonAPI.class);
-        bbapi.refuseMailingListOption();
-
+    public void DropDownDeals() throws InterruptedException, IOException {
         DropDownDeals ddd = PageFactory.initElements(driver, DropDownDeals.class);
         ddd.dropDownDeals();
-        sleepFor(1);
+        takeScreenShot("TestDropDownDeals");
     }
 }

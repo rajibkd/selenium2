@@ -1,20 +1,16 @@
 package Page;
 
-import BBMethods.BBCommonAPI;
-import ui.OrderStatus;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
+import ui.OrderStatus;
 
 /**
  * Created by admin on 1/29/17.
  */
-public class TestOrderStatus extends BBCommonAPI{
+public class TestOrderStatus extends OrderStatus{
 
         @Test
-        public void testStoreLocator() throws InterruptedException{
-            BBCommonAPI bb = PageFactory.initElements(driver, BBCommonAPI.class);
-            bb.refuseMailingListOption();
-
+        public void testOrderStatus() throws InterruptedException{
             OrderStatus os = PageFactory.initElements(driver, OrderStatus.class);
             os.orderStatusButton();
         }

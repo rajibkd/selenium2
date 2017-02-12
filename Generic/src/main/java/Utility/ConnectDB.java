@@ -1,11 +1,10 @@
 package Utility;
 
-
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoDatabase;
+
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
@@ -13,8 +12,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-
 public class ConnectDB {
+    public static final String usernameMySQL =System.getenv ("MYSQL_USERNAME");
+    public static final String passwordMySQL =System.getenv ("MYSQL_PASSWORD");
+    public static final String urlMySQL = System.getenv ("MYSQL_URL");
+
     public static MongoDatabase mongoDatabase = null;
 
     Connection connect = null;
@@ -26,10 +28,19 @@ public class ConnectDB {
 
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("src/MySql.properties");
+        InputStream ism = new FileInputStream("../config/MySql.properties");
         prop.load(ism);
         ism.close();
         return prop;
+    }
+    public void connectToDBdemo1() throws IOException, SQLException, ClassNotFoundException {
+        String myDriver="com.mysql.jdbc.Driver";
+        Class.forName(myDriver);
+        String url = urlMySQL;
+        String userName = usernameMySQL;
+        String password = passwordMySQL;
+        connect = DriverManager.getConnection(url,userName,password);
+//        System.out.println("Database is connected");
     }
 
     public void connectToDatabase() throws IOException, SQLException, ClassNotFoundException {
@@ -42,6 +53,7 @@ public class ConnectDB {
         connect = DriverManager.getConnection(url,userName,password);
         //  System.out.println("Database is connected");
     }
+
     public static MongoDatabase connectMongoDB() {
         String host = "localhost";
         MongoClientURI mongoClientURI = new MongoClientURI(host);
@@ -54,7 +66,8 @@ public class ConnectDB {
     public List<String> readDataBase(String tableName, String columnName)throws Exception{
         List<String> data = new ArrayList<String>();
         try {
-            connectToDatabase();
+            connectToDBdemo1();
+//            connectToDatabase();
             statement = connect.createStatement();
             resultSet = statement.executeQuery("select * from " + tableName);
             data = getResultSetData(resultSet, columnName);
@@ -114,7 +127,6 @@ public class ConnectDB {
     // function  for Data insert into MySQL Database
     public void InsertDataFromArryToMySql(int [] ArrayData,String tableName, String columnName)
     //InsertDataFromArryListToMySql
-
     //  public void InsertDataFromArryToMySql()
     {
         try {
@@ -169,7 +181,7 @@ public class ConnectDB {
         }
         return data;
     }
-//
+
     public void InsertDataFromArryListToMySql(List<Object> list,String tableName, String columnName)
     //InsertDataFromArryListToMySql
     //  public void InsertDataFromArryToMySql()

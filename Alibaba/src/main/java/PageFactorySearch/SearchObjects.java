@@ -1,4 +1,4 @@
-package PageFactorySearch;
+package ui;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

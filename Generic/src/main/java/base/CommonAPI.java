@@ -1,19 +1,15 @@
 package base;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.*;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -23,17 +19,20 @@ import org.testng.annotations.Parameters;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-import java.lang.String;
 
 /**
 
  * Created by Rajib Das **/
 
 public class CommonAPI {
-    public WebDriver driver = null;
+    public static WebDriver driver = null;
+
     public static final String SAUCE_USERNAME = System.getenv("SAUCE_USERNAME");
     public static final String SAUCE_ACCESS_KEY = System.getenv("SAUCE_ACCESS_KEY");
     public static final String BROWSERSTACK_USERNAME = System.getenv("BROWSERSTACK_USERNAME");
@@ -47,7 +46,7 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv,@Optional("cloudEnv") String cloudEnv, @Optional("Win") String os, @Optional("firefox") String browserName,
                       @Optional("34") String browserVersion, @Optional("http://www.bestbuy.com") String url, @Optional("testName") String testName,
-                      @Optional("os_version") String os_version, @Optional("resolution") String resolution)throws IOException {
+                      @Optional("os_version") String os_version, @Optional("resolution") String resolution)throws IOException, InterruptedException {
 
         if (useCloudEnv == true) {
             //run in cloud
@@ -56,9 +55,9 @@ public class CommonAPI {
             //run in local
             getLocalDriver(os, browserName);
         }
-
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(url);
+        driver.manage().window().maximize();sleepFor(1);
     }
 
     public WebDriver getLocalDriver(String OS, String browserName) {
@@ -66,19 +65,19 @@ public class CommonAPI {
             if (OS.equalsIgnoreCase("OS X")) {
                 System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver");
             } else if (OS.equalsIgnoreCase("Win")) {
-                System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver.exe");
             }
             driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("firefox")) {
             if (OS.equalsIgnoreCase("OS X")) {
                 System.setProperty("webdriver.gecko.driver", "../Generic/driver/geckodriver");
             } else if (OS.equalsIgnoreCase("Win")) {
-                System.setProperty("webdriver.gecko.driver", "C:\\drivers\\geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "../Generic/driver/geckodriver.exe");
             }
             driver = new FirefoxDriver();
 
         } else if (browserName.equalsIgnoreCase("ie")) {
-            System.setProperty("webdriver.ie.driver", "C:\\drivers\\IEDriverServer.exe");
+            System.setProperty("webdriver.ie.driver", "../Generic/driver/IEDriverServer.exe");
             driver = new InternetExplorerDriver();
         }
         return driver;
@@ -265,9 +264,13 @@ public class CommonAPI {
     }
 
     //Taking Screen shots
-    public void takeScreenShot() throws IOException {
+    public void takeScreenShot(String testName) throws IOException {
         File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(file, new File("screenShots.png"));
+        DateFormat df = new SimpleDateFormat("ddMMyy-HHmmss");
+        Date dateobj = new Date();
+        df.format(dateobj);
+        String fileName = "Screenshots/" +testName +df.format(dateobj)+".png";
+        FileUtils.copyFile(file, new File(fileName));
     }
     //Synchronization
     public void waitUntilClickAble(By locator) {

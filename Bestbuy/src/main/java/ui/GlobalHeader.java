@@ -1,15 +1,16 @@
 package ui;
 
-import base.CommonAPI;
+import BBMethods.BBCommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+
 
 /**
  * Created by admin on 1/28/17.
  */
 
-public class DropDownMenus extends CommonAPI{
+public class GlobalHeader extends BBCommonAPI{
 
     @FindBy(how= How.XPATH,using=".//*[@id='menu0']")
     public  WebElement productsMenu;
@@ -21,6 +22,8 @@ public class DropDownMenus extends CommonAPI{
     public  WebElement servicesMenu;
 
     public void dropDownMenu() throws InterruptedException{
+//        BBCommonAPI bb = PageFactory.initElements(driver,BBCommonAPI.class);
+//        bb.refuseMailingList();
         productsMenu.click(); sleepFor(1);
         brandsMenu.click(); sleepFor(1);
         dealsMenu.click(); sleepFor(1);

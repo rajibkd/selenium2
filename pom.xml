@@ -16,6 +16,7 @@
         <!--<module>Facebook</module>-->
         <!--<module>LIJ</module>-->
         <module>Bestbuy</module>
+        <module>Cigna</module>
     </modules>
     <dependencyManagement>
         <dependencies>
@@ -51,15 +52,22 @@
         <profile>
             <id>alibaba-app</id>
             <modules>
-                <module>Generic</module>
-                <module>Alibaba</module>
+                <!--<module>Generic</module>-->
+                <!--<module>Alibaba</module>-->
             </modules>
         </profile>
+        <!--<profile>-->
+            <!--<id>bestbuy-app</id>-->
+            <!--<modules>-->
+                <!--<module>Generic</module>-->
+                <!--<module>Bestbuy</module>-->
+            <!--</modules>-->
+        <!--</profile>-->
         <profile>
-            <id>bestbuy-app</id>
+            <id>cigna-app</id>
             <modules>
                 <module>Generic</module>
-                <module>Bestbuy</module>
+                <module>Cigna</module>
             </modules>
         </profile>
         <profile>
@@ -91,10 +99,11 @@
             <modules>
                 <module>Generic</module>
                 <!--<module>Alibaba</module>-->
-                <module>Bestbuy</module>
+                <!--<module>Bestbuy</module>-->
                 <!--<module>Citibank</module>-->
                 <!--<module>Facebook</module>-->
                 <!--<module>LIJ</module>-->
+                <module>Cigna</module>
             </modules>
         </profile>
     </profiles>

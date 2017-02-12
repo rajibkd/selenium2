@@ -5,7 +5,7 @@ import dataToSearch.ItemsToBeSearched;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import PageFactorySearch.SearchItems;
+import ui.SearchItems;
 //import sun.text.normalizer.Utility;
 
 

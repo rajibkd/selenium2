@@ -1,7 +1,7 @@
 package SearchItems;
 
 import org.testng.annotations.Test;
-import PageFactorySearch.DropDownMenuPage;
+import ui.DropDownMenuPage;
 import java.util.List;
 
 
