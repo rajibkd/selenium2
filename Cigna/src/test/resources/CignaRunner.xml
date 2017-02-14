@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Cigna Chrome Browser">
 
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="env" value="browserstack"/>
     <!--<parameter name="userName" value=""/>-->
     <!--<parameter name="accessKey" value=""/>-->
