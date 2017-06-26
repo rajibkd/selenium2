@@ -37,7 +37,7 @@
             <configuration>
                 <redirectTestOutputToFile>true</redirectTestOutputToFile>
                 <suiteXmlFiles>
-                    <suiteXmlFile>target/test-classes/${CignaAppRunner}</suiteXmlFile>
+                    <suiteXmlFile>target/Page-classes/${CignaAppRunner}</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>

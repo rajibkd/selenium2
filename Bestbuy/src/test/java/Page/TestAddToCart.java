@@ -15,19 +15,20 @@ import java.io.IOException;
  */
 public class TestAddToCart extends AddToCart {
 
-
     @Test (priority = 1)
     public void testAddToCart() throws InterruptedException, IOException {
-        AddToCart add =PageFactory.initElements(driver, AddToCart.class);
+        AddToCart add = PageFactory.initElements(driver, AddToCart.class);
         BBCommonAPI bb = PageFactory.initElements(driver, BBCommonAPI.class);
+
         ConfirmStore store =PageFactory.initElements(driver, ConfirmStore.class);
         WhenYouWantOrder phone =PageFactory.initElements(driver, WhenYouWantOrder.class);
         PaymentVerification pay =PageFactory.initElements(driver, PaymentVerification.class);
 
         add.getAddToCart();
+
         takeScreenShot("cart");
         //login
-        bb.secureLogin();sleepFor(2);
+        bb.secureLogin();sleepFor(3);
 
         //confirm store
         store.confirmStore(); sleepFor(2);

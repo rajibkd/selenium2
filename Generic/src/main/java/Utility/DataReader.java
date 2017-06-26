@@ -11,9 +11,6 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-/**
- * Created by Rajib on 1/3/2017.
- */
 
 public class DataReader {
     HSSFWorkbook wb = null;

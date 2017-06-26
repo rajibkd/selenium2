@@ -15,7 +15,7 @@ public class ConfirmStore extends BBCommonAPI{
     public static WebElement findAStore;
 
     public ConfirmStore confirmStore() throws InterruptedException{
-        findAStore.click(); sleepFor(1);
+        findAStore.click(); sleepFor(2);
         continueStore.click(); sleepFor(2);
         return new ConfirmStore();
     }

@@ -26,10 +26,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-/**
-
- * Created by Rajib Das **/
-
 public class CommonAPI {
     public static WebDriver driver = null;
 
@@ -45,7 +41,7 @@ public class CommonAPI {
 
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv,@Optional("cloudEnv") String cloudEnv, @Optional("Win") String os, @Optional("firefox") String browserName,
-                      @Optional("34") String browserVersion, @Optional("http://www.bestbuy.com") String url, @Optional("testName") String testName,
+                      @Optional("46") String browserVersion, @Optional("http://www.bestbuy.com") String url, @Optional("testName") String testName,
                       @Optional("os_version") String os_version, @Optional("resolution") String resolution)throws IOException, InterruptedException {
 
         if (useCloudEnv == true) {
@@ -55,7 +51,7 @@ public class CommonAPI {
             //run in local
             getLocalDriver(os, browserName);
         }
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.get(url);
         driver.manage().window().maximize();
     }

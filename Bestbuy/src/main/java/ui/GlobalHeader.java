@@ -4,6 +4,10 @@ import BBMethods.BBCommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -22,11 +26,21 @@ public class GlobalHeader extends BBCommonAPI{
     public  WebElement servicesMenu;
 
     public void dropDownMenu() throws InterruptedException{
-//        BBCommonAPI bb = PageFactory.initElements(driver,BBCommonAPI.class);
-//        bb.refuseMailingList();
+        BBCommonAPI bb = PageFactory.initElements(driver,BBCommonAPI.class);
+        bb.refuseMailingList();
         productsMenu.click(); sleepFor(1);
         brandsMenu.click(); sleepFor(1);
         dealsMenu.click(); sleepFor(1);
         servicesMenu.click(); sleepFor(1);
+    }
+    @FindBy(how= How.CSS, using=".primary-nav")
+    List<WebElement> elementsGlobalNav = new ArrayList<>();
+
+    public void getProducts() throws InterruptedException {
+        BBCommonAPI bb = PageFactory.initElements(driver, BBCommonAPI.class);
+        bb.refuseMailingList(); sleepFor(1);
+        elementsGlobalNav.get(0).click(); sleepFor(2);
+        elementsGlobalNav.get(1).click(); sleepFor(2);
+        elementsGlobalNav.get(2).click(); sleepFor(2);
     }
 }

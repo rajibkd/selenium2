@@ -12,14 +12,17 @@ public class BBCommonAPI extends CommonAPI{
     public static final String username = System.getenv("BESTBUY_USERNAME");
     public static final String password = System.getenv("BESTBUY_PASSWORD");
 
-    @FindBy(how=How.CSS,using=".close")
-    public WebElement closeMailingList;
+    @FindBy(how = How.CSS, using = ".close")
+    public static WebElement closeMailingList;
+
     @FindBy(how = How.CSS, using = "#profileMenuWrap1")
     public static WebElement signInMenuBtn;
     @FindBy(how = How.CSS, using = ".action-btn")
     public static WebElement signInBtn;
     @FindBy(how=How.CSS,using=".close")
-    public static WebElement closePopUp;
+    public static WebElement closePopByClose;
+    @FindBy(how = How.CSS, using = ".close-icon")
+    public static WebElement closePopByCloseIcon;
     @FindBy(how = How.CSS, using = "#fld-e")
     public static WebElement enterEmailField;
     @FindBy(how = How.CSS, using = "#fld-p1")
@@ -59,13 +62,23 @@ public class BBCommonAPI extends CommonAPI{
             webElement.click();
         }
     }
-    public void refuseMailingList() throws InterruptedException{
+    public void refuseMailingList() {
         clickIfElementPresent(closeMailingList);
     }
-    //    public void refuseMailingList(){
+
+    public void closePopByCloseIcon() throws InterruptedException{
+        clickIfElementPresent(closePopByCloseIcon);
+    }
+    public void closePopByClose() throws InterruptedException {
+        clickIfElementPresent(closePopByClose);
+    }
+//    public void refuseMailingList(){
 //        if (closeMailingList.isDisplayed()){
 //            closeMailingList.click();
 //        }
-//    }
-}
+    }
+//        public void refuseMailingList() {
+//        closeMailingList.click();
+//        }
+
 

@@ -17,43 +17,42 @@ public class AddToCart extends BBCommonAPI {
     public static WebElement searchBar;
     @FindBy(how = How.CSS, using = ".sku-title>h4>a")
     public static WebElement testedItem;
-    @FindBy(how = How.XPATH, using = "html/body/div[4]/main/div[4]/div[2]/div/div[1]/div/div[1]/div[1]/div[1]/div[1]/a")
-    public static WebElement addToCart;
+    @FindBy(how = How.CSS, using = ".cart-button")
+    public static WebElement btnAddToCart;
     @FindBy(how = How.CSS, using = ".cart")
-    public static WebElement goToCart;
-    @FindBy(how = How.CSS, using = ".close-icon")
-    public static WebElement closePopUp2;
+    public static WebElement btnGoToCart;
     @FindBy(how = How.XPATH, using = "html/body/div[3]/div[2]/div/div/div[4]/div/div[1]/div[3]/div/div[1]/div[2]/div[1]/div/div[2]/a")
-    public static WebElement checkoutBtn;
+    public static WebElement btnCheckout;
     @FindBy(how = How.CSS, using = "#location")
     public static WebElement location;
     @FindBy(how = How.CSS, using = ".apply-location")
-    public static WebElement checkAvailabiltyGo;
+    public static WebElement checkAvailabilityGo;
 
-    public void closePopUp() throws InterruptedException {
-        sleepFor(1);
-        if (closePopUp.isDisplayed()) {
-            closePopUp.click();
-        }
-    }
+
     public AddToCart getAddToCart() throws InterruptedException {
         BBCommonAPI bb = PageFactory.initElements(driver, BBCommonAPI.class);
         bb.refuseMailingList();
-        searchBar.sendKeys("5561300", Keys.ENTER); sleepFor(2);
-        testedItem.click(); sleepFor(2);
-        closePopUp();
-        addToCart.click(); sleepFor(3);
-        closePopUp2.click();
-        goToCart.click(); sleepFor(2);
-        checkoutBtn.click(); sleepFor(4);
+        searchBar.sendKeys("5709670", Keys.ENTER); sleepFor(1);
+        testedItem.click(); sleepFor(1);
+        bb.closePopByClose(); sleepFor(2);
+        btnAddToCart.click(); sleepFor(3);
+        bb.closePopByCloseIcon();
+        btnGoToCart.click(); sleepFor(4);
+        btnCheckout.click(); sleepFor(2);
         return new AddToCart();
     }
     public void provideLocation() throws InterruptedException {
         sleepFor(1);
         if (location.isDisplayed()) {
             location.sendKeys(zipCode);
-            checkAvailabiltyGo.click();
+            checkAvailabilityGo.click();
             sleepFor(1);
         }
     }
+    //    public void closePopUp(WebElement webElement) throws InterruptedException {
+//        sleepFor(1);
+//        if (closePopUp.isDisplayed()) {
+//            closePopUp.click();
+//        }
+//    }
 }

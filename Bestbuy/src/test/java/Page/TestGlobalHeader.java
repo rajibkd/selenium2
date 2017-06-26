@@ -13,6 +13,7 @@ public class TestGlobalHeader extends GlobalHeader {
     public void DropDownMenu() throws InterruptedException{
         GlobalHeader dd = PageFactory.initElements(driver, GlobalHeader.class);
         dd.dropDownMenu();
+//        dd.getProducts();
         sleepFor(1);
     }
 }

@@ -12,15 +12,15 @@ public class WhenYouWantOrder extends BBCommonAPI {
 
     public static final String notMyPhone = System.getenv("NOT_MY_PHONE");
 
-    @FindBy(how = How.XPATH, using = "html/body/div[1]/div[2]/div/div/div[3]/div[2]/section/form/div[2]/section/div[3]/label/div/input")
-    public static WebElement phone;
-    @FindBy(how = How.XPATH, using = "html/body/div[1]/div[2]/div/div/div[3]/div[2]/section/form/div[2]/div[2]/button")
+    @FindBy(how = How.ID, using = "user.phone")
+    public static WebElement userPhone;
+    @FindBy(how = How.CSS, using = ".btn.btn-lg.btn-block.btn-primary")
     public static WebElement continueToPaymentInfo;
 
     public  WhenYouWantOrder confirmPhone () throws InterruptedException{
-        sleepFor(1);
-        phone.sendKeys(notMyPhone);
-        continueToPaymentInfo.click(); sleepFor(2);
+        sleepFor(2);
+        userPhone.sendKeys(notMyPhone);
+        continueToPaymentInfo.click(); sleepFor(5);
         return new WhenYouWantOrder();
     }
 }
