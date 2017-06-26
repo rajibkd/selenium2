@@ -8,6 +8,7 @@
     <artifactId>Framework</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <java.version>1.8</java.version>
 
     <modules>
         <module>Generic</module>
