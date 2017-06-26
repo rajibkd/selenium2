@@ -12,8 +12,8 @@
     <modules>
         <module>Generic</module>
         <module>Bestbuy</module>
-        <module>Cigna</module>
-        <module>Amazon</module>
+        <!--<module>Cigna</module>-->
+        <!--<module>Amazon</module>-->
     </modules>
     <dependencyManagement>
         <dependencies>
@@ -54,18 +54,18 @@
                 <module>Bestbuy</module>
             </modules>
         </profile>
-        <profile>
-            <id>amazon-app</id>
-            <modules>
-                <module>Generic</module>
-                <module>Amazon</module>
-            </modules>
-        </profile>
+        <!--<profile>-->
+            <!--<id>amazon-app</id>-->
+            <!--<modules>-->
+                <!--<module>Generic</module>-->
+                <!--<module>Amazon</module>-->
+            <!--</modules>-->
+        <!--</profile>-->
         <profile>
             <id>cigna-app</id>
             <modules>
                 <module>Generic</module>
-                <module>Cigna</module>
+                <!--<module>Cigna</module>-->
             </modules>
         </profile>
         <profile>
@@ -76,8 +76,8 @@
             <modules>
                 <module>Generic</module>
                 <module>Bestbuy</module>
-                <module>Cigna</module>
-                <module>Amazon</module>
+                <!--<module>Cigna</module>-->
+                <!--<module>Amazon</module>-->
             </modules>
         </profile>
     </profiles>
