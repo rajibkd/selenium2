@@ -42,7 +42,6 @@ public class ConnectDB {
         connect = DriverManager.getConnection(url,userName,password);
 //        System.out.println("Database is connected");
     }
-
     public void connectToDatabase() throws IOException, SQLException, ClassNotFoundException {
        Properties prop = loadProperties();
         String driverClass = prop.getProperty("MYSQLJDBC.driver");
@@ -53,7 +52,6 @@ public class ConnectDB {
         connect = DriverManager.getConnection(url,userName,password);
         //  System.out.println("Database is connected");
     }
-
     public static MongoDatabase connectMongoDB() {
         String host = "localhost";
         MongoClientURI mongoClientURI = new MongoClientURI(host);

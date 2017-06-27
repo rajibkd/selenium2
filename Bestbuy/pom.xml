@@ -38,9 +38,7 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>target/Page-classes/${BestbuyAppRunner}</suiteXmlFile>
                     </suiteXmlFiles>
-                    <forkMode>never</forkMode>
                 </configuration>
-
             </plugin>
         </plugins>
     </build>
