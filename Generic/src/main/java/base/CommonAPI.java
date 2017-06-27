@@ -51,7 +51,7 @@ public class CommonAPI {
             //run in local
             getLocalDriver(os, browserName);
         }
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
         driver.get(url);
         driver.manage().window().maximize();
     }
