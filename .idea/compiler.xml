@@ -21,10 +21,10 @@
       <module name="Citibank" target="1.5" />
       <module name="Cnn" target="1.5" />
       <module name="Facebook" target="1.5" />
-      <module name="Generic" target="1.5" />
+      <module name="Generic" target="1.8" />
       <module name="Hbo" target="1.5" />
       <module name="LIJ" target="1.5" />
-      <module name="MyFramework" target="1.5" />
+      <module name="MyFramework" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
