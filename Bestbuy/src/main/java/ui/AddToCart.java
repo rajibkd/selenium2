@@ -38,7 +38,7 @@ public class AddToCart extends BBCommonAPI {
         bb.closePopByClose(); sleepFor(2);
         btnAddToCart.click(); sleepFor(3);
         bb.closePopByCloseIcon();
-        btnGoToCart.click(); sleepFor(4);
+        btnGoToCart.click(); sleepFor(5);
         btnCheckout.click(); sleepFor(2);
         return new AddToCart();
     }
