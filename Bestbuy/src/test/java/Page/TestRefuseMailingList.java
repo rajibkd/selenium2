@@ -15,14 +15,14 @@ public class TestRefuseMailingList extends BBCommonAPI {
 
     @FindBy(how = How.CSS, using = ".primary-wrap")
     public  static WebElement homepage;
-
     public void assertHomepage(){
         Assert.assertTrue(homepage.isDisplayed());
     }
     @Test
-    public void TestRefuseMailingList() throws InterruptedException{
+    public void TestRefuseMailingList() throws InterruptedException {
         BBCommonAPI bb = PageFactory.initElements(driver, BBCommonAPI.class);
-        bb.refuseMailingList(); sleepFor(2);
-//        assertHomepage();
+        bb.refuseMailingList();
+        sleepFor(4);
+        assertHomepage() ;
     }
 }

@@ -23,7 +23,7 @@ public class DropDownDeals extends BBCommonAPI {
     public void dropDownDeals()throws InterruptedException{
         sleepFor(1);
         BBCommonAPI bb = PageFactory.initElements(driver,BBCommonAPI.class);
-        sleepFor(4);
+        sleepFor(5);
         bb.refuseMailingList();
         weeklyAd.click(); sleepFor(2);
         dayOfTheDay.click(); sleepFor(2);

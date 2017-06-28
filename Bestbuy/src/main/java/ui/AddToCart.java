@@ -50,10 +50,4 @@ public class AddToCart extends BBCommonAPI {
             sleepFor(1);
         }
     }
-    //    public void closePopUp(WebElement webElement) throws InterruptedException {
-//        sleepFor(1);
-//        if (closePopUp.isDisplayed()) {
-//            closePopUp.click();
-//        }
-//    }
 }

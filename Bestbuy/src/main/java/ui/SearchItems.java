@@ -32,7 +32,7 @@ public class SearchItems extends BBCommonAPI {
 
     public void searchByExcel() throws IOException, InterruptedException {
         BBCommonAPI bb = PageFactory.initElements(driver, BBCommonAPI.class);
-        bb.refuseMailingList();
+//        bb.refuseMailingList();
         sleepFor(1);
 
         DataToSearch DataToSearch = new DataToSearch();
