@@ -28,7 +28,7 @@ public class TestAddToCart extends AddToCart {
 
         takeScreenShot("cart");
         //login
-        bb.secureLogin();sleepFor(3);
+        bb.secureLogin();sleepFor(4);
 
         //confirm store
         store.confirmStore(); sleepFor(2);
