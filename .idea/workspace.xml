@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515fdf2c-394d-42af-9ec7-fd692a4d8ffc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/Screenshots/cart230617-165401.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/Screenshots/cart260617-230157.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/Screenshots/cart260617-230658.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/Screenshots/cart270617-131810.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/Screenshots/cart270617-225526.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/Screenshots/paymentInfoVer230617-165604.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/Screenshots/paymentInfoVer260617-230221.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/Screenshots/paymentInfoVer270617-131833.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bestbuy/Screenshots/paymentInfoVer270617-225549.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/main/java/ui/AddToCart.java" afterPath="$PROJECT_DIR$/Bestbuy/src/main/java/ui/AddToCart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestAddToCart.java" afterPath="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestAddToCart.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" afterPath="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,11 +33,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BestbuyRunner.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BestbuyRunner.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            <state relative-caret-position="75">
+              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -98,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paymentInfoVer280617-102821.png" pinned="false" current-in-tab="true">
+      <file leaf-file-name="paymentInfoVer280617-102821.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bestbuy/Screenshots/paymentInfoVer280617-102821.png">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -196,9 +185,9 @@
         <option value="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestRefuseMailingList.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/BBMethods/BBCommonAPI.java" />
-        <option value="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
         <option value="$PROJECT_DIR$/Bestbuy/src/test/java/Page/TestAddToCart.java" />
         <option value="$PROJECT_DIR$/Bestbuy/src/main/java/ui/AddToCart.java" />
+        <option value="$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml" />
       </list>
     </option>
   </component>
@@ -1035,7 +1024,14 @@
       <option name="project" value="LOCAL" />
       <updated>1498659607955</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="fixed popup">
+      <created>1498660239391</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1498660239391</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1072,6 +1068,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1881" y="23" width="1881" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1088,7 +1085,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.197479" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21637426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21637426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1491,14 +1488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/src/main/java/ui/ConfirmStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1530,6 +1519,14 @@
     <entry file="file://$PROJECT_DIR$/Bestbuy/Screenshots/paymentInfoVer280617-102821.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/src/test/resources/BestbuyRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
