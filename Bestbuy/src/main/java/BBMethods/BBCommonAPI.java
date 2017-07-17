@@ -73,7 +73,7 @@ public class BBCommonAPI extends CommonAPI {
     public void closePopByClose() throws InterruptedException {
         clickIfElementPresent(closePopByClose);
     }
-    }
+}
 //    public void refuseMailingList() {
 //        if (closeMailingList.isDisplayed()) {
 //            closeMailingList.click();
