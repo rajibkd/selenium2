@@ -21,8 +21,11 @@ public class AddToCart extends BBCommonAPI {
     public static WebElement btnAddToCart;
     @FindBy(how = How.CSS, using = ".cart")
     public static WebElement btnGoToCart;
-    @FindBy(how = How.XPATH, using = "html/body/div[3]/div[2]/div/div/div[4]/div/div[1]/div[3]/div/div[1]/div[2]/div[1]/div/div[2]/a")
+
+    @FindBy (how = How.PARTIAL_LINK_TEXT, using = "Checkout")
     public static WebElement btnCheckout;
+//    @FindBy(how = How.XPATH, using = "html/body/div[3]/div[2]/div/div/div[4]/div/div[1]/div[3]/div/div[1]/div[2]/div[1]/div/div[2]/a")
+//    public static WebElement btnCheckout;
     @FindBy(how = How.CSS, using = "#location")
     public static WebElement location;
     @FindBy(how = How.CSS, using = ".apply-location")

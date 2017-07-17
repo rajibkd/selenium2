@@ -31,7 +31,7 @@ public class TestAddToCart extends AddToCart {
         bb.secureLogin();sleepFor(5);
 
         //confirm store
-        store.confirmStore(); sleepFor(2);
+//        store.confirmStore(); sleepFor(2);
 
         //provide a phone #
         phone.confirmPhone();
