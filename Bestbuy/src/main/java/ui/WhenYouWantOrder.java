@@ -19,7 +19,7 @@ public class WhenYouWantOrder extends BBCommonAPI {
 
     public  WhenYouWantOrder confirmPhone () throws InterruptedException{
         sleepFor(2);
-        userPhone.sendKeys("notMyPhone");
+        userPhone.sendKeys(notMyPhone);
         continueToPaymentInfo.click(); sleepFor(5);
         return new WhenYouWantOrder();
     }
