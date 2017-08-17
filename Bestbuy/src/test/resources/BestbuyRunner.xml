@@ -2,6 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Tsunami Team">
+       <!--parallel="tests" thread-count="2">-->
 
     <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnv" value="Browserstack"/>
@@ -14,6 +15,7 @@
     <!--<parameter name="browserName" value="firefox"/>-->
     <!--<parameter name="browserVersion" value="46"/>-->
     <parameter name="testName" value="TestBestBuyApp"/>
+
     <test name = "Page">
         <classes>
             <class name="Page.TestAddToCart"/>
@@ -29,4 +31,10 @@
             <!--<class name="Page.TestSearchBySQL"/>-->
         </classes>
     </test>
+   <!--parallel test-->
+    <!--<test name = "PageTwo">-->
+        <!--<classes>-->
+            <!--<class name="Page.TestGlobalHeader"/>-->
+        <!--</classes>-->
+    <!--</test>-->
 </suite>

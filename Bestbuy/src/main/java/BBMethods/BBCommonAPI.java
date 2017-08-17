@@ -23,7 +23,7 @@ public class BBCommonAPI extends CommonAPI {
     public static WebElement signInBtn;
     @FindBy(how = How.CSS, using = ".close")
     public static WebElement closePopByClose;
-    @FindBy(how = How.CSS, using = ".close-icon")
+    @FindBy(how = How.CSS, using = ".pl-close")
     public static WebElement closePopByCloseIcon;
     @FindBy(how = How.CSS, using = "#fld-e")
     public static WebElement enterEmailField;
@@ -41,7 +41,6 @@ public class BBCommonAPI extends CommonAPI {
         submitCredentials.click();
         sleepFor(1);
     }
-
     public BBCommonAPI secureLogin() throws InterruptedException {
         enterEmailField.sendKeys(username);
         enterPasswordField.sendKeys(password);
@@ -49,14 +48,12 @@ public class BBCommonAPI extends CommonAPI {
         sleepFor(3);
         return new BBCommonAPI();
     }
-
     public boolean isElementPresent(WebElement webElement) {
         try {if (webElement.isDisplayed()) {
                 return true;}
             else {return false;}
         } catch (Exception ex) {return false;}
     }
-
     public void clickIfElementPresent(WebElement webElement) {
         if (isElementPresent(webElement)){
             webElement.click();

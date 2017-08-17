@@ -7,14 +7,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-/**
- * Created by admin on 1/29/17.
- */
 public class AddToCart extends BBCommonAPI {
     public static final String zipCode = System.getenv("ZIP_CODE");
 
-    @FindBy(how = How.CSS, using = "#gh-search-input")
+    @FindBy(how = How.CSS, using="#gh-search-input")
     public static WebElement searchBar;
+
     @FindBy(how = How.CSS, using = ".sku-title>h4>a")
     public static WebElement testedItem;
     @FindBy(how = How.CSS, using = ".cart-button")
@@ -37,16 +35,16 @@ public class AddToCart extends BBCommonAPI {
         sleepFor(2);
         bb.refuseMailingList();
         searchBar.sendKeys("5709670", Keys.ENTER); sleepFor(1);
-        testedItem.click(); sleepFor(1);
-        bb.closePopByClose(); sleepFor(2);
-        btnAddToCart.click(); sleepFor(3);
-        bb.closePopByCloseIcon();sleepFor(2);
+        testedItem.click(); sleepFor(2);
+        bb.closePopByClose(); sleepFor(3);
+        btnAddToCart.click(); sleepFor(4);
+        bb.closePopByCloseIcon();sleepFor(3);
         btnGoToCart.click(); sleepFor(6);
-        btnCheckout.click(); sleepFor(2);
+        btnCheckout.click(); sleepFor(3);
         return new AddToCart();
     }
     public void provideLocation() throws InterruptedException {
-        sleepFor(1);
+        sleepFor(2);
         if (location.isDisplayed()) {
             location.sendKeys(zipCode);
             checkAvailabilityGo.click();
